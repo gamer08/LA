@@ -1,0 +1,718 @@
+﻿[2016.01.25-23.43.51:871][  0]Log file open, 01/25/16 18:43:51
+[2016.01.25-23.43.51:871][  0]LogInit:Display: Running engine for game: LostAge
+[2016.01.25-23.43.51:872][  0]LogInit:Display: RandInit(185193355) SRandInit(185193356).
+[2016.01.25-23.43.51:872][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.25-23.43.51:872][  0]LogStats: Stats thread started at 0.145827
+[2016.01.25-23.43.51:873][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.25-23.43.51:873][  0]LogInit: API Version: 2672455
+[2016.01.25-23.43.51:873][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.25-23.43.51:873][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.25-23.43.51:874][  0]LogInit: Build Configuration: DebugGame
+[2016.01.25-23.43.51:874][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.25-23.43.51:874][  0]LogInit: Command line:  -debug
+[2016.01.25-23.43.51:874][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.25-23.43.51:875][  0]LogInit: Rocket: 1
+[2016.01.25-23.43.51:895][  0]LogInit: Using libcurl 7.41.0
+[2016.01.25-23.43.51:895][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.25-23.43.51:895][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.25-23.43.51:896][  0]LogInit:  - other features:
+[2016.01.25-23.43.51:896][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.25-23.43.51:896][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.25-23.43.51:896][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.25-23.43.51:896][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.25-23.43.51:897][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.25-23.43.51:897][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.25-23.43.51:897][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.25-23.43.51:897][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.25-23.43.51:897][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.25-23.43.51:898][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.25-23.43.51:927][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.25-23.43.51:935][  0]LogInit: Object subsystem initialized
+[2016.01.25-23.43.51:937][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.25-23.43.51:937][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.25-23.43.51:945][  0]LogInit: Computer: FREDERIC-PC
+[2016.01.25-23.43.51:945][  0]LogInit: User: frederic
+[2016.01.25-23.43.51:945][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.25-23.43.51:945][  0]LogInit: High frequency timer resolution =3.331240 MHz
+[2016.01.25-23.43.51:946][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.01.25-23.43.51:946][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.25-23.43.51:946][  0]LogMemory: Process Physical Memory: 53.38 MB used, 53.38 MB peak
+[2016.01.25-23.43.51:946][  0]LogMemory: Process Virtual Memory: 55.52 MB used, 55.52 MB peak
+[2016.01.25-23.43.51:947][  0]LogMemory: Physical Memory: 8141.23 MB used, 16288.39 MB total
+[2016.01.25-23.43.51:947][  0]LogMemory: Virtual Memory: 330.62 MB used, 8388608.00 MB total
+[2016.01.25-23.43.52:019][  0]LogTextLocalizationManager: No translations for ('fr-CA') exist, falling back to 'en' for localization and internationalization data.
+[2016.01.25-23.43.52:817][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.01.25-23.43.52:818][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 7888MB of shared system memory, 1 output[s]
+[2016.01.25-23.43.52:826][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2016.01.25-23.43.52:827][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.01.25-23.43.52:827][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.25-23.43.52:831][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.25-23.43.52:832][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.25-23.43.52:877][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.25-23.43.52:892][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Intermediate/Shaders/WorkingDirectory/6788/).
+[2016.01.25-23.43.52:892][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Intermediate/Shaders/tmp/D1F96EC8442E2628952EB3B09EA88300/'.
+[2016.01.25-23.43.52:893][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.25-23.43.54:066][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.25-23.43.54:080][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.25-23.43.54:095][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.25-23.43.54:111][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.25-23.43.54:124][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.25-23.43.54:132][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.25-23.43.54:139][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.25-23.43.54:146][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.25-23.43.54:154][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.25-23.43.54:161][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.25-23.43.54:168][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.25-23.43.54:176][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.25-23.43.54:180][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.25-23.43.54:210][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.25-23.43.54:217][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.25-23.43.54:224][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.25-23.43.54:230][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.25-23.43.54:230][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.25-23.43.54:427][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.25-23.43.54:478][  0]LogDerivedDataCache: Loaded boot cache 0.05s 43MB C:/Users/frederic/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.25-23.43.54:478][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/frederic/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.25-23.43.54:479][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.25-23.43.54:479][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.25-23.43.54:479][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.25-23.43.54:479][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.25-23.43.54:623][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.25-23.43.54:635][  0]LogDerivedDataCache: Using Local data cache path C:/Users/frederic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.25-23.43.54:830][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.25-23.43.54:831][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.25-23.43.54:865][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.25-23.43.54:866][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.25-23.43.55:239][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.25-23.43.56:169][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.25-23.43.56:499][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2016.01.25-23.43.56:824][  0]SourceControl: Info Source control is disabled
+[2016.01.25-23.43.56:825][  0]SourceControl: Info Source control is disabled
+[2016.01.25-23.43.56:843][  0]SourceControl: Info Source control is disabled
+[2016.01.25-23.43.56:860][  0]SourceControl: Info Source control is disabled
+[2016.01.25-23.43.57:053][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.25-23.43.57:154][  0]LogObj: 31787 objects as part of root set at end of initial load.
+[2016.01.25-23.43.57:154][  0]LogUObjectAllocator: 7251360 out of 0 bytes used by permanent object pool.
+[2016.01.25-23.43.57:241][  0]LogEngine: Initializing Engine...
+[2016.01.25-23.43.57:245][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.01.25-23.43.57:247][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.25-23.43.57:390][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.25-23.43.57:406][  0]LogInit: XAudio2 using 'Haut-parleurs (USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.25-23.43.57:414][  0]LogInit: FAudioDevice initialized.
+[2016.01.25-23.43.57:435][  0]LogDerivedDataCache: Saved boot cache 0.02s 43MB C:/Users/frederic/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.25-23.43.57:442][  0]LogInit: Texture streaming: Enabled
+[2016.01.25-23.43.57:457][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.25-23.43.57:457][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.25-23.43.57:457][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId c8da8d664a36a98701fe659c10ae4ff8|70626fa7f476448fb82ad9618fbbb1ab|00e7fb16-00c3-4af4-a2a1-2cc8013aae38
+[2016.01.25-23.43.57:458][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.25-23.43.57:473][  0]LogInit: Transaction tracking system initialized
+[2016.01.25-23.43.57:563][  0]BlueprintLog: New page: Editor Load
+[2016.01.25-23.43.57:888][  0]LocalizationService: Info Localization service is disabled
+[2016.01.25-23.43.58:034][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonCPP/ThirdPersonOverview'
+[2016.01.25-23.43.58:035][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonCPP/ThirdPersonOverview'
+[2016.01.25-23.43.58:035][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonCPP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2016.01.25-23.43.58:061][  0]LogConsoleResponse:Display: 
+[2016.01.25-23.43.58:185][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.25-23.43.58:319][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frederic/Documents/Unreal Projects/LostAge/Content/' took 0.01s
+[2016.01.25-23.43.58:342][  0]SourceControl: Info Source control is disabled
+[2016.01.25-23.43.58:343][  0]Cmd: MAP LOAD FILE="../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.25-23.43.58:344][  0]LightingResults: New page: Lighting Build
+[2016.01.25-23.43.58:350][  0]MapCheck: New page: Map Check
+[2016.01.25-23.43.58:350][  0]LightingResults: New page: Lighting Build
+[2016.01.25-23.43.58:364][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023916480
+[2016.01.25-23.43.58:576][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.25-23.43.58:587][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.25-23.43.58:588][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.25-23.43.58:658][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.213ms to complete.
+[2016.01.25-23.43.58:658][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.315
+[2016.01.25-23.43.58:774][  0]LogCollectionManager: Loaded 0 collections in 0.002342 seconds
+[2016.01.25-23.43.58:815][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frederic/Documents/Unreal Projects/LostAge/Saved/Collections/' took 0.01s
+[2016.01.25-23.43.58:816][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frederic/Documents/Unreal Projects/LostAge/Content/Developers/frederic/Collections/' took 0.01s
+[2016.01.25-23.43.58:816][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frederic/Documents/Unreal Projects/LostAge/Content/Collections/' took 0.01s
+[2016.01.25-23.43.58:817][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 1874 classes and 335 folders.
+[2016.01.25-23.43.58:825][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.01.25-23.43.58:837][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2016.01.25-23.43.58:899][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2016.01.25-23.43.58:917][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2016.01.25-23.43.58:956][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.25-23.43.58:961][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.25-23.43.58:984][  0]LogLoad: Full Startup: 8.09 seconds (BP compile: 0.08 seconds)
+[2016.01.25-23.43.59:041][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.25-23.43.59:166][  0]LogRenderer: Reallocating scene render targets to support 1208x556 (Frame:2).
+[2016.01.25-23.43.59:415][  3]LogAssetRegistry: Asset discovery search completed in 2.9265 seconds
+[2016.01.25-23.43.59:415][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.25-23.43.59:416][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000402 seconds (updated 0 objects)
+[2016.01.25-23.47.36:199][161]LogHttp:Warning: Timeout processing Http request. 00000000479CA700
+[2016.01.25-23.47.55:914][525]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter'
+[2016.01.25-23.47.55:915][525]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter' while loading ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Blueprints/GameModeBP.uasset.
+[2016.01.25-23.47.55:915][525]LoadErrors:Error: Error /Game/FirstPersonCPP/Blueprints/GameModeBP : Can't find file for asset. /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter
+[2016.01.25-23.47.55:927][525]LogBlueprint:Error: [compiler PlayerControllerBP] Error Could not find a function named "LeaveServerRequested" in 'PlayerControllerBP'.
+Make sure 'PlayerControllerBP' has been compiled for  Leave Server Requested 
+[2016.01.25-23.47.55:928][525]LogBlueprint:Warning: [compiler PlayerControllerBP] Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.01.25-23.47.55:928][525]LogBlueprint:Warning: [compiler PlayerControllerBP] Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.01.25-23.47.55:929][525]LogBlueprint:Warning: [compiler PlayerControllerBP] Warning Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.01.25-23.47.55:929][525]LogBlueprint:Warning: [compiler PlayerControllerBP] Warning Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.01.25-23.47.55:930][525]LogBlueprint:Error: [compiler PlayerControllerBP] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2016.01.25-23.47.55:934][525]LogBlueprint:Warning: [compiler PlayerControllerBP] Warning [0245.03] Compile of PlayerControllerBP failed. 2 Fatal Issue(s) 4 Warning(s) [in 8 ms]
+[2016.01.25-23.47.55:934][525]LogBlueprint:Warning: [compiler PlayerControllerBP] Warning [0245.03] Compile of PlayerControllerBP failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2016.01.25-23.47.55:935][525]LogBlueprint:Warning: [compiler PlayerControllerBP] Warning [0245.03] Compile of PlayerControllerBP failed. 2 Fatal Issue(s) 6 Warning(s) [in 0 ms]
+[2016.01.25-23.47.55:937][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:937][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Blueprints/GameModeBP.uasset.
+[2016.01.25-23.47.55:938][525]LoadErrors:Error: Error /Game/FirstPersonCPP/Blueprints/GameModeBP : Can't find file for asset. /Script/NetworkTest
+[2016.01.25-23.47.55:939][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:939][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Blueprints/GameModeBP.uasset.
+[2016.01.25-23.47.55:940][525]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter'
+[2016.01.25-23.47.55:940][525]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter' while loading ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Blueprints/GameModeBP.uasset.
+[2016.01.25-23.47.55:941][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:941][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Blueprints/GameModeBP.uasset.
+[2016.01.25-23.47.55:942][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:942][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.47.55:942][525]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.55:943][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:943][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.47.55:943][525]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.55:944][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:944][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.47.55:944][525]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.55:946][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:946][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.47.55:947][525]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.55:947][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:947][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.47.55:948][525]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.55:948][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:948][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.47.55:949][525]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.55:949][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:949][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.47.55:949][525]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.55:950][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:950][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.47.55:950][525]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.55:951][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:951][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.47.55:951][525]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.55:955][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:955][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.47.55:956][525]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.55:956][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:956][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.47.55:957][525]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.55:957][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:958][525]LoadErrors: Info Failed to load /Script/NetworkTest.NetworkTestGameMode Referenced by GameModeBP
+[2016.01.25-23.47.55:958][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.47.55:959][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:959][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.47.55:959][525]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.55:961][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:961][525]LoadErrors: Info Failed to load /Script/NetworkTest.NetworkTestGameMode Referenced by EdGraphPin_23374
+[2016.01.25-23.47.55:962][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.47.55:962][525]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.55:963][525]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter'
+[2016.01.25-23.47.55:963][525]LoadErrors: Info Failed to load /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C Referenced by EdGraphPin_23746
+[2016.01.25-23.47.55:964][525]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter' while loading NULL.
+[2016.01.25-23.47.55:964][525]LogLinker:Warning: Can't find file '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter'
+[2016.01.25-23.47.55:964][525]LoadErrors: Info Failed to load /Game/FirstPersonCPP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C Referenced by EdGraphPin_23750
+[2016.01.25-23.47.55:965][525]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonCPP/Blueprints/FirstPersonCharacter' while loading NULL.
+[2016.01.25-23.47.55:965][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:966][525]LoadErrors: Info Failed to load /Script/NetworkTest.NetworkTestGameMode Referenced by EdGraphPin_23563
+[2016.01.25-23.47.55:966][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.47.55:966][525]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.55:967][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:967][525]LoadErrors: Info Failed to load /Script/NetworkTest.NetworkTestGameMode Referenced by EdGraphPin_23467
+[2016.01.25-23.47.55:967][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.47.55:967][525]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.55:968][525]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.47.55:968][525]LoadErrors: Info Failed to load /Script/NetworkTest.NetworkTestGameMode Referenced by PackageMetaData
+[2016.01.25-23.47.55:969][525]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.47.55:969][525]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.55:994][525]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.25-23.47.58:270][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'playerStarts': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.58:271][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'playerStarts': ArrayProperty /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:playerStarts
+[2016.01.25-23.47.58:271][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.58:271][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'ExecuteUbergraph_GameModeBP': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.58:272][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_GetAllActorsOfClass_OutActors': Function /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:ExecuteUbergraph_GameModeBP
+[2016.01.25-23.47.58:272][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_GetAllActorsOfClass_OutActors': ArrayProperty /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:ExecuteUbergraph_GameModeBP.CallFunc_GetAllActorsOfClass_OutActors
+[2016.01.25-23.47.58:272][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_IsValid_ReturnValue': Function /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:ExecuteUbergraph_GameModeBP
+[2016.01.25-23.47.58:273][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_K2_GetPawn_ReturnValue': Function /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:ExecuteUbergraph_GameModeBP
+[2016.01.25-23.47.58:273][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_CustomEvent_playerController': Function /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:ExecuteUbergraph_GameModeBP
+[2016.01.25-23.47.58:273][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_FinishSpawningActor_ReturnValue': Function /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:ExecuteUbergraph_GameModeBP
+[2016.01.25-23.47.58:274][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue': Function /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:ExecuteUbergraph_GameModeBP
+[2016.01.25-23.47.58:274][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_DynamicCast_bSuccess': Function /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:ExecuteUbergraph_GameModeBP
+[2016.01.25-23.47.58:274][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_DynamicCast_AsPlayer_Controller_BP': Function /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:ExecuteUbergraph_GameModeBP
+[2016.01.25-23.47.58:274][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_MakeTransform_ReturnValue': Function /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:ExecuteUbergraph_GameModeBP
+[2016.01.25-23.47.58:275][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_Event_NewPlayer': Function /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:ExecuteUbergraph_GameModeBP
+[2016.01.25-23.47.58:275][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_BreakTransform_Scale': Function /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:ExecuteUbergraph_GameModeBP
+[2016.01.25-23.47.58:275][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_BreakTransform_Rotation': Function /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:ExecuteUbergraph_GameModeBP
+[2016.01.25-23.47.58:276][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_BreakTransform_Location': Function /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:ExecuteUbergraph_GameModeBP
+[2016.01.25-23.47.58:276][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_GetTransform_ReturnValue': Function /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:ExecuteUbergraph_GameModeBP
+[2016.01.25-23.47.58:276][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_Array_Get_Item': Function /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:ExecuteUbergraph_GameModeBP
+[2016.01.25-23.47.58:277][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_HasAuthority_ReturnValue': Function /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:ExecuteUbergraph_GameModeBP
+[2016.01.25-23.47.58:277][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'EntryPoint': Function /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:ExecuteUbergraph_GameModeBP
+[2016.01.25-23.47.58:277][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CreatePlayer': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.58:277][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'playerController': Function /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:CreatePlayer
+[2016.01.25-23.47.58:278][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2_PostLogin': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.58:278][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'NewPlayer': Function /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:K2_PostLogin
+[2016.01.25-23.47.58:278][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'UserConstructionScript': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.58:279][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'UberGraphFrame': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.58:279][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.58:279][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C
+[2016.01.25-23.47.58:280][525]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SCS_Node_0': SimpleConstructionScript /Game/FirstPersonCPP/Blueprints/GameModeBP.GameModeBP_C:SimpleConstructionScript_0
+[2016.01.25-23.48.00:701][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:702][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Blueprints/GameInstanceBlueprint.uasset.
+[2016.01.25-23.48.00:702][815]LoadErrors:Error: Error /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint : Can't find file for asset. /Script/NetworkTest
+[2016.01.25-23.48.00:704][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:705][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Blueprints/GameInstanceBlueprint.uasset.
+[2016.01.25-23.48.00:705][815]LogLinker:Warning: Can't find file '/Game/FirstPerson/Menus/MainMenu'
+[2016.01.25-23.48.00:705][815]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/Menus/MainMenu' while loading ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Blueprints/GameInstanceBlueprint.uasset.
+[2016.01.25-23.48.00:706][815]LoadErrors:Error: Error /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint : Can't find file for asset. /Game/FirstPerson/Menus/MainMenu
+[2016.01.25-23.48.00:706][815]LogLinker:Warning: Can't find file '/Game/FirstPerson/Menus/ServersList'
+[2016.01.25-23.48.00:706][815]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/Menus/ServersList' while loading ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Blueprints/GameInstanceBlueprint.uasset.
+[2016.01.25-23.48.00:707][815]LoadErrors:Error: Error /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint : Can't find file for asset. /Game/FirstPerson/Menus/ServersList
+[2016.01.25-23.48.00:707][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:707][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Blueprints/GameInstanceBlueprint.uasset.
+[2016.01.25-23.48.00:708][815]LogLinker:Warning: Can't find file '/Game/FirstPerson/Menus/MainMenu'
+[2016.01.25-23.48.00:709][815]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/Menus/MainMenu' while loading ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Blueprints/GameInstanceBlueprint.uasset.
+[2016.01.25-23.48.00:709][815]LogLinker:Warning: Can't find file '/Game/FirstPerson/Menus/ServersList'
+[2016.01.25-23.48.00:709][815]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/Menus/ServersList' while loading ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Blueprints/GameInstanceBlueprint.uasset.
+[2016.01.25-23.48.00:710][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:710][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:711][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:711][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:711][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:712][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:713][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:714][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:714][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:714][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:714][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:715][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:715][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:715][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:716][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:716][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:716][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:717][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:717][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:717][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:718][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:718][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:718][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:719][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:719][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:719][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:719][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:720][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:720][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:720][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:721][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:721][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:721][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:722][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:722][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:722][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:722][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:723][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:723][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:723][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:724][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:724][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:724][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:724][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:725][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:725][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:725][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:726][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:726][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:726][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:726][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:727][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:727][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:727][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:728][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:728][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:728][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:729][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:729][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:729][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:730][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:730][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:730][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:731][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:731][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:731][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:732][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:732][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:732][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:733][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:733][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:733][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:744][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:744][815]LoadErrors: Info Failed to load /Script/NetworkTest.NT_GameInstance Referenced by GameInstanceBlueprint
+[2016.01.25-23.48.00:745][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:745][815]LogLinker:Warning: Can't find file '/Game/FirstPerson/Menus/MainMenu'
+[2016.01.25-23.48.00:745][815]LoadErrors: Info Failed to load /Game/FirstPerson/Menus/MainMenu.MainMenu_C Referenced by GameInstanceBlueprint
+[2016.01.25-23.48.00:746][815]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/Menus/MainMenu' while loading NULL.
+[2016.01.25-23.48.00:746][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:747][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:747][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:749][815]LogLinker:Warning: Can't find file '/Game/FirstPerson/Menus/MainMenu'
+[2016.01.25-23.48.00:749][815]LoadErrors: Info Failed to load /Game/FirstPerson/Menus/MainMenu.MainMenu_C Referenced by EdGraphPin_41168
+[2016.01.25-23.48.00:750][815]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/Menus/MainMenu' while loading NULL.
+[2016.01.25-23.48.00:750][815]LogLinker:Warning: Can't find file '/Game/FirstPerson/Menus/MainMenu'
+[2016.01.25-23.48.00:751][815]LoadErrors: Info Failed to load /Game/FirstPerson/Menus/MainMenu.MainMenu_C Referenced by EdGraphPin_41169
+[2016.01.25-23.48.00:751][815]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/Menus/MainMenu' while loading NULL.
+[2016.01.25-23.48.00:751][815]LogLinker:Warning: Can't find file '/Game/FirstPerson/Menus/ServersList'
+[2016.01.25-23.48.00:752][815]LoadErrors: Info Failed to load /Game/FirstPerson/Menus/ServersList.ServersList_C Referenced by EdGraphPin_41096
+[2016.01.25-23.48.00:752][815]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/Menus/ServersList' while loading NULL.
+[2016.01.25-23.48.00:752][815]LogLinker:Warning: Can't find file '/Game/FirstPerson/Menus/ServersList'
+[2016.01.25-23.48.00:753][815]LoadErrors: Info Failed to load /Game/FirstPerson/Menus/ServersList.ServersList_C Referenced by EdGraphPin_41097
+[2016.01.25-23.48.00:753][815]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/Menus/ServersList' while loading NULL.
+[2016.01.25-23.48.00:753][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:754][815]LoadErrors: Info Failed to load /Script/NetworkTest.NT_GameInstance Referenced by EdGraphPin_3666
+[2016.01.25-23.48.00:754][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:754][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:755][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:755][815]LoadErrors: Info Failed to load /Script/NetworkTest.NT_GameInstance Referenced by EdGraphPin_3703
+[2016.01.25-23.48.00:755][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:756][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:756][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:756][815]LoadErrors: Info Failed to load /Script/NetworkTest.NT_GameInstance Referenced by EdGraphPin_36422
+[2016.01.25-23.48.00:757][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:757][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:757][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:758][815]LoadErrors: Info Failed to load /Script/NetworkTest.NT_GameInstance Referenced by EdGraphPin_3722
+[2016.01.25-23.48.00:758][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:758][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:759][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:759][815]LoadErrors: Info Failed to load /Script/NetworkTest.NT_GameInstance Referenced by EdGraphPin_35292
+[2016.01.25-23.48.00:759][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:759][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:760][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:760][815]LoadErrors: Info Failed to load /Script/NetworkTest.NT_GameInstance Referenced by EdGraphPin_3742
+[2016.01.25-23.48.00:760][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:761][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:762][815]LogLinker:Warning: Can't find file '/Game/FirstPerson/Menus/MainMenu'
+[2016.01.25-23.48.00:763][815]LoadErrors: Info Failed to load /Game/FirstPerson/Menus/MainMenu.MainMenu_C Referenced by EdGraphPin_3984
+[2016.01.25-23.48.00:763][815]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/Menus/MainMenu' while loading NULL.
+[2016.01.25-23.48.00:763][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:764][815]LoadErrors: Info Failed to load /Script/NetworkTest.NT_GameInstance Referenced by EdGraphPin_3985
+[2016.01.25-23.48.00:764][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:764][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:765][815]LogLinker:Warning: Can't find file '/Game/FirstPerson/Menus/MainMenu'
+[2016.01.25-23.48.00:765][815]LoadErrors: Info Failed to load /Game/FirstPerson/Menus/MainMenu.MainMenu_C Referenced by EdGraphPin_3962
+[2016.01.25-23.48.00:766][815]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/Menus/MainMenu' while loading NULL.
+[2016.01.25-23.48.00:766][815]LogLinker:Warning: Can't find file '/Game/FirstPerson/Menus/MainMenu'
+[2016.01.25-23.48.00:766][815]LoadErrors: Info Failed to load /Game/FirstPerson/Menus/MainMenu.MainMenu_C Referenced by EdGraphPin_3963
+[2016.01.25-23.48.00:767][815]LogLinker:Warning: Can't find file for asset '/Game/FirstPerson/Menus/MainMenu' while loading NULL.
+[2016.01.25-23.48.00:767][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:768][815]LoadErrors: Info Failed to load /Script/NetworkTest.NT_GameInstance Referenced by EdGraphPin_3964
+[2016.01.25-23.48.00:768][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:768][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:770][815]LogLinker:Warning: Can't find file '/Script/NetworkTest'
+[2016.01.25-23.48.00:771][815]LoadErrors: Info Failed to load /Script/NetworkTest.NT_GameInstance Referenced by PackageMetaData
+[2016.01.25-23.48.00:771][815]LogLinker:Warning: Can't find file for asset '/Script/NetworkTest' while loading NULL.
+[2016.01.25-23.48.00:771][815]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.00:774][815]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.25-23.48.02:250][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'menu': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:251][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'ExecuteUbergraph_GameInstanceBlueprint': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:251][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_DestroySession_ReturnValue2': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:252][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_CustomEvent_playerController': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:252][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_JoinSession_ReturnValue': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:252][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_Create_ReturnValue2': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:253][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_CustomEvent_newPlayerController': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:253][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_CustomEvent_sesssionToJoin': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:253][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_GetPlayerController_ReturnValue4': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:254][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_NetErrorToString_outputError': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:254][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_TravelErrorToString_outputError': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:254][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_Event_FailureType': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:255][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_Event_bIsServer': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:255][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_Event_FailureType2': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:255][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_DestroySession_ReturnValue': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:256][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_CreateDelegate_OutputDelegate8': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:256][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_GetPlayerController_ReturnValue3': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:257][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_CreateSession_ReturnValue': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:257][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_GetPlayerController_ReturnValue2': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:257][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_Create_ReturnValue': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:258][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_GetPlayerController_ReturnValue': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:258][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_CreateDelegate_OutputDelegate7': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:258][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_CreateDelegate_OutputDelegate6': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:259][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_CreateDelegate_OutputDelegate5': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:259][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_CreateDelegate_OutputDelegate4': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:260][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_CreateDelegate_OutputDelegate3': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:260][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_CreateDelegate_OutputDelegate2': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:260][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_CreateDelegate_OutputDelegate': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:261][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'EntryPoint': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ExecuteUbergraph_GameInstanceBlueprint
+[2016.01.25-23.48.02:261][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'LeaveServerRequested': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:262][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'playerController': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:LeaveServerRequested
+[2016.01.25-23.48.02:262][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'JoinServerRequested': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:262][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'newPlayerController': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:JoinServerRequested
+[2016.01.25-23.48.02:263][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'sesssionToJoin': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:JoinServerRequested
+[2016.01.25-23.48.02:263][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'GenerateServersList': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:264][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'HandleTravelError': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:264][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'FailureType': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:HandleTravelError
+[2016.01.25-23.48.02:264][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'HandleNetworkError': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:265][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'bIsServer': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:HandleNetworkError
+[2016.01.25-23.48.02:265][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'FailureType': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:HandleNetworkError
+[2016.01.25-23.48.02:266][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DestroyPlayerSession': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:266][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'HostGame': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:266][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'ShowMainMenu': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:267][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'OnSuccess_2AB53131476650F9575D9BBF9DEC02BF': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:267][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'OnFailure_425A45164F867792FFAFBD9FDB8CBA9D': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:268][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'OnSuccess_15A734C74E93B08CC4FB219635A3D38C': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:268][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'OnFailure_0C4E6A744CCE69B031D430A99AF6EE94': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:269][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'OnSuccess_0BDB2A1947D0B19BCECDEEB6362A47F1': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:269][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'OnFailure_F3B82D464061CEAD9109589BE0AEE54D': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:270][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'OnSuccess_BF4CFD194C637C6309B24EA0A06CB438': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:270][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'OnFailure_F69B6AD94E9D89C594BC5CA61F84F78F': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:271][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'ShowError': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:271][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'ErrorMessage': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:ShowError
+[2016.01.25-23.48.02:271][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'NetErrorToString': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:272][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'error': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:NetErrorToString
+[2016.01.25-23.48.02:272][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_SwitchEnum_CmpSuccess': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:NetErrorToString
+[2016.01.25-23.48.02:273][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'outputError': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:NetErrorToString
+[2016.01.25-23.48.02:273][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'netErorType': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:NetErrorToString
+[2016.01.25-23.48.02:274][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'TravelErrorToString': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.02:274][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_Concat_StrStr_ReturnValue': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:TravelErrorToString
+[2016.01.25-23.48.02:274][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_GetEnumeratorUserFriendlyName_ReturnValue': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:TravelErrorToString
+[2016.01.25-23.48.02:275][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'outputError': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:TravelErrorToString
+[2016.01.25-23.48.02:275][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'travelError': Function /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C:TravelErrorToString
+[2016.01.25-23.48.02:276][815]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'UberGraphFrame': BlueprintGeneratedClass /Game/FirstPersonCPP/Blueprints/GameInstanceBlueprint.GameInstanceBlueprint_C
+[2016.01.25-23.48.42:998][636]LogSavePackage: Save=11.247764ms
+[2016.01.25-23.48.42:999][636]LogSavePackage: Moving '../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Saved/GameModeBP5759DAE841B5DA41F3753ABCBEC8A7FD.tmp' to '../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Blueprints/GameModeBP.uasset'
+[2016.01.25-23.48.43:002][636]LogSavePackage: Total save time: 15.209954ms
+[2016.01.25-23.48.43:002][636]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Blueprints/GameModeBP.uasset
+[2016.01.25-23.50.01:530][259]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.25-23.50.03:860][259]LogSavePackage: Save=6.465460ms
+[2016.01.25-23.50.03:860][259]LogSavePackage: Moving '../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Saved/MainMenu052F286740BE2C928C975FBC222B6AE5.tmp' to '../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Maps/MainMenu.umap'
+[2016.01.25-23.50.03:862][259]LogSavePackage: Total save time: 9.354174ms
+[2016.01.25-23.50.03:863][259]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Maps/MainMenu.umap
+[2016.01.25-23.50.03:863][259]LogFileHelpers: Saving map 'MainMenu' took 0.068
+[2016.01.25-23.50.03:865][259]Cmd: MAP LOAD FILE="../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.25-23.50.03:866][259]LightingResults: New page: Lighting Build
+[2016.01.25-23.50.03:881][259]LoadErrors: New page: Loading map: MainMenu.umap
+[2016.01.25-23.50.03:883][259]MapCheck: New page: Map Check
+[2016.01.25-23.50.03:883][259]LightingResults: New page: Lighting Build
+[2016.01.25-23.50.03:893][259]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F65E3E0
+[2016.01.25-23.50.03:897][259]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.25-23.50.03:909][259]LogAIModule: Creating AISystem for world MainMenu
+[2016.01.25-23.50.03:945][259]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.25-23.50.03:991][259]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.288ms to complete.
+[2016.01.25-23.50.03:992][259]LogFileHelpers: Loading map 'MainMenu' took 0.128
+[2016.01.25-23.51.21:671][812]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.25-23.51.22:177][812]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 107 classes and 0 folders.
+[2016.01.25-23.52.15:606][620]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.25-23.52.17:406][621]Cmd: QUIT_EDITOR
+[2016.01.25-23.52.17:737][621]LogExit: Preparing to exit.
+[2016.01.25-23.52.18:275][621]LogExit: Editor shut down
+[2016.01.25-23.52.18:276][621]LogExit: Transaction tracking system shut down
+[2016.01.25-23.52.18:278][621]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000323EB420
+[2016.01.25-23.52.18:279][621]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000323EA3E0
+[2016.01.25-23.52.18:279][621]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011827880
+[2016.01.25-23.52.18:280][621]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E23CB80
+[2016.01.25-23.52.18:281][621]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016A48860
+[2016.01.25-23.52.18:427][621]LogExit: Object subsystem successfully closed.
+[2016.01.25-23.52.18:441][621]LogD3D11RHI: Shutdown
+[2016.01.25-23.52.18:442][621]LogD3D11RHI: CleanupD3DDevice
+[2016.01.25-23.52.18:733][621]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.25-23.52.18:751][621]LogModuleManager: Shutting down and abandoning module SequencerWidgets (200)
+[2016.01.25-23.52.18:751][621]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.01.25-23.52.18:751][621]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.01.25-23.52.18:752][621]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.01.25-23.52.18:752][621]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.01.25-23.52.18:752][621]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.01.25-23.52.18:752][621]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.01.25-23.52.18:753][621]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.01.25-23.52.18:754][621]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.01.25-23.52.18:754][621]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.01.25-23.52.18:754][621]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.01.25-23.52.18:755][621]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.01.25-23.52.18:755][621]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.01.25-23.52.18:755][621]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.01.25-23.52.18:755][621]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.01.25-23.52.18:756][621]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.01.25-23.52.18:756][621]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.01.25-23.52.18:756][621]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.01.25-23.52.18:756][621]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.01.25-23.52.18:756][621]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.01.25-23.52.18:757][621]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.01.25-23.52.18:757][621]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.01.25-23.52.18:757][621]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.01.25-23.52.18:757][621]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.01.25-23.52.18:758][621]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.01.25-23.52.18:758][621]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.01.25-23.52.18:758][621]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.01.25-23.52.18:758][621]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.01.25-23.52.19:006][621]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.01.25-23.52.19:006][621]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.01.25-23.52.19:006][621]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.01.25-23.52.19:007][621]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.01.25-23.52.19:007][621]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.01.25-23.52.19:007][621]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.01.25-23.52.19:007][621]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.01.25-23.52.19:007][621]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.01.25-23.52.19:008][621]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.01.25-23.52.19:008][621]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.01.25-23.52.19:008][621]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.01.25-23.52.19:008][621]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.01.25-23.52.19:009][621]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.01.25-23.52.19:009][621]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.01.25-23.52.19:009][621]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.01.25-23.52.19:009][621]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.01.25-23.52.19:009][621]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.01.25-23.52.19:010][621]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.01.25-23.52.19:010][621]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.01.25-23.52.19:010][621]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.01.25-23.52.19:010][621]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.01.25-23.52.19:011][621]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.01.25-23.52.19:011][621]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.01.25-23.52.19:011][621]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.01.25-23.52.19:011][621]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.01.25-23.52.19:011][621]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.01.25-23.52.19:012][621]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.01.25-23.52.19:012][621]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.01.25-23.52.19:012][621]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.01.25-23.52.19:012][621]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.01.25-23.52.19:013][621]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.01.25-23.52.19:013][621]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.01.25-23.52.19:013][621]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.01.25-23.52.19:013][621]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.01.25-23.52.19:014][621]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.01.25-23.52.19:014][621]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.01.25-23.52.19:015][621]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.01.25-23.52.19:015][621]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.01.25-23.52.19:016][621]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.01.25-23.52.19:016][621]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.01.25-23.52.19:016][621]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.01.25-23.52.19:016][621]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.01.25-23.52.19:016][621]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.01.25-23.52.19:017][621]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.01.25-23.52.19:017][621]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.01.25-23.52.19:017][621]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.01.25-23.52.19:017][621]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.01.25-23.52.19:017][621]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.01.25-23.52.19:018][621]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.01.25-23.52.19:018][621]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.01.25-23.52.19:061][621]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.01.25-23.52.19:062][621]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.01.25-23.52.19:062][621]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.01.25-23.52.19:062][621]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.01.25-23.52.19:063][621]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.01.25-23.52.19:063][621]LogModuleManager: Shutting down and abandoning module OculusRift (117)
+[2016.01.25-23.52.19:063][621]LogModuleManager: Shutting down and abandoning module OculusLibrary (116)
+[2016.01.25-23.52.19:063][621]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.01.25-23.52.19:072][621]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.01.25-23.52.19:072][621]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.01.25-23.52.19:073][621]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.01.25-23.52.19:073][621]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.01.25-23.52.19:073][621]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.01.25-23.52.19:073][621]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.01.25-23.52.19:073][621]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.01.25-23.52.19:074][621]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.01.25-23.52.19:074][621]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.01.25-23.52.19:074][621]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.01.25-23.52.19:074][621]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.01.25-23.52.19:074][621]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.01.25-23.52.19:075][621]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.01.25-23.52.19:075][621]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.01.25-23.52.19:075][621]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.01.25-23.52.19:075][621]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.01.25-23.52.19:075][621]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.01.25-23.52.19:076][621]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.01.25-23.52.19:076][621]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.01.25-23.52.19:076][621]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.01.25-23.52.19:076][621]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.01.25-23.52.19:076][621]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.01.25-23.52.19:077][621]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.25-23.52.19:077][621]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.01.25-23.52.19:078][621]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.01.25-23.52.19:079][621]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.01.25-23.52.19:137][621]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.01.25-23.52.19:138][621]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.01.25-23.52.19:139][621]LogModuleManager: Shutting down and abandoning module LostAge (86)
+[2016.01.25-23.52.19:139][621]LogModuleManager: Shutting down and abandoning module UdpMessaging (85)
+[2016.01.25-23.52.19:239][621]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (84)
+[2016.01.25-23.52.19:239][621]LogModuleManager: Shutting down and abandoning module Paper2D (83)
+[2016.01.25-23.52.19:239][621]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (82)
+[2016.01.25-23.52.19:242][621]LogModuleManager: Shutting down and abandoning module Media (81)
+[2016.01.25-23.52.19:242][621]LogModuleManager: Shutting down and abandoning module WmfMedia (80)
+[2016.01.25-23.52.19:243][621]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (79)
+[2016.01.25-23.52.19:244][621]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (78)
+[2016.01.25-23.52.19:244][621]LogModuleManager: Shutting down and abandoning module PropertyEditor (77)
+[2016.01.25-23.52.19:245][621]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (76)
+[2016.01.25-23.52.19:245][621]LogModuleManager: Shutting down and abandoning module FunctionalTesting (75)
+[2016.01.25-23.52.19:245][621]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (74)
+[2016.01.25-23.52.19:245][621]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (73)
+[2016.01.25-23.52.19:246][621]LogModuleManager: Shutting down and abandoning module MessageLog (72)
+[2016.01.25-23.52.19:246][621]LogModuleManager: Shutting down and abandoning module Sequencer (71)
+[2016.01.25-23.52.19:246][621]LogModuleManager: Shutting down and abandoning module AssetTools (70)
+[2016.01.25-23.52.19:246][621]LogModuleManager: Shutting down and abandoning module UMGEditor (69)
+[2016.01.25-23.52.19:246][621]LogModuleManager: Shutting down and abandoning module UMG (68)
+[2016.01.25-23.52.19:247][621]LogModuleManager: Shutting down and abandoning module Slate (67)
+[2016.01.25-23.52.19:247][621]LogModuleManager: Shutting down and abandoning module EditorStyle (66)
+[2016.01.25-23.52.19:249][621]LogModuleManager: Shutting down and abandoning module SessionServices (65)
+[2016.01.25-23.52.19:249][621]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (64)
+[2016.01.25-23.52.19:249][621]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (63)
+[2016.01.25-23.52.19:249][621]LogModuleManager: Shutting down and abandoning module XAudio2 (62)
+[2016.01.25-23.52.19:250][621]LogModuleManager: Shutting down and abandoning module Networking (60)
+[2016.01.25-23.52.19:250][621]LogModuleManager: Shutting down and abandoning module Core (59)
+[2016.01.25-23.52.19:250][621]LogModuleManager: Shutting down and abandoning module KismetCompiler (58)
+[2016.01.25-23.52.19:250][621]LogModuleManager: Shutting down and abandoning module PhysXFormats (57)
+[2016.01.25-23.52.19:250][621]LogModuleManager: Shutting down and abandoning module MeshUtilities (56)
+[2016.01.25-23.52.19:251][621]LogModuleManager: Shutting down and abandoning module CookingStats (55)
+[2016.01.25-23.52.19:252][621]LogModuleManager: Shutting down and abandoning module DerivedDataCache (54)
+[2016.01.25-23.52.19:262][621]LogDerivedDataCache: Shutdown
+[2016.01.25-23.52.19:263][621]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (53)
+[2016.01.25-23.52.19:263][621]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (52)
+[2016.01.25-23.52.19:263][621]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (51)
+[2016.01.25-23.52.19:264][621]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (50)
+[2016.01.25-23.52.19:264][621]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (49)
+[2016.01.25-23.52.19:264][621]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (48)
+[2016.01.25-23.52.19:264][621]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (47)
+[2016.01.25-23.52.19:264][621]LogModuleManager: Shutting down and abandoning module ImageWrapper (46)
+[2016.01.25-23.52.19:265][621]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (45)
+[2016.01.25-23.52.19:265][621]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (44)
+[2016.01.25-23.52.19:265][621]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (43)
+[2016.01.25-23.52.19:265][621]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (42)
+[2016.01.25-23.52.19:265][621]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (41)
+[2016.01.25-23.52.19:266][621]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (40)
+[2016.01.25-23.52.19:266][621]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (39)
+[2016.01.25-23.52.19:266][621]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (38)
+[2016.01.25-23.52.19:266][621]LogModuleManager: Shutting down and abandoning module Messaging (37)
+[2016.01.25-23.52.19:266][621]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (36)
+[2016.01.25-23.52.19:267][621]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (35)
+[2016.01.25-23.52.19:267][621]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (34)
+[2016.01.25-23.52.19:267][621]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (33)
+[2016.01.25-23.52.19:267][621]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (32)
+[2016.01.25-23.52.19:267][621]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (31)
+[2016.01.25-23.52.19:268][621]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (30)
+[2016.01.25-23.52.19:268][621]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (29)
+[2016.01.25-23.52.19:268][621]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (28)
+[2016.01.25-23.52.19:268][621]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2016.01.25-23.52.19:268][621]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2016.01.25-23.52.19:269][621]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2016.01.25-23.52.19:269][621]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2016.01.25-23.52.19:269][621]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (23)
+[2016.01.25-23.52.19:269][621]LogModuleManager: Shutting down and abandoning module TargetPlatform (22)
+[2016.01.25-23.52.19:269][621]LogModuleManager: Shutting down and abandoning module InputCore (21)
+[2016.01.25-23.52.19:270][621]LogModuleManager: Shutting down and abandoning module Settings (20)
+[2016.01.25-23.52.19:270][621]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.01.25-23.52.19:270][621]LogModuleManager: Shutting down and abandoning module HTTP (17)
+[2016.01.25-23.52.21:271][621]LogModuleManager: Shutting down and abandoning module XMPP (16)
+[2016.01.25-23.52.21:272][621]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.25-23.52.21:272][621]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.25-23.52.21:273][621]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.25-23.52.21:273][621]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.25-23.52.21:273][621]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.25-23.52.21:275][621]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.25-23.52.21:275][621]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.25-23.52.21:275][621]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.25-23.52.21:276][621]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.25-23.52.21:276][621]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.25-23.52.21:276][621]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.25-23.52.21:276][621]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.25-23.52.21:276][621]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.25-23.52.21:277][621]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.25-23.52.21:277][621]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.25-23.52.21:280][621]LogExit: Exiting.
+[2016.01.25-23.52.21:293][621]Log file closed, 01/25/16 18:52:21

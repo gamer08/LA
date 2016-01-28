@@ -1,0 +1,901 @@
+﻿[2016.01.26-20.31.14:767][  0]Log file open, 01/26/16 15:31:14
+[2016.01.26-20.31.14:767][  0]LogInit:Display: Running engine for game: LostAge
+[2016.01.26-20.31.14:767][  0]LogInit:Display: RandInit(483934183) SRandInit(483934183).
+[2016.01.26-20.31.14:768][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.26-20.31.14:768][  0]LogStats: Stats thread started at 0.152480
+[2016.01.26-20.31.14:768][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.26-20.31.14:768][  0]LogInit: API Version: 2672455
+[2016.01.26-20.31.14:769][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.26-20.31.14:769][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.26-20.31.14:769][  0]LogInit: Build Configuration: Development
+[2016.01.26-20.31.14:769][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.26-20.31.14:770][  0]LogInit: Command line: 
+[2016.01.26-20.31.14:770][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.26-20.31.14:770][  0]LogInit: Rocket: 1
+[2016.01.26-20.31.14:801][  0]LogInit: Using libcurl 7.41.0
+[2016.01.26-20.31.14:801][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.26-20.31.14:801][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.26-20.31.14:801][  0]LogInit:  - other features:
+[2016.01.26-20.31.14:802][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.26-20.31.14:802][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.26-20.31.14:802][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.26-20.31.14:802][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.26-20.31.14:803][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.26-20.31.14:803][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.26-20.31.14:803][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.26-20.31.14:803][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.26-20.31.14:803][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.26-20.31.14:804][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.26-20.31.14:876][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.26-20.31.14:889][  0]LogVoice:Warning: Failed to initialize voice interface
+[2016.01.26-20.31.14:895][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.26-20.31.14:904][  0]LogInit: Object subsystem initialized
+[2016.01.26-20.31.14:905][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.26-20.31.14:906][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.26-20.31.14:913][  0]LogInit: Computer: FREDERIC-PC
+[2016.01.26-20.31.14:914][  0]LogInit: User: frederic
+[2016.01.26-20.31.14:914][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.26-20.31.14:915][  0]LogInit: High frequency timer resolution =3.331240 MHz
+[2016.01.26-20.31.14:915][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.01.26-20.31.14:915][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.26-20.31.14:915][  0]LogMemory: Process Physical Memory: 54.61 MB used, 54.61 MB peak
+[2016.01.26-20.31.14:916][  0]LogMemory: Process Virtual Memory: 55.74 MB used, 55.74 MB peak
+[2016.01.26-20.31.14:916][  0]LogMemory: Physical Memory: 6697.63 MB used, 16288.39 MB total
+[2016.01.26-20.31.14:916][  0]LogMemory: Virtual Memory: 337.63 MB used, 8388608.00 MB total
+[2016.01.26-20.31.14:994][  0]LogTextLocalizationManager: No translations for ('fr-CA') exist, falling back to 'en' for localization and internationalization data.
+[2016.01.26-20.31.15:679][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.01.26-20.31.15:680][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 7888MB of shared system memory, 1 output[s]
+[2016.01.26-20.31.15:690][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2016.01.26-20.31.15:690][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.01.26-20.31.15:690][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.26-20.31.15:694][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.26-20.31.15:695][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.26-20.31.15:727][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.26-20.31.15:742][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Intermediate/Shaders/WorkingDirectory/7476/).
+[2016.01.26-20.31.15:742][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Intermediate/Shaders/tmp/868330C14BC7E33F52080E80024F17EB/'.
+[2016.01.26-20.31.15:743][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.26-20.31.16:944][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.26-20.31.16:962][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.26-20.31.16:978][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.26-20.31.16:998][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.26-20.31.17:015][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.26-20.31.17:023][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.26-20.31.17:029][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.26-20.31.17:038][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.26-20.31.17:045][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.26-20.31.17:053][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.26-20.31.17:060][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.26-20.31.17:067][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.26-20.31.17:072][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.26-20.31.17:104][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.26-20.31.17:110][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.26-20.31.17:117][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.26-20.31.17:124][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.26-20.31.17:125][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.26-20.31.17:336][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.26-20.31.17:383][  0]LogDerivedDataCache: Loaded boot cache 0.05s 42MB C:/Users/frederic/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.26-20.31.17:383][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/frederic/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.26-20.31.17:384][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.26-20.31.17:384][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.26-20.31.17:384][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.26-20.31.17:385][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.26-20.31.17:532][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.26-20.31.17:544][  0]LogDerivedDataCache: Using Local data cache path C:/Users/frederic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.26-20.31.17:736][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.26-20.31.17:737][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.26-20.31.17:778][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.26-20.31.17:779][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.26-20.31.19:188][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.26-20.31.19:580][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
+[2016.01.26-20.31.19:918][  0]SourceControl: Info Source control is disabled
+[2016.01.26-20.31.19:920][  0]SourceControl: Info Source control is disabled
+[2016.01.26-20.31.19:935][  0]SourceControl: Info Source control is disabled
+[2016.01.26-20.31.19:956][  0]SourceControl: Info Source control is disabled
+[2016.01.26-20.31.20:164][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.26-20.31.20:266][  0]LogObj: 31792 objects as part of root set at end of initial load.
+[2016.01.26-20.31.20:266][  0]LogUObjectAllocator: 7252992 out of 0 bytes used by permanent object pool.
+[2016.01.26-20.31.20:348][  0]LogEngine: Initializing Engine...
+[2016.01.26-20.31.20:351][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.01.26-20.31.20:353][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.26-20.31.20:493][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.26-20.31.20:509][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.26-20.31.20:526][  0]LogInit: FAudioDevice initialized.
+[2016.01.26-20.31.20:545][  0]LogDerivedDataCache: Saved boot cache 0.02s 42MB C:/Users/frederic/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.26-20.31.20:552][  0]LogInit: Texture streaming: Enabled
+[2016.01.26-20.31.20:570][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.26-20.31.20:570][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.26-20.31.20:570][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId c8da8d664a36a98701fe659c10ae4ff8|70626fa7f476448fb82ad9618fbbb1ab|00e7fb16-00c3-4af4-a2a1-2cc8013aae38
+[2016.01.26-20.31.20:571][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.26-20.31.20:589][  0]LogInit: Transaction tracking system initialized
+[2016.01.26-20.31.20:697][  0]BlueprintLog: New page: Editor Load
+[2016.01.26-20.31.21:096][  0]LocalizationService: Info Localization service is disabled
+[2016.01.26-20.31.21:262][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonCPP/ThirdPersonOverview'
+[2016.01.26-20.31.21:263][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonCPP/ThirdPersonOverview'
+[2016.01.26-20.31.21:263][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonCPP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2016.01.26-20.31.21:293][  0]LogConsoleResponse:Display: 
+[2016.01.26-20.31.21:412][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.26-20.31.21:588][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frederic/Documents/Unreal Projects/LostAge/Content/' took 0.01s
+[2016.01.26-20.31.21:588][  0]SourceControl: Info Source control is disabled
+[2016.01.26-20.31.21:588][  0]Cmd: MAP LOAD FILE="../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.26-20.31.21:589][  0]LightingResults: New page: Lighting Build
+[2016.01.26-20.31.21:594][  0]MapCheck: New page: Map Check
+[2016.01.26-20.31.21:595][  0]LightingResults: New page: Lighting Build
+[2016.01.26-20.31.21:605][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002368E160
+[2016.01.26-20.31.21:610][  0]LogAIModule: Creating AISystem for world MainMenu
+[2016.01.26-20.31.21:611][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.26-20.31.21:613][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.26-20.31.21:659][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.553ms to complete.
+[2016.01.26-20.31.21:659][  0]LogFileHelpers: Loading map 'MainMenu' took 0.071
+[2016.01.26-20.31.21:772][  0]LogCollectionManager: Loaded 0 collections in 0.002257 seconds
+[2016.01.26-20.31.21:816][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frederic/Documents/Unreal Projects/LostAge/Saved/Collections/' took 0.01s
+[2016.01.26-20.31.21:817][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frederic/Documents/Unreal Projects/LostAge/Content/Developers/frederic/Collections/' took 0.01s
+[2016.01.26-20.31.21:817][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frederic/Documents/Unreal Projects/LostAge/Content/Collections/' took 0.01s
+[2016.01.26-20.31.21:818][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 1875 classes and 335 folders.
+[2016.01.26-20.31.21:826][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.01.26-20.31.21:840][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0029 seconds. Added 0 classes and 0 folders.
+[2016.01.26-20.31.21:902][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0018 seconds. Added 0 classes and 0 folders.
+[2016.01.26-20.31.21:923][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2016.01.26-20.31.21:956][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.26-20.31.21:960][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.26-20.31.21:981][  0]LogLoad: Full Startup: 8.21 seconds (BP compile: 0.04 seconds)
+[2016.01.26-20.31.22:073][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.26-20.31.22:201][  2]LogRenderer: Reallocating scene render targets to support 944x484 (Frame:2).
+[2016.01.26-20.31.22:361][  2]LogAssetRegistry: Asset discovery search completed in 2.7918 seconds
+[2016.01.26-20.31.22:362][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.26-20.31.22:362][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000338 seconds (updated 0 objects)
+[2016.01.26-20.31.29:539][841]LogRenderer: Reallocating scene render targets to support 1208x556 (Frame:844).
+[2016.01.26-20.31.34:169][347]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.26-20.31.34:701][347]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 107 classes and 0 folders.
+[2016.01.26-20.32.18:230][ 74]BlueprintLog: New page: Compile GameInstanceBP
+[2016.01.26-20.32.18:290][ 74]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.26-20.32.18:320][ 74]BlueprintEditorCompileResults: Info [0064.55] Compile of GameInstanceBP successful! [in 88 ms]
+[2016.01.26-20.32.33:986][100]LogSavePackage: Save=58.197548ms
+[2016.01.26-20.32.33:987][100]LogSavePackage: Moving '../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Saved/GameInstanceBPB6BF6C30433F012AA3D919B66D154818.tmp' to '../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Blueprints/GameInstanceBP.uasset'
+[2016.01.26-20.32.33:990][100]LogSavePackage: Total save time: 67.619264ms
+[2016.01.26-20.32.33:991][100]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Blueprints/GameInstanceBP.uasset
+[2016.01.26-20.32.41:332][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.26-20.32.41:332][977]PIE: New page: PIE session: MainMenu (Jan 26, 2016, 10:32:41 AM)
+[2016.01.26-20.32.41:333][977]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu
+[2016.01.26-20.32.41:334][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000531s)
+[2016.01.26-20.32.41:335][977]LogAIModule: Creating AISystem for world MainMenu
+[2016.01.26-20.32.41:335][977]LogPlayLevel: PIE: World Init took: (0.001037s)
+[2016.01.26-20.32.41:336][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/MainMenu.MainMenu to /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.002705s)
+[2016.01.26-20.32.41:336][977]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.26-20.32.41:367][977]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.26-20.32.41:378][977]LogInit: FAudioDevice initialized.
+[2016.01.26-20.32.41:427][977]LogWorld: Game class is 'LostAgeGameMode'
+[2016.01.26-20.32.41:429][977]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.01.26-15.32.41
+[2016.01.26-20.32.41:429][977]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-20.32.41:430][977]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-20.32.41:430][977]LogWorld: Bringing up level for play took: 0.001515
+[2016.01.26-20.32.41:441][977]LogVoice:Warning: Failed to initialize voice interface
+[2016.01.26-20.32.43:796][977]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.01.26-20.32.43:958][977]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu 2.446
+[2016.01.26-20.32.43:972][978]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:7262).
+[2016.01.26-20.32.47:346][259]LogInit: WinSock: I am frederic-PC (192.168.1.103:0)
+[2016.01.26-20.32.47:397][259]LogPackageName: SearchForPackageOnDisk took   0.049s to resolve FirstPersonExampleMap.umap.
+[2016.01.26-20.32.47:447][259]LogPackageName: SearchForPackageOnDisk took   0.049s to resolve FirstPersonExampleMap.umap.
+[2016.01.26-20.32.47:448][259]LogNet: Browse: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2016.01.26-20.32.47:448][259]LogLoad: LoadMap: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2016.01.26-20.32.47:471][259]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004080EC00
+[2016.01.26-20.32.47:477][259]Cmd: MEM
+[2016.01.26-20.32.47:500][259]LogMemory: Platform Memory Stats for Windows
+[2016.01.26-20.32.47:500][259]LogMemory: Process Physical Memory: 700.32 MB used, 700.32 MB peak
+[2016.01.26-20.32.47:501][259]LogMemory: Process Virtual Memory: 1263.88 MB used, 1349.25 MB peak
+[2016.01.26-20.32.47:501][259]LogMemory: Physical Memory: 7867.71 MB used, 16288.39 MB total
+[2016.01.26-20.32.47:501][259]LogMemory: Virtual Memory: 1935.28 MB used, 8388608.00 MB total
+[2016.01.26-20.32.47:501][259]LogMemory: 
+[2016.01.26-20.32.47:502][259]Allocator Stats for TBB: (not implemented)
+[2016.01.26-20.32.48:509][259]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.26-20.32.48:511][259]LogWorld: Game class is 'LostAgeGameMode'
+[2016.01.26-20.32.48:531][259]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.01.26-15.32.48
+[2016.01.26-20.32.48:540][259]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-20.32.48:545][259]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-20.32.48:548][259]LogWorld: Bringing up level for play took: 0.036395
+[2016.01.26-20.32.50:832][259]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
+[2016.01.26-20.33.03:142][790]LogPackageName: SearchForPackageOnDisk took   0.053s to resolve MainMenu.umap.
+[2016.01.26-20.33.03:203][791]LogPackageName: SearchForPackageOnDisk took   0.052s to resolve MainMenu.umap.
+[2016.01.26-20.33.03:203][791]LogNet: Browse: /Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.33.03:204][791]LogLoad: LoadMap: /Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.33.03:227][791]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004BBA56C0
+[2016.01.26-20.33.03:304][791]Cmd: MEM
+[2016.01.26-20.33.03:325][791]LogMemory: Platform Memory Stats for Windows
+[2016.01.26-20.33.03:326][791]LogMemory: Process Physical Memory: 968.02 MB used, 1262.30 MB peak
+[2016.01.26-20.33.03:326][791]LogMemory: Process Virtual Memory: 1656.62 MB used, 1952.26 MB peak
+[2016.01.26-20.33.03:326][791]LogMemory: Physical Memory: 8236.74 MB used, 16288.39 MB total
+[2016.01.26-20.33.03:327][791]LogMemory: Virtual Memory: 2334.78 MB used, 8388608.00 MB total
+[2016.01.26-20.33.03:327][791]LogMemory: 
+[2016.01.26-20.33.03:327][791]Allocator Stats for TBB: (not implemented)
+[2016.01.26-20.33.03:327][791]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu
+[2016.01.26-20.33.03:328][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000482s)
+[2016.01.26-20.33.03:329][791]LogAIModule: Creating AISystem for world MainMenu
+[2016.01.26-20.33.03:330][791]LogPlayLevel: PIE: World Init took: (0.001048s)
+[2016.01.26-20.33.03:330][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/MainMenu.MainMenu to /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.002488s)
+[2016.01.26-20.33.03:330][791]LogWorld: Game class is 'LostAgeGameMode'
+[2016.01.26-20.33.03:332][791]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.01.26-15.33.03
+[2016.01.26-20.33.03:332][791]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-20.33.03:332][791]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-20.33.03:333][791]LogWorld: Bringing up level for play took: 0.001437
+[2016.01.26-20.33.03:334][791]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.01.26-20.33.07:290][791]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.01.26-20.33.09:596][944]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.01.26-20.33.09:597][944]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.01.26-20.33.09:634][945]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010D591C0
+[2016.01.26-20.33.09:884][945]LogPlayLevel:Display: Destroying online subsystem :Context_4
+[2016.01.26-20.33.09:884][945]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.01.26-20.33.58:965][255]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.26-20.33.58:965][255]PIE: New page: PIE session: MainMenu (Jan 26, 2016, 10:33:58 AM)
+[2016.01.26-20.33.58:966][255]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu
+[2016.01.26-20.33.58:967][255]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000527s)
+[2016.01.26-20.33.58:968][255]LogAIModule: Creating AISystem for world MainMenu
+[2016.01.26-20.33.58:968][255]LogPlayLevel: PIE: World Init took: (0.001248s)
+[2016.01.26-20.33.58:969][255]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/MainMenu.MainMenu to /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.002954s)
+[2016.01.26-20.33.58:969][255]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.26-20.33.59:005][255]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.26-20.33.59:017][255]LogInit: FAudioDevice initialized.
+[2016.01.26-20.33.59:060][255]LogWorld: Game class is 'LostAgeGameMode'
+[2016.01.26-20.33.59:061][255]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.01.26-15.33.59
+[2016.01.26-20.33.59:062][255]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-20.33.59:062][255]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-20.33.59:063][255]LogWorld: Bringing up level for play took: 0.001659
+[2016.01.26-20.33.59:074][255]LogVoice:Warning: Failed to initialize voice interface
+[2016.01.26-20.34.01:029][255]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.01.26-20.34.01:052][255]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu 1.539
+[2016.01.26-20.34.09:193][103]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.34.09:194][103]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.34.09:195][103]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.34.09:195][103]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.34.09:203][104]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.09:406][128]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.09:612][152]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.09:818][176]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.10:022][200]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.10:040][202]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.34.10:041][202]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.34.10:209][221]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.10:413][245]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.10:616][269]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.10:818][293]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.11:023][317]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.11:215][340]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.11:415][364]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.11:617][388]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.11:645][391]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.34.11:645][391]LogNet: UNetConnection::Close: Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_0, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.34.11
+[2016.01.26-20.34.11:645][391]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_0
+[2016.01.26-20.34.11:646][391]LogNet: DestroyNamedNetDriver IpNetDriver_0 [PendingNetDriver]
+[2016.01.26-20.34.11:646][391]LogExit: PendingNetDriver IpNetDriver_0 shut down
+[2016.01.26-20.34.11:647][391]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.34.11:647][391]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.34.11:648][391]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.34.11:656][392]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.11:860][416]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.12:063][440]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.12:268][464]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.12:472][488]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.12:565][499]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.34.12:566][499]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.34.12:658][510]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.12:860][534]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.13:066][558]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.13:270][582]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.13:473][606]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.13:662][628]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.13:864][652]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.14:069][676]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.14:272][700]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.14:478][724]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.14:669][746]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.14:871][770]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.15:068][793]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.34.15:068][793]LogNet: UNetConnection::Close: Name: IpConnection_1, Driver: PendingNetDriver IpNetDriver_1, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.34.15
+[2016.01.26-20.34.15:069][793]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_1
+[2016.01.26-20.34.15:069][793]LogNet: DestroyNamedNetDriver IpNetDriver_1 [PendingNetDriver]
+[2016.01.26-20.34.15:069][793]LogExit: PendingNetDriver IpNetDriver_1 shut down
+[2016.01.26-20.34.15:070][793]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.34.15:071][793]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.34.15:071][793]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.34.15:078][794]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.15:283][818]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.15:485][842]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.15:637][860]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.34.15:638][860]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.34.15:688][866]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.15:892][890]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.16:084][912]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.16:287][936]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.16:489][960]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.16:696][984]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.16:897][  8]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.17:090][ 31]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.17:292][ 55]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.17:497][ 79]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.17:700][103]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.17:903][127]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.18:090][149]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.18:294][173]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.18:494][197]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.18:697][221]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.18:900][245]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.19:095][268]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.19:300][292]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.19:503][316]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.19:707][340]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.19:912][364]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.20:099][386]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.20:301][410]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.20:506][434]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.20:711][458]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.20:914][482]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.21:101][504]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.21:244][521]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.34.21:244][521]LogNet: UNetConnection::Close: Name: IpConnection_2, Driver: PendingNetDriver IpNetDriver_2, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.34.21
+[2016.01.26-20.34.21:245][521]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_2
+[2016.01.26-20.34.21:245][521]LogNet: DestroyNamedNetDriver IpNetDriver_2 [PendingNetDriver]
+[2016.01.26-20.34.21:245][521]LogExit: PendingNetDriver IpNetDriver_2 shut down
+[2016.01.26-20.34.21:246][521]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.34.21:246][521]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.34.21:247][521]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.34.21:254][522]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.21:460][546]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.21:664][570]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.21:866][594]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.21:902][598]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.34.21:903][598]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.34.22:072][618]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.22:255][640]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.22:460][664]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.22:664][688]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.22:868][712]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.23:072][736]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.23:258][758]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.23:459][782]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.23:660][805]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.23:865][829]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.24:070][853]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.24:262][876]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.24:466][900]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.24:669][924]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.24:871][948]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.25:072][972]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.25:268][995]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.25:468][ 19]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.25:675][ 43]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.25:881][ 67]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.26:084][ 91]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.26:269][113]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.26:470][137]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.26:672][161]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.26:872][185]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.27:073][209]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.27:274][233]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.27:479][257]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.27:681][281]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.27:886][305]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.28:090][329]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.28:276][351]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.28:479][375]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.28:681][399]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.28:889][423]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.29:091][447]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.29:277][469]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.29:479][493]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.29:679][517]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.29:886][541]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.30:089][565]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.30:283][588]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.30:483][612]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.30:686][636]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.30:888][660]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.31:092][684]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.31:287][707]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.31:487][731]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.31:696][755]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.31:902][779]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.32:105][803]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.32:289][825]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.32:494][849]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.32:696][873]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.32:898][897]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.33:100][921]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.33:295][944]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.33:496][968]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.33:701][992]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.33:903][ 16]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.34:108][ 40]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.34:295][ 62]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.34:495][ 86]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.34:699][110]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.34:901][134]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.35:104][158]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.35:297][181]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.35:499][205]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.35:701][229]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.35:906][253]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.36:107][277]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.36:305][300]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.36:511][324]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.36:716][348]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.36:918][372]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.37:123][396]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.37:311][418]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.37:517][442]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.37:723][466]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.37:929][490]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.38:134][514]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.38:319][536]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.38:520][560]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.38:722][584]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.34.38:808][588]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.01.26-20.34.38:809][588]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.01.26-20.34.38:828][588]LogNet: UChannel::CleanUp: [PendingNetDriver] [NoPC] [No Owner]. ChIndex == 0. Closing connection.
+[2016.01.26-20.34.38:828][588]LogNet: UNetConnection::Close: Name: IpConnection_3, Driver: PendingNetDriver IpNetDriver_3, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.34.38
+[2016.01.26-20.34.38:829][588]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_3
+[2016.01.26-20.34.38:834][588]LogExit: PendingNetDriver None shut down
+[2016.01.26-20.34.38:835][588]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016CA8FE0
+[2016.01.26-20.34.39:093][589]LogPlayLevel:Display: Destroying online subsystem :Context_5
+[2016.01.26-20.34.39:093][589]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.01.26-20.35.22:059][889]BlueprintLog: New page: Compile GameInstanceBP
+[2016.01.26-20.35.22:197][889]BlueprintEditorCompileResults: Info [0248.42] Compile of GameInstanceBP successful! [in 137 ms]
+[2016.01.26-20.35.25:922][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.26-20.35.25:923][321]PIE: New page: PIE session: MainMenu (Jan 26, 2016, 10:35:25 AM)
+[2016.01.26-20.35.25:923][321]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu
+[2016.01.26-20.35.25:924][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000482s)
+[2016.01.26-20.35.25:925][321]LogAIModule: Creating AISystem for world MainMenu
+[2016.01.26-20.35.25:925][321]LogPlayLevel: PIE: World Init took: (0.001405s)
+[2016.01.26-20.35.25:926][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/MainMenu.MainMenu to /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.002854s)
+[2016.01.26-20.35.25:957][321]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.26-20.35.25:969][321]LogInit: FAudioDevice initialized.
+[2016.01.26-20.35.26:010][321]LogWorld: Game class is 'LostAgeGameMode'
+[2016.01.26-20.35.26:012][321]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.01.26-15.35.26
+[2016.01.26-20.35.26:012][321]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-20.35.26:013][321]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-20.35.26:013][321]LogWorld: Bringing up level for play took: 0.001784
+[2016.01.26-20.35.26:024][321]LogVoice:Warning: Failed to initialize voice interface
+[2016.01.26-20.35.28:678][321]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.01.26-20.35.28:699][321]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu 3.184
+[2016.01.26-20.35.31:953][538]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.01.26-20.35.31:954][538]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.01.26-20.35.31:976][538]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004BBA4720
+[2016.01.26-20.35.32:239][539]LogPlayLevel:Display: Destroying online subsystem :Context_6
+[2016.01.26-20.35.32:239][539]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.01.26-20.36.19:281][826]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.26-20.36.19:282][826]PIE: New page: PIE session: MainMenu (Jan 26, 2016, 10:36:19 AM)
+[2016.01.26-20.36.19:282][826]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu
+[2016.01.26-20.36.19:283][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000507s)
+[2016.01.26-20.36.19:284][826]LogAIModule: Creating AISystem for world MainMenu
+[2016.01.26-20.36.19:284][826]LogPlayLevel: PIE: World Init took: (0.001165s)
+[2016.01.26-20.36.19:285][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/MainMenu.MainMenu to /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.002724s)
+[2016.01.26-20.36.19:319][826]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.26-20.36.19:332][826]LogInit: FAudioDevice initialized.
+[2016.01.26-20.36.19:369][826]LogWorld: Game class is 'LostAgeGameMode'
+[2016.01.26-20.36.19:371][826]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.01.26-15.36.19
+[2016.01.26-20.36.19:372][826]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-20.36.19:372][826]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-20.36.19:373][826]LogWorld: Bringing up level for play took: 0.002076
+[2016.01.26-20.36.19:384][826]LogVoice:Warning: Failed to initialize voice interface
+[2016.01.26-20.36.25:294][826]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.01.26-20.36.25:317][826]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu 5.8
+[2016.01.26-20.36.46:904][686]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.36.46:905][686]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.36.46:906][686]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.36.46:906][686]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.36.46:918][687]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.47:120][705]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.47:324][724]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.47:532][743]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.47:735][761]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.47:922][777]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.48:126][794]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.48:329][812]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.48:533][830]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.48:741][849]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.48:932][867]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.49:138][885]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.49:345][904]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.49:549][923]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.49:759][942]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.49:943][958]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.50:150][976]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.50:350][994]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.50:555][ 12]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.50:767][ 30]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.50:942][ 46]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.51:149][ 65]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.51:352][ 84]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.51:556][103]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.51:759][121]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.51:951][138]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.52:030][145]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.36.52:030][145]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.36.52:154][156]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.52:355][174]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.52:566][193]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.52:773][211]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.52:955][227]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.53:161][246]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.53:369][265]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.53:573][283]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.53:783][302]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.53:967][318]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.54:171][336]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.54:379][355]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.54:583][373]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.54:784][391]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.54:971][408]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.55:177][427]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.55:382][446]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.36.55:383][446]LogNet: UNetConnection::Close: Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_4, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.36.55
+[2016.01.26-20.36.55:383][446]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_4
+[2016.01.26-20.36.55:384][446]LogNet: DestroyNamedNetDriver IpNetDriver_4 [PendingNetDriver]
+[2016.01.26-20.36.55:384][446]LogExit: PendingNetDriver IpNetDriver_4 shut down
+[2016.01.26-20.36.55:384][446]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.36.55:385][446]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.36.55:385][446]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.36.55:396][447]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.55:596][465]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.55:800][483]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.56:009][501]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.56:222][520]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.56:397][536]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.56:584][553]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.36.56:585][553]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.36.56:607][555]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.56:816][574]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.57:023][593]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.57:224][612]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.57:300][619]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.36.57:300][619]LogNet: UNetConnection::Close: Name: IpConnection_5, Driver: PendingNetDriver IpNetDriver_5, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.36.57
+[2016.01.26-20.36.57:301][619]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_5
+[2016.01.26-20.36.57:301][619]LogNet: DestroyNamedNetDriver IpNetDriver_5 [PendingNetDriver]
+[2016.01.26-20.36.57:301][619]LogExit: PendingNetDriver IpNetDriver_5 shut down
+[2016.01.26-20.36.57:302][619]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.36.57:302][619]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.36.57:303][619]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.36.57:313][620]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.57:472][634]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.36.57:473][634]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.36.57:518][638]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.57:706][655]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.36.57:707][655]LogNet: UNetConnection::Close: Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_6, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.36.57
+[2016.01.26-20.36.57:707][655]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_6
+[2016.01.26-20.36.57:708][655]LogNet: DestroyNamedNetDriver IpNetDriver_6 [PendingNetDriver]
+[2016.01.26-20.36.57:708][655]LogExit: PendingNetDriver IpNetDriver_6 shut down
+[2016.01.26-20.36.57:708][655]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.36.57:709][655]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.36.57:709][655]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.36.57:721][656]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.57:926][674]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.57:938][675]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.36.57:938][675]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.36.58:129][692]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.58:162][695]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.36.58:163][695]LogNet: UNetConnection::Close: Name: IpConnection_7, Driver: PendingNetDriver IpNetDriver_7, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.36.58
+[2016.01.26-20.36.58:163][695]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_7
+[2016.01.26-20.36.58:164][695]LogNet: DestroyNamedNetDriver IpNetDriver_7 [PendingNetDriver]
+[2016.01.26-20.36.58:164][695]LogExit: PendingNetDriver IpNetDriver_7 shut down
+[2016.01.26-20.36.58:164][695]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.36.58:165][695]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.36.58:165][695]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.36.58:178][696]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.58:377][714]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.58:586][733]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.58:797][752]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.58:841][756]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.36.58:842][756]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.36.59:000][770]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.59:069][776]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.36.59:070][776]LogNet: UNetConnection::Close: Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_8, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.36.59
+[2016.01.26-20.36.59:071][776]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_8
+[2016.01.26-20.36.59:071][776]LogNet: DestroyNamedNetDriver IpNetDriver_8 [PendingNetDriver]
+[2016.01.26-20.36.59:071][776]LogExit: PendingNetDriver IpNetDriver_8 shut down
+[2016.01.26-20.36.59:072][776]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.36.59:073][776]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.36.59:073][776]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.36.59:084][777]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.59:286][795]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.59:355][801]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.36.59:356][801]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.36.59:491][813]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.59:692][831]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.59:898][849]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.36.59:952][854]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.36.59:953][854]LogNet: UNetConnection::Close: Name: IpConnection_9, Driver: PendingNetDriver IpNetDriver_9, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.36.59
+[2016.01.26-20.36.59:953][854]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_9
+[2016.01.26-20.36.59:953][854]LogNet: DestroyNamedNetDriver IpNetDriver_9 [PendingNetDriver]
+[2016.01.26-20.36.59:954][854]LogExit: PendingNetDriver IpNetDriver_9 shut down
+[2016.01.26-20.36.59:954][854]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.36.59:955][854]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.36.59:955][854]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.36.59:970][855]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.00:172][873]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.00:372][891]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.00:582][910]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.00:789][929]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.00:966][945]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.01:174][964]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.01:378][981]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.01:584][999]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.01:793][ 18]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.01:970][ 33]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.02:171][ 51]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.02:376][ 69]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.02:590][ 87]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.02:797][105]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.02:976][121]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.03:187][139]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.03:388][157]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.03:593][176]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.03:803][194]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.03:985][210]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.04:190][228]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.04:392][246]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.04:606][265]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.04:816][284]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.37.04:978][293]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.01.26-20.37.04:979][293]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.01.26-20.37.04:997][293]LogNet: UChannel::CleanUp: [PendingNetDriver] [NoPC] [No Owner]. ChIndex == 0. Closing connection.
+[2016.01.26-20.37.04:998][293]LogNet: UNetConnection::Close: Name: IpConnection_10, Driver: PendingNetDriver IpNetDriver_10, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.37.04
+[2016.01.26-20.37.04:998][293]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_10
+[2016.01.26-20.37.05:003][293]LogExit: PendingNetDriver None shut down
+[2016.01.26-20.37.05:023][294]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000057DF14E0
+[2016.01.26-20.37.05:262][294]LogPlayLevel:Display: Destroying online subsystem :Context_7
+[2016.01.26-20.37.05:262][294]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.01.26-20.41.15:116][933]BlueprintLog: New page: Compile GameInstanceBP
+[2016.01.26-20.41.15:254][933]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.01.26-20.41.15:290][933]BlueprintEditorCompileResults: Info [0601.51] Compile of GameInstanceBP successful! [in 173 ms]
+[2016.01.26-20.41.22:283][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.26-20.41.22:284][723]PIE: New page: PIE session: MainMenu (Jan 26, 2016, 10:41:22 AM)
+[2016.01.26-20.41.22:284][723]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu
+[2016.01.26-20.41.22:285][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000503s)
+[2016.01.26-20.41.22:286][723]LogAIModule: Creating AISystem for world MainMenu
+[2016.01.26-20.41.22:287][723]LogPlayLevel: PIE: World Init took: (0.001592s)
+[2016.01.26-20.41.22:287][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/MainMenu.MainMenu to /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.003368s)
+[2016.01.26-20.41.22:325][723]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.26-20.41.22:338][723]LogInit: FAudioDevice initialized.
+[2016.01.26-20.41.22:380][723]LogWorld: Game class is 'LostAgeGameMode'
+[2016.01.26-20.41.22:382][723]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2016.01.26-15.41.22
+[2016.01.26-20.41.22:383][723]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-20.41.22:383][723]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-20.41.22:384][723]LogWorld: Bringing up level for play took: 0.001966
+[2016.01.26-20.41.22:395][723]LogVoice:Warning: Failed to initialize voice interface
+[2016.01.26-20.41.25:150][723]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.01.26-20.41.25:175][723]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu 3.653
+[2016.01.26-20.43.27:434][181]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.01.26-20.43.27:435][181]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.01.26-20.43.27:461][181]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001190F240
+[2016.01.26-20.43.27:708][182]LogPlayLevel:Display: Destroying online subsystem :Context_11
+[2016.01.26-20.43.27:708][182]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.01.26-20.43.36:240][383]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.26-20.43.36:240][383]PIE: New page: PIE session: MainMenu (Jan 26, 2016, 10:43:36 AM)
+[2016.01.26-20.43.36:241][383]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu
+[2016.01.26-20.43.36:242][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000563s)
+[2016.01.26-20.43.36:243][383]LogAIModule: Creating AISystem for world MainMenu
+[2016.01.26-20.43.36:243][383]LogPlayLevel: PIE: World Init took: (0.001278s)
+[2016.01.26-20.43.36:244][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/MainMenu.MainMenu to /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.003025s)
+[2016.01.26-20.43.36:282][383]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.26-20.43.36:296][383]LogInit: FAudioDevice initialized.
+[2016.01.26-20.43.36:336][383]LogWorld: Game class is 'LostAgeGameMode'
+[2016.01.26-20.43.39:294][383]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 3) at 2016.01.26-15.43.39
+[2016.01.26-20.43.39:295][383]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-20.43.39:296][383]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-20.43.39:297][383]LogWorld: Bringing up level for play took: 0.003192
+[2016.01.26-20.43.39:308][383]LogVoice:Warning: Failed to initialize voice interface
+[2016.01.26-20.43.39:812][383]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.01.26-20.43.40:753][383]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu 5.229
+[2016.01.26-20.43.49:246][204]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.43.49:246][204]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.43.49:247][204]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.43.49:247][204]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.43.49:258][205]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.49:459][227]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.49:667][251]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.49:872][273]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.50:080][295]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.50:260][314]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.50:463][336]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.50:669][358]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.50:874][381]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.51:082][404]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.51:268][424]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.51:472][446]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.51:609][461]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.43.51:610][461]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.43.51:674][468]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.51:883][490]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.52:088][512]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.52:268][532]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.52:475][554]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.52:685][577]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.52:884][598]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.53:092][621]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.53:274][641]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.53:444][659]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.43.53:445][659]LogNet: UNetConnection::Close: Name: IpConnection_11, Driver: PendingNetDriver IpNetDriver_11, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.43.53
+[2016.01.26-20.43.53:445][659]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_11
+[2016.01.26-20.43.53:446][659]LogNet: DestroyNamedNetDriver IpNetDriver_11 [PendingNetDriver]
+[2016.01.26-20.43.53:446][659]LogExit: PendingNetDriver IpNetDriver_11 shut down
+[2016.01.26-20.43.53:446][659]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.43.53:447][659]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.43.53:447][659]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.43.53:457][660]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.53:653][682]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.53:857][704]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.54:066][727]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.54:215][743]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.43.54:216][743]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.43.54:271][749]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.54:458][769]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.54:666][792]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.54:873][815]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.55:080][838]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.55:279][860]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.55:459][880]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.55:661][902]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.55:865][924]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.56:077][947]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.56:279][969]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.56:423][985]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.43.56:423][985]LogNet: UNetConnection::Close: Name: IpConnection_12, Driver: PendingNetDriver IpNetDriver_12, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.43.56
+[2016.01.26-20.43.56:424][985]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_12
+[2016.01.26-20.43.56:424][985]LogNet: DestroyNamedNetDriver IpNetDriver_12 [PendingNetDriver]
+[2016.01.26-20.43.56:424][985]LogExit: PendingNetDriver IpNetDriver_12 shut down
+[2016.01.26-20.43.56:425][985]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.43.56:426][985]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.43.56:426][985]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.43.56:436][986]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.56:635][  8]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.56:840][ 30]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.56:889][ 35]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.43.56:890][ 35]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.43.57:041][ 51]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.57:243][ 72]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.57:438][ 93]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.57:641][115]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.57:847][138]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.58:053][161]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.58:222][179]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.43.58:223][179]LogNet: UNetConnection::Close: Name: IpConnection_13, Driver: PendingNetDriver IpNetDriver_13, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.43.58
+[2016.01.26-20.43.58:223][179]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_13
+[2016.01.26-20.43.58:223][179]LogNet: DestroyNamedNetDriver IpNetDriver_13 [PendingNetDriver]
+[2016.01.26-20.43.58:224][179]LogExit: PendingNetDriver IpNetDriver_13 shut down
+[2016.01.26-20.43.58:224][179]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.43.58:225][179]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.43.58:225][179]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.43.58:234][180]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.58:435][202]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.58:618][222]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.43.58:619][222]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.43.58:637][224]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.58:838][246]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.59:043][268]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.59:073][271]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.43.59:073][271]LogNet: UNetConnection::Close: Name: IpConnection_14, Driver: PendingNetDriver IpNetDriver_14, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.43.59
+[2016.01.26-20.43.59:074][271]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_14
+[2016.01.26-20.43.59:074][271]LogNet: DestroyNamedNetDriver IpNetDriver_14 [PendingNetDriver]
+[2016.01.26-20.43.59:074][271]LogExit: PendingNetDriver IpNetDriver_14 shut down
+[2016.01.26-20.43.59:075][271]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.43.59:076][271]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.43.59:076][271]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.43.59:087][272]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.59:287][293]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.59:494][316]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.59:697][338]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.43.59:715][340]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.43.59:715][340]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.43.59:906][361]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.00:062][378]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.44.00:063][378]LogNet: UNetConnection::Close: Name: IpConnection_15, Driver: PendingNetDriver IpNetDriver_15, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.44.00
+[2016.01.26-20.44.00:063][378]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_15
+[2016.01.26-20.44.00:064][378]LogNet: DestroyNamedNetDriver IpNetDriver_15 [PendingNetDriver]
+[2016.01.26-20.44.00:065][378]LogExit: PendingNetDriver IpNetDriver_15 shut down
+[2016.01.26-20.44.00:065][378]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.44.00:066][378]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.44.00:066][378]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.44.00:076][379]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.00:272][400]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.00:476][422]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.00:681][445]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.00:882][466]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.00:935][472]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.44.00:935][472]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.44.01:081][488]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.01:218][503]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.44.01:219][503]LogNet: UNetConnection::Close: Name: IpConnection_16, Driver: PendingNetDriver IpNetDriver_16, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.44.01
+[2016.01.26-20.44.01:219][503]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_16
+[2016.01.26-20.44.01:220][503]LogNet: DestroyNamedNetDriver IpNetDriver_16 [PendingNetDriver]
+[2016.01.26-20.44.01:220][503]LogExit: PendingNetDriver IpNetDriver_16 shut down
+[2016.01.26-20.44.01:220][503]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.44.01:221][503]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.44.01:221][503]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.44.01:231][504]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.01:435][526]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.01:577][542]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.44.01:577][542]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.44.01:640][549]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.01:844][571]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.02:053][593]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.02:228][612]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.02:435][635]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.02:640][658]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.02:848][681]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.03:052][703]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.03:232][723]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.03:436][745]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.03:642][768]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.03:852][791]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.04:056][812]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.04:145][821]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.44.04:146][821]LogNet: UNetConnection::Close: Name: IpConnection_17, Driver: PendingNetDriver IpNetDriver_17, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.44.04
+[2016.01.26-20.44.04:147][821]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_17
+[2016.01.26-20.44.04:147][821]LogNet: DestroyNamedNetDriver IpNetDriver_17 [PendingNetDriver]
+[2016.01.26-20.44.04:147][821]LogExit: PendingNetDriver IpNetDriver_17 shut down
+[2016.01.26-20.44.04:148][821]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.44.04:149][821]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.44.04:149][821]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.44.04:157][822]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.04:361][844]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.04:435][852]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.44.04:436][852]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.44.04:566][866]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.04:723][883]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.44.04:724][883]LogNet: UNetConnection::Close: Name: IpConnection_18, Driver: PendingNetDriver IpNetDriver_18, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.44.04
+[2016.01.26-20.44.04:724][883]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_18
+[2016.01.26-20.44.04:725][883]LogNet: DestroyNamedNetDriver IpNetDriver_18 [PendingNetDriver]
+[2016.01.26-20.44.04:725][883]LogExit: PendingNetDriver IpNetDriver_18 shut down
+[2016.01.26-20.44.04:726][883]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.44.04:726][883]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.44.04:727][883]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.44.04:736][884]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.04:937][906]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.05:029][916]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.44.05:029][916]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.44.05:139][928]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.05:301][946]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.44.05:301][946]LogNet: UNetConnection::Close: Name: IpConnection_19, Driver: PendingNetDriver IpNetDriver_19, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.44.05
+[2016.01.26-20.44.05:301][946]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_19
+[2016.01.26-20.44.05:302][946]LogNet: DestroyNamedNetDriver IpNetDriver_19 [PendingNetDriver]
+[2016.01.26-20.44.05:302][946]LogExit: PendingNetDriver IpNetDriver_19 shut down
+[2016.01.26-20.44.05:303][946]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.44.05:303][946]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.44.05:304][946]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.44.05:315][947]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.05:513][968]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.05:607][978]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.44.05:607][978]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.44.05:720][990]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.05:922][ 12]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.06:126][ 34]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.06:311][ 54]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.06:511][ 76]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.06:719][ 99]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.06:758][103]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.44.06:759][103]LogNet: UNetConnection::Close: Name: IpConnection_20, Driver: PendingNetDriver IpNetDriver_20, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.44.06
+[2016.01.26-20.44.06:759][103]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_20
+[2016.01.26-20.44.06:760][103]LogNet: DestroyNamedNetDriver IpNetDriver_20 [PendingNetDriver]
+[2016.01.26-20.44.06:760][103]LogExit: PendingNetDriver IpNetDriver_20 shut down
+[2016.01.26-20.44.06:761][103]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.44.06:761][103]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.44.06:762][103]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.44.06:771][104]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.06:973][126]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.07:039][133]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.44.07:040][133]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.44.07:181][148]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.07:327][164]LogNet: Browse: 192.168.1.103:0//Game/FirstPersonCPP/Maps/MainMenu
+[2016.01.26-20.44.07:327][164]LogNet: UNetConnection::Close: Name: IpConnection_21, Driver: PendingNetDriver IpNetDriver_21, PC: NULL, Owner: NULL, Channels: 2, RemoteAddr: 192.168.1.103:0, Time: 2016.01.26-20.44.07
+[2016.01.26-20.44.07:327][164]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_21
+[2016.01.26-20.44.07:328][164]LogNet: DestroyNamedNetDriver IpNetDriver_21 [PendingNetDriver]
+[2016.01.26-20.44.07:328][164]LogExit: PendingNetDriver IpNetDriver_21 shut down
+[2016.01.26-20.44.07:329][164]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.01.26-20.44.07:329][164]LogNet: Game client on port 0, rate 10000
+[2016.01.26-20.44.07:330][164]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2707645, ProjectName: lostage, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 4161370921
+[2016.01.26-20.44.07:338][165]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.07:537][187]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.07:742][210]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.07:945][231]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.08:146][252]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[2016.01.26-20.44.08:289][267]LogOnline:Warning: NULL: Session (Game) already exists, can't join twice
+[2016.01.26-20.44.08:290][267]LogBlueprintUserMessages: [GameInstanceBP_C_1] Failed to join
+[2016.01.26-20.44.08:342][273]LogNet:Warning: Incoming ip address doesn't match expected server address: Actual: 0.0.0.0:0 Expected: 192.168.1.103:0
+[201

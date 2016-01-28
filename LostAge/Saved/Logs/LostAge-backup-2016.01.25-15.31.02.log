@@ -1,0 +1,85 @@
+﻿[2016.01.25-20.30.31:232][  0]Log file open, 01/25/16 15:30:31
+[2016.01.25-20.30.31:232][  0]LogInit:Display: Running engine for game: LostAge
+[2016.01.25-20.30.31:232][  0]LogInit:Display: RandInit(1706876332) SRandInit(1706876332).
+[2016.01.25-20.30.31:232][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.25-20.30.31:233][  0]LogStats: Stats thread started at 0.162012
+[2016.01.25-20.30.31:233][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.25-20.30.31:233][  0]LogInit: API Version: 2672455
+[2016.01.25-20.30.31:233][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.25-20.30.31:233][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.25-20.30.31:234][  0]LogInit: Build Configuration: Development
+[2016.01.25-20.30.31:234][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.25-20.30.31:234][  0]LogInit: Command line: 
+[2016.01.25-20.30.31:234][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.25-20.30.31:235][  0]LogInit: Rocket: 1
+[2016.01.25-20.30.31:254][  0]LogInit: Using libcurl 7.41.0
+[2016.01.25-20.30.31:254][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.25-20.30.31:254][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.25-20.30.31:255][  0]LogInit:  - other features:
+[2016.01.25-20.30.31:255][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.25-20.30.31:255][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.25-20.30.31:255][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.25-20.30.31:255][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.25-20.30.31:256][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.25-20.30.31:256][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.25-20.30.31:256][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.25-20.30.31:256][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.25-20.30.31:257][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.25-20.30.31:257][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.25-20.30.31:289][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.25-20.30.31:297][  0]LogInit: Object subsystem initialized
+[2016.01.25-20.30.31:299][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.25-20.30.31:299][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.25-20.30.31:307][  0]LogInit: Computer: FREDERIC-PC
+[2016.01.25-20.30.31:307][  0]LogInit: User: frederic
+[2016.01.25-20.30.31:308][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.25-20.30.31:308][  0]LogInit: High frequency timer resolution =3.331269 MHz
+[2016.01.25-20.30.31:308][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.01.25-20.30.31:308][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.25-20.30.31:308][  0]LogMemory: Process Physical Memory: 53.52 MB used, 53.52 MB peak
+[2016.01.25-20.30.31:309][  0]LogMemory: Process Virtual Memory: 57.44 MB used, 57.44 MB peak
+[2016.01.25-20.30.31:309][  0]LogMemory: Physical Memory: 9324.77 MB used, 16288.39 MB total
+[2016.01.25-20.30.31:309][  0]LogMemory: Virtual Memory: 332.55 MB used, 8388608.00 MB total
+[2016.01.25-20.30.31:420][  0]LogTextLocalizationManager: No translations for ('fr-CA') exist, falling back to 'en' for localization and internationalization data.
+[2016.01.25-20.30.32:132][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.01.25-20.30.32:133][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 7888MB of shared system memory, 1 output[s]
+[2016.01.25-20.30.32:142][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2016.01.25-20.30.32:142][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.01.25-20.30.32:143][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.25-20.30.32:149][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.25-20.30.32:149][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.25-20.30.32:198][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.25-20.30.32:214][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Intermediate/Shaders/WorkingDirectory/5624/).
+[2016.01.25-20.30.32:215][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Intermediate/Shaders/tmp/2DEEB87D4A4B05C09FCF30A6A86E9187/'.
+[2016.01.25-20.30.32:215][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.25-20.30.33:342][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.25-20.30.33:357][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.25-20.30.33:371][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.25-20.30.33:387][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.25-20.30.33:403][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.25-20.30.33:410][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.25-20.30.33:417][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.25-20.30.33:423][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.25-20.30.33:430][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.25-20.30.33:439][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.25-20.30.33:446][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.25-20.30.33:453][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.25-20.30.33:457][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.25-20.30.33:488][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.25-20.30.33:494][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.25-20.30.33:501][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.25-20.30.33:508][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.25-20.30.33:508][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.25-20.30.33:723][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.25-20.30.33:768][  0]LogDerivedDataCache: Loaded boot cache 0.04s 43MB C:/Users/frederic/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.25-20.30.33:769][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/frederic/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.25-20.30.33:769][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.25-20.30.33:769][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.25-20.30.33:770][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.25-20.30.33:770][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.25-20.30.33:909][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.25-20.30.33:922][  0]LogDerivedDataCache: Using Local data cache path C:/Users/frederic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.25-20.30.34:107][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.25-20.30.34:108][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.25-20.30.34:143][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.25-20.30.34:144][  0]LogMeshUtilities: N

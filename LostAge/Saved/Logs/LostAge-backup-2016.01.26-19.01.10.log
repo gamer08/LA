@@ -1,0 +1,191 @@
+﻿[2016.01.26-23.59.13:817][  0]Log file open, 01/26/16 18:59:13
+[2016.01.26-23.59.13:817][  0]LogInit:Display: Running engine for game: LostAge
+[2016.01.26-23.59.13:818][  0]LogInit:Display: RandInit(-895851583) SRandInit(-895851583).
+[2016.01.26-23.59.13:818][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.01.26-23.59.13:818][  0]LogStats: Stats thread started at 0.152433
+[2016.01.26-23.59.13:818][  0]LogInit: Version: 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.26-23.59.13:818][  0]LogInit: API Version: 2672455
+[2016.01.26-23.59.13:819][  0]LogInit: Compiled (64-bit): Sep 28 2015 10:25:44
+[2016.01.26-23.59.13:819][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2016.01.26-23.59.13:819][  0]LogInit: Build Configuration: DebugGame
+[2016.01.26-23.59.13:819][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.9
+[2016.01.26-23.59.13:820][  0]LogInit: Command line:  -debug
+[2016.01.26-23.59.13:820][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.9/Engine/Binaries/Win64/
+[2016.01.26-23.59.13:820][  0]LogInit: Rocket: 1
+[2016.01.26-23.59.13:859][  0]LogInit: Using libcurl 7.41.0
+[2016.01.26-23.59.13:860][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.26-23.59.13:860][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.26-23.59.13:860][  0]LogInit:  - other features:
+[2016.01.26-23.59.13:861][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.26-23.59.13:861][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.26-23.59.13:861][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.26-23.59.13:861][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.26-23.59.13:862][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.26-23.59.13:862][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.26-23.59.13:862][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.26-23.59.13:862][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.26-23.59.13:863][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.26-23.59.13:863][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.26-23.59.13:925][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.26-23.59.13:939][  0]LogVoice:Warning: Failed to initialize voice interface
+[2016.01.26-23.59.13:945][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.26-23.59.13:953][  0]LogInit: Object subsystem initialized
+[2016.01.26-23.59.13:955][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.26-23.59.13:955][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.26-23.59.13:963][  0]LogInit: Computer: FREDERIC-PC
+[2016.01.26-23.59.13:963][  0]LogInit: User: frederic
+[2016.01.26-23.59.13:963][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.01.26-23.59.13:964][  0]LogInit: High frequency timer resolution =3.331240 MHz
+[2016.01.26-23.59.13:964][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.01.26-23.59.13:964][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.26-23.59.13:964][  0]LogMemory: Process Physical Memory: 55.07 MB used, 55.07 MB peak
+[2016.01.26-23.59.13:964][  0]LogMemory: Process Virtual Memory: 55.74 MB used, 55.74 MB peak
+[2016.01.26-23.59.13:965][  0]LogMemory: Physical Memory: 7206.08 MB used, 16288.39 MB total
+[2016.01.26-23.59.13:965][  0]LogMemory: Virtual Memory: 337.63 MB used, 8388608.00 MB total
+[2016.01.26-23.59.14:053][  0]LogTextLocalizationManager: No translations for ('fr-CA') exist, falling back to 'en' for localization and internationalization data.
+[2016.01.26-23.59.14:742][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2016.01.26-23.59.14:742][  0]LogD3D11RHI: Adapter has 4008MB of dedicated video memory, 0MB of dedicated system memory, and 7888MB of shared system memory, 1 output[s]
+[2016.01.26-23.59.14:751][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2016.01.26-23.59.14:751][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 0 output[s]
+[2016.01.26-23.59.14:751][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.26-23.59.14:756][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.26-23.59.14:757][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.26-23.59.14:803][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.26-23.59.14:819][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Intermediate/Shaders/WorkingDirectory/6628/).
+[2016.01.26-23.59.14:820][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Intermediate/Shaders/tmp/9AFBA43443754261F7AD0A81614366D5/'.
+[2016.01.26-23.59.14:820][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.26-23.59.16:020][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.26-23.59.16:038][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.26-23.59.16:057][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.26-23.59.16:076][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.26-23.59.16:096][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.26-23.59.16:104][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.26-23.59.16:111][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.26-23.59.16:118][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.26-23.59.16:126][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.26-23.59.16:135][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.26-23.59.16:143][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.26-23.59.16:151][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.26-23.59.16:156][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.26-23.59.16:189][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.26-23.59.16:196][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.26-23.59.16:203][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.26-23.59.16:210][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.26-23.59.16:211][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.26-23.59.16:454][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.26-23.59.16:500][  0]LogDerivedDataCache: Loaded boot cache 0.05s 42MB C:/Users/frederic/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.26-23.59.16:501][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/frederic/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc
+[2016.01.26-23.59.16:502][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.26-23.59.16:502][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.26-23.59.16:502][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.26-23.59.16:502][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.26-23.59.16:647][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.26-23.59.16:660][  0]LogDerivedDataCache: Using Local data cache path C:/Users/frederic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.26-23.59.16:853][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.26-23.59.16:854][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.26-23.59.16:892][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.26-23.59.16:893][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.26-23.59.18:376][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.26-23.59.23:811][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2016.01.26-23.59.24:189][  0]SourceControl: Info Source control is disabled
+[2016.01.26-23.59.24:191][  0]SourceControl: Info Source control is disabled
+[2016.01.26-23.59.24:211][  0]SourceControl: Info Source control is disabled
+[2016.01.26-23.59.24:230][  0]SourceControl: Info Source control is disabled
+[2016.01.26-23.59.24:413][  0]LogLinker:Warning: Asset '../../../Engine/Plugins/Runtime/LeapMotionController/Content/LM_PassthroughMaterial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.26-23.59.24:513][  0]LogObj: 31829 objects as part of root set at end of initial load.
+[2016.01.26-23.59.24:514][  0]LogUObjectAllocator: 7266512 out of 0 bytes used by permanent object pool.
+[2016.01.26-23.59.24:598][  0]LogEngine: Initializing Engine...
+[2016.01.26-23.59.24:601][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.7.0.0
+[2016.01.26-23.59.24:604][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.26-23.59.24:755][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.26-23.59.24:770][  0]LogInit: XAudio2 using 'Haut-parleurs (USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.26-23.59.24:789][  0]LogInit: FAudioDevice initialized.
+[2016.01.26-23.59.24:814][  0]LogDerivedDataCache: Saved boot cache 0.02s 42MB C:/Users/frederic/AppData/Local/UnrealEngine/4.9/DerivedDataCache/Boot.ddc.
+[2016.01.26-23.59.24:820][  0]LogInit: Texture streaming: Enabled
+[2016.01.26-23.59.24:838][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.26-23.59.24:839][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.9.2-2707645+++depot+UE4-Releases+4.9
+[2016.01.26-23.59.24:839][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId c8da8d664a36a98701fe659c10ae4ff8|70626fa7f476448fb82ad9618fbbb1ab|00e7fb16-00c3-4af4-a2a1-2cc8013aae38
+[2016.01.26-23.59.24:840][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.26-23.59.24:860][  0]LogInit: Transaction tracking system initialized
+[2016.01.26-23.59.24:984][  0]BlueprintLog: New page: Editor Load
+[2016.01.26-23.59.25:440][  0]LocalizationService: Info Localization service is disabled
+[2016.01.26-23.59.25:627][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonCPP/ThirdPersonOverview'
+[2016.01.26-23.59.25:627][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonCPP/ThirdPersonOverview'
+[2016.01.26-23.59.25:628][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonCPP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2016.01.26-23.59.25:662][  0]LogConsoleResponse:Display: 
+[2016.01.26-23.59.25:814][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.26-23.59.26:024][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frederic/Documents/Unreal Projects/LostAge/Content/' took 0.01s
+[2016.01.26-23.59.26:024][  0]SourceControl: Info Source control is disabled
+[2016.01.26-23.59.26:025][  0]Cmd: MAP LOAD FILE="../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Content/FirstPersonCPP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.26-23.59.26:025][  0]LightingResults: New page: Lighting Build
+[2016.01.26-23.59.26:031][  0]MapCheck: New page: Map Check
+[2016.01.26-23.59.26:031][  0]LightingResults: New page: Lighting Build
+[2016.01.26-23.59.26:044][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000233B6480
+[2016.01.26-23.59.26:049][  0]LogAIModule: Creating AISystem for world MainMenu
+[2016.01.26-23.59.26:051][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.26-23.59.26:052][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.26-23.59.26:096][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.071ms to complete.
+[2016.01.26-23.59.26:097][  0]LogFileHelpers: Loading map 'MainMenu' took 0.072
+[2016.01.26-23.59.26:205][  0]LogCollectionManager: Loaded 0 collections in 0.002403 seconds
+[2016.01.26-23.59.26:251][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frederic/Documents/Unreal Projects/LostAge/Saved/Collections/' took 0.01s
+[2016.01.26-23.59.26:251][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frederic/Documents/Unreal Projects/LostAge/Content/Developers/frederic/Collections/' took 0.01s
+[2016.01.26-23.59.26:252][  0]LogFileCache: Scanning file cache for directory 'C:/Users/frederic/Documents/Unreal Projects/LostAge/Content/Collections/' took 0.01s
+[2016.01.26-23.59.26:252][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 1875 classes and 335 folders.
+[2016.01.26-23.59.26:262][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.01.26-23.59.26:278][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0039 seconds. Added 0 classes and 0 folders.
+[2016.01.26-23.59.26:345][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0020 seconds. Added 0 classes and 0 folders.
+[2016.01.26-23.59.26:370][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2016.01.26-23.59.26:403][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.26-23.59.26:407][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.26-23.59.26:430][  0]LogLoad: Full Startup: 13.63 seconds (BP compile: 0.44 seconds)
+[2016.01.26-23.59.26:526][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.01.26-23.59.26:674][  2]LogRenderer: Reallocating scene render targets to support 972x516 (Frame:2).
+[2016.01.26-23.59.26:857][  3]LogAssetRegistry: Asset discovery search completed in 3.0562 seconds
+[2016.01.26-23.59.26:858][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.01.26-23.59.26:858][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000358 seconds (updated 0 objects)
+[2016.01.26-23.59.28:491][171]LogSavePackage: Save=7.828316ms
+[2016.01.26-23.59.28:492][171]LogSavePackage: Moving '../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Saved/UEDPCMainMenuFDB0DBBF41FE5995699A60A8202230AE.tmp' to '../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Saved/Autosaves/Game/FirstPersonCPP/Maps/UEDPCMainMenu.umap'
+[2016.01.26-23.59.28:494][171]LogSavePackage: Total save time: 16.377084ms
+[2016.01.26-23.59.28:495][171]LogSavePackage:Warning: Finished SavePackage ../../../../../../Users/frederic/Documents/Unreal Projects/LostAge/Saved/Autosaves/Game/FirstPersonCPP/Maps/UEDPCMainMenu.umap
+[2016.01.26-23.59.47:106][752]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.26-23.59.47:106][752]PIE: New page: PIE session: MainMenu (Jan 26, 2016, 1:59:47 PM)
+[2016.01.26-23.59.47:164][752]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu
+[2016.01.26-23.59.47:165][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000525s)
+[2016.01.26-23.59.47:166][752]LogAIModule: Creating AISystem for world MainMenu
+[2016.01.26-23.59.47:166][752]LogPlayLevel: PIE: World Init took: (0.001222s)
+[2016.01.26-23.59.47:167][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/MainMenu.MainMenu to /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu (0.002996s)
+[2016.01.26-23.59.47:188][752]LogInit: XAudio2 using 'Haut-parleurs (USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.01.26-23.59.47:191][752]LogInit: FAudioDevice initialized.
+[2016.01.26-23.59.47:239][752]LogWorld: Game class is 'LostAgeGameMode'
+[2016.01.26-23.59.50:347][752]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 3) at 2016.01.26-18.59.50
+[2016.01.26-23.59.50:347][752]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-23.59.50:348][752]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-23.59.50:349][752]LogWorld: Bringing up level for play took: 0.002424
+[2016.01.26-23.59.50:360][752]LogVoice:Warning: Failed to initialize voice interface
+[2016.01.26-23.59.50:515][752]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.01.26-23.59.50:674][752]PIE: Info Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_MainMenu 2.936
+[2016.01.26-23.59.52:586][863]LogInit: WinSock: I am frederic-PC (192.168.1.103:0)
+[2016.01.26-23.59.52:638][863]LogPackageName: SearchForPackageOnDisk took   0.051s to resolve FirstPersonExampleMap.umap.
+[2016.01.26-23.59.52:690][863]LogPackageName: SearchForPackageOnDisk took   0.050s to resolve FirstPersonExampleMap.umap.
+[2016.01.26-23.59.52:690][863]LogNet: Browse: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?listen
+[2016.01.26-23.59.52:691][863]LogLoad: LoadMap: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?listen
+[2016.01.26-23.59.52:706][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002C3F0900
+[2016.01.26-23.59.52:710][863]Cmd: MEM
+[2016.01.26-23.59.52:724][863]LogMemory: Platform Memory Stats for Windows
+[2016.01.26-23.59.52:725][863]LogMemory: Process Physical Memory: 571.14 MB used, 572.98 MB peak
+[2016.01.26-23.59.52:725][863]LogMemory: Process Virtual Memory: 934.30 MB used, 934.31 MB peak
+[2016.01.26-23.59.52:725][863]LogMemory: Physical Memory: 9706.53 MB used, 16288.39 MB total
+[2016.01.26-23.59.52:726][863]LogMemory: Virtual Memory: 1605.28 MB used, 8388608.00 MB total
+[2016.01.26-23.59.52:726][863]LogMemory: 
+[2016.01.26-23.59.52:726][863]Allocator Stats for TBB: (not implemented)
+[2016.01.26-23.59.53:683][863]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.01.26-23.59.53:684][863]LogWorld: Game class is 'LostAgeGameMode'
+[2016.01.26-23.59.56:291][863]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.01.26-23.59.56:295][863]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2016.01.26-23.59.56:327][863]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 3) at 2016.01.26-18.59.56
+[2016.01.26-23.59.56:328][863]LogActor:Warning: GameSession /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-23.59.56:329][863]LogActor:Warning: GameNetworkManager /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.26-23.59.56:329][863]LogWorld: Bringing up level for play took: 0.033756
+[2016.01.26-23.59.57:746][863]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
+[2016.01.27-00.00.07:162][ 57]LogPackageName: SearchForPackageOnDisk took   0.060s to resolve MainMenu.umap.
+[2016.01.27-00.00.07:220][ 58]LogPackageName: SearchForPackageOnDisk took   0.053s to resolve MainMenu.umap.
