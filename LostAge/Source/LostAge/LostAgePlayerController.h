@@ -16,7 +16,7 @@ class LOSTAGE_API ALostAgePlayerController : public APlayerController
 	
 private:
 
-	ALostAgeCharacter* _pawn;
+	//ALostAgeCharacter* _pawn;
 
 	float _cameraRotationSpeed;
 

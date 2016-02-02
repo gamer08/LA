@@ -4,6 +4,7 @@
 #include "LostAgePlayerController.h"
 #include "LostAgePlayerCameraManager.h"
 #include "LostAgeGameInstance.h"
+#include "LostAgeHUD.h"
 #include "GameFramework/InputSettings.h"
 
 ALostAgePlayerController::ALostAgePlayerController()
@@ -15,7 +16,7 @@ ALostAgePlayerController::ALostAgePlayerController()
 void ALostAgePlayerController::Possess(APawn* pawn)
 {
 	// cast plus rapide, mais lance une exception si null - dans le cas présent je suis toujours sur que pawn est un APawn donc ca va
-	_pawn = CastChecked<ALostAgeCharacter>(pawn);
+	//_pawn = CastChecked<ALostAgeCharacter>(pawn);
 
 	Super::Possess(pawn);
 }
@@ -24,8 +25,26 @@ void ALostAgePlayerController::BeginPlay()
 {
 	Super::BeginPlay();
 
-	FInputModeGameOnly inputMode = FInputModeGameOnly();
-	this->SetInputMode(inputMode);
+	UWorld* world = GetWorld();
+	if (world && !world->GetName().Equals(FString("MainMenu")))
+	{
+		this->bShowMouseCursor = false;
+		this->bEnableClickEvents = false;
+	    this->bEnableMouseOverEvents = false;
+		FInputModeGameOnly inputMode = FInputModeGameOnly();
+		this->SetInputMode(inputMode);
+		ClientSetHUD(ALostAgeHUD::StaticClass());
+	}
+	else
+	{
+		this->bShowMouseCursor = true;
+		this->bEnableClickEvents = true;
+	    this->bEnableMouseOverEvents = true;
+		FInputModeUIOnly inputMode = FInputModeUIOnly();
+		this->SetInputMode(inputMode);
+	}
+
+	SetControlRotation(FRotator(0));
 }
 
 void ALostAgePlayerController::SetupInputComponent()
@@ -45,7 +64,6 @@ void ALostAgePlayerController::SetupInputComponent()
 
 	InputComponent->BindAxis("Turn", this, &ALostAgePlayerController::Turn);
 	InputComponent->BindAxis("LookUp", this, &ALostAgePlayerController::LookUp);
-
 }
 
 void ALostAgePlayerController::MoveForward(float value)
@@ -70,11 +88,11 @@ void ALostAgePlayerController::Turn(float value)
 {
 	if (APawn* pawn = GetPawn())
 	{
-		//if (value != 0.0f)
-		//{
-			Cast<ALostAgePlayerCameraManager>(PlayerCameraManager)->UpdateYaw(value * GetWorld()->GetDeltaSeconds() * _cameraRotationSpeed);
-			CastChecked<ALostAgeCharacter>(pawn)->Turn(value * GetWorld()->GetDeltaSeconds() * _cameraRotationSpeed);
-		//}
+		if (value != 0.0f)
+		{
+			Cast<ALostAgePlayerCameraManager>(PlayerCameraManager)->UpdateYaw(value * GetWorld()->GetDeltaSeconds() * _cameraRotationSpeed * InputYawScale);
+			AddYawInput(value * GetWorld()->GetDeltaSeconds() * _cameraRotationSpeed);
+		}
 	}
 }
 
@@ -84,11 +102,11 @@ void ALostAgePlayerController::LookUp(float value)
 
 	if (APawn* pawn = GetPawn())
 	{
-		//if (value != 0)
-		//{
-			Cast<ALostAgePlayerCameraManager>(PlayerCameraManager)->UpdatePitch(-1 * value * GetWorld()->GetDeltaSeconds() * _cameraRotationSpeed);
-			CastChecked<ALostAgeCharacter>(pawn)->LookUp(-1 * value * GetWorld()->GetDeltaSeconds() * _cameraRotationSpeed);
-		//}
+		if (value != 0.0f)
+		{
+			Cast<ALostAgePlayerCameraManager>(PlayerCameraManager)->UpdatePitch(value * GetWorld()->GetDeltaSeconds() * _cameraRotationSpeed * InputPitchScale);
+			AddPitchInput(value * GetWorld()->GetDeltaSeconds() * _cameraRotationSpeed);
+		}
 	}
 }
 
@@ -111,4 +129,3 @@ void ALostAgePlayerController::LeaveToMainMenu()
 		gameInstance->LoadMainMenu(this);
 	}
 }
-

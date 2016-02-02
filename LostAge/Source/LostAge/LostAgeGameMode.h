@@ -25,7 +25,7 @@ public:
 private:
 	void SetupGameModeWithCustomClasses();
 
-	TSubclassOf<class APawn> _pawnClass;
+	//TSubclassOf<class APawn> _pawnClass;
 
 };
 

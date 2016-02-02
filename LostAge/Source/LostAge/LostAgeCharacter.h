@@ -20,26 +20,22 @@ protected:
 
 	void MoveSide(float value);
 
-	void Turn(float value);
-
-	void LookUp(float value);
-
 	void Jump();
 
 	void StopJumping();
 
 private:
 
-	
 	float _minPitch, _maxPitch;
 
 	void Tick(float deltaTime) override;
 
 	void BeginPlay() override;
-	
-	void InitActionOnObjectDelegate();
 
-	void LimitPitch(FRotator& rotation, float minPitch, float maxPitch);
+	UFUNCTION(Server,Reliable,WithValidation)
+	void CallStopJumpOnServer();
 
+	UFUNCTION(NetMulticast ,Reliable,WithValidation)
+	void MultiCastStopJumpToClients();
 };
 

@@ -11,16 +11,19 @@ DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
 ALostAgeCharacter::ALostAgeCharacter()
 {
-	/*if (!HasAnyFlags(RF_ClassDefaultObject | RF_ArchetypeObject))
-	{*/
+	if (!HasAnyFlags(RF_ClassDefaultObject | RF_ArchetypeObject))
+	{
 		GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
 
 		_minPitch = -89.0f;
 		_maxPitch = 89.0f;
 
+		bUseControllerRotationYaw = true;
+		bUseControllerRotationPitch = true;
 		
-		PrimaryActorTick.bCanEverTick = true;
-	//}
+		//Désactiver pour l'instant à réactiver au besoin
+		PrimaryActorTick.bCanEverTick = false;
+	}
 }
 
 void ALostAgeCharacter::BeginPlay()
@@ -29,7 +32,6 @@ void ALostAgeCharacter::BeginPlay()
 
 	FRotator rot = FRotator(0);
 	SetActorRotation(rot);
-
 }
 
 void ALostAgeCharacter::Tick(float deltaTime)
@@ -55,33 +57,40 @@ void ALostAgeCharacter::MoveSide(float value)
 	AddMovementInput(Direction, value);
 }
 
-void ALostAgeCharacter::Turn(float value)
-{
-	FRotator actorRotation = GetActorRotation();
-	actorRotation.Yaw += value;
-	SetActorRotation(actorRotation);
-}
-
-void ALostAgeCharacter::LookUp(float value)
-{
-	FRotator actorRotation = GetActorRotation();
-	actorRotation.Pitch += value;
-	LimitPitch(actorRotation, _minPitch, _maxPitch);
-	SetActorRotation(actorRotation);
-}
-
 void ALostAgeCharacter::Jump()
 {
 	ACharacter::Jump();
 }
 
+// si HasAuthority retourne true c'est la version serveur sinon client (Dans la pluspart des cas mais pas tout le temps)
 void ALostAgeCharacter::StopJumping()
+{
+	/*if (HasAuthority())
+		MultiCastStopJumpToClients();
+	else
+	{*/
+		ACharacter::StopJumping();
+	/*	CallStopJumpOnServer();
+	}*/
+}
+
+//Stop Jump exemple de runOnServer et multiCast
+void ALostAgeCharacter::CallStopJumpOnServer_Implementation()
 {
 	ACharacter::StopJumping();
 }
 
-void ALostAgeCharacter::LimitPitch(FRotator& rotation, float minPitch, float maxPitch)
+bool ALostAgeCharacter::CallStopJumpOnServer_Validate()
 {
-	rotation.Pitch = FMath::ClampAngle(rotation.Pitch, minPitch, maxPitch);
-	rotation.Pitch = FRotator::ClampAxis(rotation.Pitch);
+	return true;
+}
+
+void ALostAgeCharacter::MultiCastStopJumpToClients_Implementation()
+{
+	ACharacter::StopJumping();
+}
+
+bool ALostAgeCharacter::MultiCastStopJumpToClients_Validate()
+{
+	return true;
 }
