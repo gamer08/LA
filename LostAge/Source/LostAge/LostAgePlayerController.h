@@ -44,4 +44,7 @@ public:
 	}
 	
 	virtual void Possess(APawn* aPawn) override;
+
+	UFUNCTION(Server, Reliable, WithValidation, Category = "PlayableClass" )
+	void RequestReleasePlayableClass(AController* controller);
 };

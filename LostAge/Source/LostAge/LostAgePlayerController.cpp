@@ -5,6 +5,7 @@
 #include "LostAgePlayerCameraManager.h"
 #include "LostAgeGameInstance.h"
 #include "LostAgeHUD.h"
+#include "LostAgeGameMode.h"
 #include "GameFramework/InputSettings.h"
 
 ALostAgePlayerController::ALostAgePlayerController()
@@ -124,8 +125,38 @@ void ALostAgePlayerController::StopJumping()
 
 void ALostAgePlayerController::LeaveToMainMenu()
 {
+	RequestReleasePlayableClass(this);
 	if (ULostAgeGameInstance* gameInstance = Cast<ULostAgeGameInstance>(GetGameInstance()))
 	{
 		gameInstance->LoadMainMenu(this);
 	}
+
+}
+
+void ALostAgePlayerController::RequestReleasePlayableClass_Implementation(AController* controller)
+{
+	if (HasAuthority())
+	{
+		/*if (UWorld* world = GetWorld())
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("1"));
+
+			if (ALostAgeGameMode* gameMode = Cast<ALostAgeGameMode>(world->GetAuthGameMode()))
+			{
+				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("2"));
+
+				gameMode->Server_RequestReleasePlayableClass(this);
+			}
+		}*/
+
+		if (ULostAgeGameInstance* gameInstance = Cast<ULostAgeGameInstance>(GetGameInstance()))
+		{
+			gameInstance->ReleasePlayableClass(controller);
+		}
+	}
+}
+
+bool ALostAgePlayerController::RequestReleasePlayableClass_Validate(AController* controller)
+{
+	return true;
 }

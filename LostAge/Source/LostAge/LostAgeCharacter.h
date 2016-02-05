@@ -16,6 +16,8 @@ public:
 
 protected:
 
+	FString _playableClassName;
+
 	void MoveForward(float value);
 
 	void MoveSide(float value);
