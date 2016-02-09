@@ -23,10 +23,11 @@ void ULostAgeGameInstance::SetClassChossed(AController* controller, FString clas
 		{
 			FString playerId = controller->PlayerState->UniqueId.GetUniqueNetId().Get()->ToString();
 
-			_playerRoles.Emplace(playerId, "Server");
+			//_playerRoles.Emplace(playerId, "Server");
 			
 			info._isAvailable = false;
 			info._ownerID = playerId;
+			info._ownerRole = PlayerRole::SERVER;
 			break;
 		}
 	}
@@ -44,10 +45,11 @@ FString ULostAgeGameInstance::GetPawnClass(FString playerUniqueID, AController* 
 	{
 		if (info._isAvailable)
 		{
-			_playerRoles.Emplace(playerUniqueID, "Client");
+			//_playerRoles.Emplace(playerUniqueID, "Client");
 
 			info._isAvailable = false;
 			info._ownerID = playerUniqueID;
+			info._ownerRole = PlayerRole::CLIENT;
 			return info._playableClassName;
 		}
 	}
@@ -58,7 +60,29 @@ FString ULostAgeGameInstance::GetPawnClass(FString playerUniqueID, AController* 
 void ULostAgeGameInstance::ReleasePlayableClass_Implementation(AController* controller)
 {
 	FString playerId = controller->PlayerState->UniqueId.GetUniqueNetId().Get()->ToString();
-	if (_playerRoles.Contains(playerId))
+	FLostPlayerClassInfo find = GetClassInfoByPlayerID(playerId);
+	
+	if (!find._ownerID.IsEmpty())
+	{
+		switch (find._ownerRole)
+		{
+			case PlayerRole::SERVER:
+				ReleaseAllPlayableClassesInfo();
+				break;
+
+			case PlayerRole::CLIENT:
+				ReleasePlayableClassOfController(controller);
+				break;
+
+			default:
+				break;
+		}
+	}
+	else
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Don't know this player"));
+
+
+	/*if (_playerRoles.Contains(playerId))
 	{
 		if (_playerRoles[playerId].Equals(FString("Server")))
 			ReleaseAllPlayableClassesInfo();
@@ -66,7 +90,7 @@ void ULostAgeGameInstance::ReleasePlayableClass_Implementation(AController* cont
 			ReleasePlayableClassOfController(controller);
 	}
 	else
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Don't know this player"));
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Don't know this player"));*/
 
 }
 
@@ -85,7 +109,8 @@ void ULostAgeGameInstance::ReleasePlayableClassOfController_Implementation(ACont
 		{
 			info._isAvailable = true;
 			info._ownerID = FString();
-			_playerRoles.Remove(idToRelease);
+			info._ownerRole = PlayerRole::SERVER;
+			//_playerRoles.Remove(idToRelease);
 			break;
 		}
 	}
@@ -102,12 +127,24 @@ void ULostAgeGameInstance::ReleaseAllPlayableClassesInfo_Implementation()
 	{
 		info._isAvailable = true;
 		info._ownerID = FString();
+		info._ownerRole = PlayerRole::SERVER;
 	}
 
-	_playerRoles.Empty();
+	//_playerRoles.Empty();
 }
 
 bool ULostAgeGameInstance::ReleaseAllPlayableClassesInfo_Validate()
 {
 	return true;
+}
+
+FLostPlayerClassInfo ULostAgeGameInstance::GetClassInfoByPlayerID(FString playerID)
+{
+	for (FLostPlayerClassInfo& info : _playableClassesInfo)
+	{
+		if (info._ownerID.Equals(playerID))
+			return info;
+	}
+
+	return FLostPlayerClassInfo();
 }

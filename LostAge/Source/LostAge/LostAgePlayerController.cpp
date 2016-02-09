@@ -16,9 +16,6 @@ ALostAgePlayerController::ALostAgePlayerController()
 
 void ALostAgePlayerController::Possess(APawn* pawn)
 {
-	// cast plus rapide, mais lance une exception si null - dans le cas présent je suis toujours sur que pawn est un APawn donc ca va
-	//_pawn = CastChecked<ALostAgeCharacter>(pawn);
-
 	Super::Possess(pawn);
 }
 
@@ -128,27 +125,17 @@ void ALostAgePlayerController::LeaveToMainMenu()
 	RequestReleasePlayableClass(this);
 	if (ULostAgeGameInstance* gameInstance = Cast<ULostAgeGameInstance>(GetGameInstance()))
 	{
-		gameInstance->LoadMainMenu(this);
+		if (HasAuthority())
+			SendLeaveOrderToEveryone();
+		else
+			gameInstance->LoadMainMenu(this);
 	}
-
 }
 
 void ALostAgePlayerController::RequestReleasePlayableClass_Implementation(AController* controller)
 {
 	if (HasAuthority())
 	{
-		/*if (UWorld* world = GetWorld())
-		{
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("1"));
-
-			if (ALostAgeGameMode* gameMode = Cast<ALostAgeGameMode>(world->GetAuthGameMode()))
-			{
-				GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("2"));
-
-				gameMode->Server_RequestReleasePlayableClass(this);
-			}
-		}*/
-
 		if (ULostAgeGameInstance* gameInstance = Cast<ULostAgeGameInstance>(GetGameInstance()))
 		{
 			gameInstance->ReleasePlayableClass(controller);
@@ -157,6 +144,17 @@ void ALostAgePlayerController::RequestReleasePlayableClass_Implementation(AContr
 }
 
 bool ALostAgePlayerController::RequestReleasePlayableClass_Validate(AController* controller)
+{
+	return true;
+}
+
+void ALostAgePlayerController::SendLeaveOrderToEveryone_Implementation()
+{
+	if (ULostAgeGameInstance* gameInstance = Cast<ULostAgeGameInstance>(GetGameInstance()))
+		gameInstance->LoadMainMenu(this);
+}
+
+bool ALostAgePlayerController::SendLeaveOrderToEveryone_Validate()
 {
 	return true;
 }

@@ -16,8 +16,6 @@ class LOSTAGE_API ALostAgePlayerController : public APlayerController
 	
 private:
 
-	//ALostAgeCharacter* _pawn;
-
 	float _cameraRotationSpeed;
 
 	void MoveForward(float value);
@@ -47,4 +45,7 @@ public:
 
 	UFUNCTION(Server, Reliable, WithValidation, Category = "PlayableClass" )
 	void RequestReleasePlayableClass(AController* controller);
+
+	UFUNCTION(NetMulticast, Reliable, WithValidation, Category = "PlayableClass" )
+	void SendLeaveOrderToEveryone();
 };

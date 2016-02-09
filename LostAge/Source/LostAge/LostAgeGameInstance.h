@@ -7,6 +7,11 @@
 
 class ALostAgePlayerController;
 
+enum class PlayerRole
+{
+	SERVER = 0,
+	CLIENT = 1
+};
 
 USTRUCT()
 struct FLostPlayerClassInfo
@@ -22,11 +27,14 @@ struct FLostPlayerClassInfo
 	UPROPERTY()
 	FString _ownerID;
 
+	PlayerRole _ownerRole;
+
 	FLostPlayerClassInfo()
 	{
 		_playableClassName = FString();
 		_isAvailable = true;
 		_ownerID = FString();
+		_ownerRole = PlayerRole::SERVER;
 	}
 
 	FLostPlayerClassInfo(FString className)
@@ -34,6 +42,7 @@ struct FLostPlayerClassInfo
 		_playableClassName = className;
 		_isAvailable = true;
 		_ownerID = FString();
+		_ownerRole = PlayerRole::SERVER;
 	}
 };
 
@@ -44,13 +53,15 @@ class LOSTAGE_API ULostAgeGameInstance : public UGameInstance
 	
 private:
 	TArray<FLostPlayerClassInfo> _playableClassesInfo;
-	TMap<FString, FString> _playerRoles;
+	//TMap<FString, FString> _playerRoles;
 
 	UFUNCTION(Server, Reliable, WithValidation, Category = "MainMenu" )
 	void ReleaseAllPlayableClassesInfo();
 
 	UFUNCTION(Server, Reliable, WithValidation, Category = "MainMenu" )
 	void ReleasePlayableClassOfController(AController* controller);
+
+	FLostPlayerClassInfo GetClassInfoByPlayerID(FString playerID);
 
 public:
 	ULostAgeGameInstance();	

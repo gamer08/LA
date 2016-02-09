@@ -34,10 +34,10 @@ private:
 
 	void BeginPlay() override;
 
-	UFUNCTION(Server,Reliable,WithValidation)
+	UFUNCTION(Server, Reliable, WithValidation)
 	void CallStopJumpOnServer();
 
-	UFUNCTION(NetMulticast ,Reliable,WithValidation)
+	UFUNCTION(NetMulticast, Reliable, WithValidation)
 	void MultiCastStopJumpToClients();
 };
 
