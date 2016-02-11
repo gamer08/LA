@@ -12,6 +12,10 @@ ALostAgePlayerController::ALostAgePlayerController()
 {
 	PlayerCameraManagerClass = ALostAgePlayerCameraManager::StaticClass();
 	_cameraRotationSpeed = 100.0f;
+
+	this->bShowMouseCursor = false;
+	this->bEnableClickEvents = false;
+	this->bEnableMouseOverEvents = false;
 }
 
 void ALostAgePlayerController::Possess(APawn* pawn)
