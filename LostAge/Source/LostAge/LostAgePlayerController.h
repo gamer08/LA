@@ -30,6 +30,8 @@ private:
 	
 	virtual void BeginPlay() override;
 
+	virtual void SpawnPlayerCameraManager() override;
+
 
 
 public:
@@ -40,6 +42,8 @@ public:
 	{ 
 		return PlayerCameraManager->GetCameraRotation(); 
 	}
+
+	FVector GetTargetCameraLocation() const;
 	
 	virtual void Possess(APawn* aPawn) override;
 

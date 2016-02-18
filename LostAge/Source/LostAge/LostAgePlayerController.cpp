@@ -49,6 +49,11 @@ void ALostAgePlayerController::BeginPlay()
 	SetControlRotation(FRotator(0));
 }
 
+void ALostAgePlayerController::SpawnPlayerCameraManager()
+{
+	Super::SpawnPlayerCameraManager();
+}
+
 void ALostAgePlayerController::SetupInputComponent()
 {
 	Super::SetupInputComponent();
@@ -161,4 +166,12 @@ void ALostAgePlayerController::SendLeaveOrderToEveryone_Implementation()
 bool ALostAgePlayerController::SendLeaveOrderToEveryone_Validate()
 {
 	return true;
+}
+
+FVector ALostAgePlayerController::GetTargetCameraLocation() const
+{
+	if (ALostAgeCharacter* pawn = Cast<ALostAgeCharacter>(GetPawn()))
+		return pawn->GetCameraLocation();
+	else
+		return FVector(0.0f, 0.0f, 64.0f);
 }

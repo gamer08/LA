@@ -2,6 +2,7 @@
 
 #include "LostAge.h"
 #include "LostAgePlayerCameraManager.h"
+#include "LostAgePlayerController.h"
 
 #include "LostAgeGameInstance.h"
 
@@ -12,7 +13,6 @@ ALostAgePlayerCameraManager::ALostAgePlayerCameraManager()
 	{
 		_minPitch = -89.0f;
 		_maxPitch = 89.0f;
-		_relativePosition = FVector(0.0f, 0.0f, 64.0f);
 		_rotation = FRotator(0.0f);
 	}
 }
@@ -20,6 +20,11 @@ ALostAgePlayerCameraManager::ALostAgePlayerCameraManager()
 void ALostAgePlayerCameraManager::BeginPlay()
 {
 	Super::BeginPlay();
+
+	if (ALostAgePlayerController* pc = Cast<ALostAgePlayerController>(GetOwningPlayerController()))
+		_relativePosition = pc->GetTargetCameraLocation();
+	else
+		_relativePosition = FVector(0.0f, 0.0f, 64.0f);
 
 	//plus tard pour le save
 

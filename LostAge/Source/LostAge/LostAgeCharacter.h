@@ -14,9 +14,17 @@ class ALostAgeCharacter : public ACharacter
 public:
 	ALostAgeCharacter();
 
+	FORCEINLINE FVector GetCameraLocation() const
+	{ 
+		return _cameraLocation; 
+	}
+
 protected:
 
 	FString _playableClassName;
+
+	UPROPERTY(EditAnywhere, Category = "Camera")
+	FVector _cameraLocation;
 
 	void MoveForward(float value);
 

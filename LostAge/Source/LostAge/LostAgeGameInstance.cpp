@@ -7,9 +7,7 @@
 ULostAgeGameInstance::ULostAgeGameInstance()
 {
 	if (!HasAnyFlags(RF_ClassDefaultObject | RF_ArchetypeObject))
-	{
-		//_saveManager = NewObject<UBrainSaveManager>(this, FName("SaveManager"));
-				
+	{				
 		_playableClassesInfo.Add(FLostPlayerClassInfo(FString("Elf")));
 		_playableClassesInfo.Add(FLostPlayerClassInfo(FString("Dwarf")));
 	}
@@ -22,8 +20,6 @@ void ULostAgeGameInstance::SetClassChossed(AController* controller, FString clas
 		if (info._playableClassName.Equals(className) && info._isAvailable)
 		{
 			FString playerId = controller->PlayerState->UniqueId.GetUniqueNetId().Get()->ToString();
-
-			//_playerRoles.Emplace(playerId, "Server");
 			
 			info._isAvailable = false;
 			info._ownerID = playerId;
@@ -45,8 +41,6 @@ FString ULostAgeGameInstance::GetPawnClass(FString playerUniqueID, AController* 
 	{
 		if (info._isAvailable)
 		{
-			//_playerRoles.Emplace(playerUniqueID, "Client");
-
 			info._isAvailable = false;
 			info._ownerID = playerUniqueID;
 			info._ownerRole = PlayerRole::CLIENT;
@@ -80,18 +74,6 @@ void ULostAgeGameInstance::ReleasePlayableClass_Implementation(AController* cont
 	}
 	else
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Don't know this player"));
-
-
-	/*if (_playerRoles.Contains(playerId))
-	{
-		if (_playerRoles[playerId].Equals(FString("Server")))
-			ReleaseAllPlayableClassesInfo();
-		else
-			ReleasePlayableClassOfController(controller);
-	}
-	else
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Don't know this player"));*/
-
 }
 
 bool ULostAgeGameInstance::ReleasePlayableClass_Validate(AController* controller)
@@ -110,7 +92,6 @@ void ULostAgeGameInstance::ReleasePlayableClassOfController_Implementation(ACont
 			info._isAvailable = true;
 			info._ownerID = FString();
 			info._ownerRole = PlayerRole::SERVER;
-			//_playerRoles.Remove(idToRelease);
 			break;
 		}
 	}
@@ -129,8 +110,6 @@ void ULostAgeGameInstance::ReleaseAllPlayableClassesInfo_Implementation()
 		info._ownerID = FString();
 		info._ownerRole = PlayerRole::SERVER;
 	}
-
-	//_playerRoles.Empty();
 }
 
 bool ULostAgeGameInstance::ReleaseAllPlayableClassesInfo_Validate()
