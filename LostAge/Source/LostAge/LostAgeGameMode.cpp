@@ -7,6 +7,7 @@
 #include "LostAgePlayerController.h"
 #include "LostAgeMainMenuWidget.h"
 #include "LostAgeGameInstance.h"
+#include "LostAgePlayerCameraManager.h"
 
 ALostAgeGameMode::ALostAgeGameMode()
 : Super()
@@ -18,7 +19,7 @@ ALostAgeGameMode::ALostAgeGameMode()
 
 
 	static ConstructorHelpers::FClassFinder<ALostAgeCharacter> elf(TEXT("/Game/FirstPersonCPP/Blueprints/elf"));
-	static ConstructorHelpers::FClassFinder<ALostAgeCharacter> dwarf(TEXT("/Game/FirstPersonCPP/Blueprints/dwarf"));
+	static ConstructorHelpers::FClassFinder<ALostAgeCharacter> dwarf(TEXT("/Game/FirstPersonCPP/Blueprints/Dwarf/Bob"));
 
 	_playableClassesReferences.Emplace(FString("Elf"), elf.Class);
 	_playableClassesReferences.Emplace(FString("Dwarf"), dwarf.Class);
@@ -37,6 +38,50 @@ void ALostAgeGameMode::BeginPlay()
 			ULostAgeMainMenuWidget* mainMenuWidget = CreateWidget<ULostAgeMainMenuWidget>(GetWorld(), mainMenuWidgetClass);
 			mainMenuWidget->AddToViewport();
 		}
+	}
+}
+
+void ALostAgeGameMode::PostLogin(APlayerController* playerController)
+{
+	Super::PostLogin(playerController);
+
+	UWorld* world = GetWorld();
+	if (world && !world->GetName().Equals(FString("MainMenu")))
+	{
+		if (ULostAgeGameInstance* gameInstance = Cast<ULostAgeGameInstance>(GetGameInstance()))
+		{
+			FString playerId = playerController->PlayerState->UniqueId.GetUniqueNetId().Get()->ToString();
+			FLostPlayerClassInfo find = gameInstance->GetClassInfoByPlayerID(playerId);
+			ULostAgeSaveManager* saveManager = gameInstance->GetSaveManager();
+
+			if (find._ownerRole == PlayerRole::CLIENT && saveManager && saveManager->IsASaveLoaded())
+			{
+				if (ALostAgePlayerController* pc = Cast<ALostAgePlayerController>(playerController))
+				{
+					if (ALostAgeCharacter* character = Cast<ALostAgeCharacter>(pc->GetPawn()))
+					{
+						if (character->GetPlayableClassName().Equals(FString("Elf")))
+							pc->SetControllerSavedInfo(saveManager->GetDataFromSave<FLostAgeElfSaveData>(character->GetName()));
+
+						if (character->GetPlayableClassName().Equals(FString("Dwarf")))
+							pc->SetControllerSavedInfo(saveManager->GetDataFromSave<FLostAgeDwarfSaveData>(character->GetName()));
+
+						pc->LoadSaveOnClient(character->GetPlayableClassName());
+					}
+				}
+			}
+		}
+	}
+}
+
+void ALostAgeGameMode::CreatePauseMenu()
+{
+	TSubclassOf<UUserWidget> pauseMenuWidgetClass = LoadClass<UUserWidget>(nullptr, TEXT("/Game/FirstPerson/Menus/PauseMenu.PauseMenu_C"), nullptr, LOAD_None, nullptr);
+
+	if (pauseMenuWidgetClass)
+	{
+		UUserWidget* pauseMenuWidget = CreateWidget<UUserWidget>(GetWorld(), pauseMenuWidgetClass);
+		pauseMenuWidget->AddToViewport();
 	}
 }
 

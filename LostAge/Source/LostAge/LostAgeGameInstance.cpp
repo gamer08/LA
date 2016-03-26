@@ -13,6 +13,23 @@ ULostAgeGameInstance::ULostAgeGameInstance()
 	}
 }
 
+void ULostAgeGameInstance::Init()
+{
+	_saveManager = NewObject<ULostAgeSaveManager>(this, FName("SaveManager"));
+	Super::Init();
+}
+
+void ULostAgeGameInstance::CreatePauseMenu()
+{
+	TSubclassOf<UUserWidget> pauseMenuWidgetClass = LoadClass<UUserWidget>(nullptr, TEXT("/Game/FirstPerson/Menus/PauseMenu.PauseMenu_C"), nullptr, LOAD_None, nullptr);
+
+	if (pauseMenuWidgetClass)
+	{
+		UUserWidget* pauseMenuWidget = CreateWidget<UUserWidget>(GetWorld(), pauseMenuWidgetClass);
+		pauseMenuWidget->AddToViewport();
+	}
+}
+
 void ULostAgeGameInstance::SetClassChossed(AController* controller, FString className)
 {
 	for (FLostPlayerClassInfo& info : _playableClassesInfo)
@@ -80,7 +97,6 @@ bool ULostAgeGameInstance::ReleasePlayableClass_Validate(AController* controller
 {
 	return true;
 }
-
 
 void ULostAgeGameInstance::ReleasePlayableClassOfController_Implementation(AController* controller)
 {

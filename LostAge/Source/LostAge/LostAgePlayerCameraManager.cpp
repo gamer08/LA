@@ -3,8 +3,7 @@
 #include "LostAge.h"
 #include "LostAgePlayerCameraManager.h"
 #include "LostAgePlayerController.h"
-
-#include "LostAgeGameInstance.h"
+#include "LostAgeCharacter.h"
 
 ALostAgePlayerCameraManager::ALostAgePlayerCameraManager()
 {
@@ -25,11 +24,6 @@ void ALostAgePlayerCameraManager::BeginPlay()
 		_relativePosition = pc->GetTargetCameraLocation();
 	else
 		_relativePosition = FVector(0.0f, 0.0f, 64.0f);
-
-	//plus tard pour le save
-
-	/*if (this->GetClass()->ImplementsInterface(UBrainSaveInterface::StaticClass()))
-		Load();*/
 }
 
 void ALostAgePlayerCameraManager::UpdateViewTarget(FTViewTarget& outVT, float deltaTime)
@@ -56,4 +50,9 @@ void ALostAgePlayerCameraManager::LimitPitch(FRotator& rotation, float minPitch,
 {
 	rotation.Pitch = FMath::ClampAngle(rotation.Pitch, minPitch, maxPitch);
 	rotation.Pitch = FRotator::ClampAxis(rotation.Pitch);
+}
+
+void ALostAgePlayerCameraManager::SetRotation(FRotator newRotation)
+{
+	_rotation = newRotation;
 }

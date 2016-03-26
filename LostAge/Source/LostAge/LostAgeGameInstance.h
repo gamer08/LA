@@ -3,6 +3,7 @@
 #pragma once
 
 #include "Engine/GameInstance.h"
+#include "SaveSystem/LostAgeSaveManager.h"
 #include "LostAgeGameInstance.generated.h"
 
 class ALostAgePlayerController;
@@ -61,10 +62,14 @@ private:
 	UFUNCTION(Server, Reliable, WithValidation, Category = "MainMenu" )
 	void ReleasePlayableClassOfController(AController* controller);
 
-	FLostPlayerClassInfo GetClassInfoByPlayerID(FString playerID);
+	UPROPERTY()
+	ULostAgeSaveManager* _saveManager;
+
 
 public:
 	ULostAgeGameInstance();	
+
+	void CreatePauseMenu();
 	
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = "MainMenu" )
 	void LoadMainMenu(ALostAgePlayerController* controller);
@@ -77,4 +82,15 @@ public:
 	void SetClassChossed(AController* controller,FString className);
 
 	FString GetPawnClass(FString playerUniqueID, AController* controller);
+
+	FLostPlayerClassInfo GetClassInfoByPlayerID(FString playerID);
+
+	UFUNCTION(BlueprintCallable, Category = "Save Manager")
+	ULostAgeSaveManager* GetSaveManager() const
+	{
+		return _saveManager;
+	}
+
+	void Init() override;
+
 };

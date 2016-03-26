@@ -6,6 +6,7 @@
 #include "LostAgeGameInstance.h"
 #include "LostAgeHUD.h"
 #include "LostAgeGameMode.h"
+#include "LostAgeSubject.h"
 #include "GameFramework/InputSettings.h"
 
 ALostAgePlayerController::ALostAgePlayerController()
@@ -45,13 +46,38 @@ void ALostAgePlayerController::BeginPlay()
 		FInputModeUIOnly inputMode = FInputModeUIOnly();
 		this->SetInputMode(inputMode);
 	}
-
-	SetControlRotation(FRotator(0));
 }
 
 void ALostAgePlayerController::SpawnPlayerCameraManager()
 {
 	Super::SpawnPlayerCameraManager();
+}
+
+void ALostAgePlayerController::ShowPauseMenu()
+{	
+	if (ULostAgeGameInstance* gameInstance = Cast<ULostAgeGameInstance>(GetGameInstance()))
+	{
+		GiveControlsToUI(true);
+		gameInstance->CreatePauseMenu();
+	}
+}
+
+void ALostAgePlayerController::GiveControlsToUI(bool value)
+{
+	this->bShowMouseCursor = value;
+	this->bEnableClickEvents = value;
+	this->bEnableMouseOverEvents = value;
+
+	if (value)
+	{
+		FInputModeUIOnly inputMode = FInputModeUIOnly();
+		this->SetInputMode(inputMode);
+	}
+	else
+	{
+		FInputModeGameOnly inputMode = FInputModeGameOnly();
+		this->SetInputMode(inputMode);
+	}
 }
 
 void ALostAgePlayerController::SetupInputComponent()
@@ -61,7 +87,7 @@ void ALostAgePlayerController::SetupInputComponent()
 	InputComponent->BindAction("Jump", IE_Pressed, this, &ALostAgePlayerController::Jump);
 	InputComponent->BindAction("Jump", IE_Released, this, &ALostAgePlayerController::StopJumping);
 
-	InputComponent->BindAction("LeaveGame", IE_Pressed, this, &ALostAgePlayerController::LeaveToMainMenu);
+	InputComponent->BindAction("ShowPauseMenu", IE_Pressed, this, &ALostAgePlayerController::ShowPauseMenu);
 
 	InputComponent->BindAxis("MoveForward", this, &ALostAgePlayerController::MoveForward);
 	InputComponent->BindAxis("MoveBackward", this, &ALostAgePlayerController::MoveForward);
@@ -98,7 +124,13 @@ void ALostAgePlayerController::Turn(float value)
 		if (value != 0.0f)
 		{
 			Cast<ALostAgePlayerCameraManager>(PlayerCameraManager)->UpdateYaw(value * GetWorld()->GetDeltaSeconds() * _cameraRotationSpeed * InputYawScale);
+			FRotator cameraRotation = Cast<ALostAgePlayerCameraManager>(PlayerCameraManager)->GetRotation();
+
 			AddYawInput(value * GetWorld()->GetDeltaSeconds() * _cameraRotationSpeed);
+
+			ALostAgeCharacter* character = Cast<ALostAgeCharacter>(pawn);
+			character->UpdateSaveRotation(GetControlRotation());
+			character->UpdateSaveCameraRotation(cameraRotation);
 		}
 	}
 }
@@ -112,7 +144,13 @@ void ALostAgePlayerController::LookUp(float value)
 		if (value != 0.0f)
 		{
 			Cast<ALostAgePlayerCameraManager>(PlayerCameraManager)->UpdatePitch(value * GetWorld()->GetDeltaSeconds() * _cameraRotationSpeed * InputPitchScale);
+			FRotator cameraRotation = Cast<ALostAgePlayerCameraManager>(PlayerCameraManager)->GetRotation();
+			
 			AddPitchInput(value * GetWorld()->GetDeltaSeconds() * _cameraRotationSpeed);
+			
+			ALostAgeCharacter* character = Cast<ALostAgeCharacter>(pawn);
+			character->UpdateSaveRotation(GetControlRotation());
+			character->UpdateSaveCameraRotation(cameraRotation);
 		}
 	}
 }
@@ -174,4 +212,94 @@ FVector ALostAgePlayerController::GetTargetCameraLocation() const
 		return pawn->GetCameraLocation();
 	else
 		return FVector(0.0f, 0.0f, 64.0f);
+}
+
+void ALostAgePlayerController::RequestLoadNextMap_Implementation(const FString& levelName)
+{
+	if (HasAuthority())
+	{
+		if (UWorld* world = GetWorld())
+		{
+			FString UrlString = "/Game/FirstPersonCPP/Maps/" + levelName + "?listen"; 
+			world->ServerTravel(UrlString,true);
+		}
+	}
+}
+
+bool ALostAgePlayerController::RequestLoadNextMap_Validate(const FString& levelName)
+{
+	return true;
+}
+
+void ALostAgePlayerController::NeedSubjectNotify_Implementation(ULostAgeSubject* subjectToNotify, EObserverEvent::Type evnt)
+{
+	if (HasAuthority())
+		subjectToNotify->NotifyAll(evnt);
+}
+
+bool ALostAgePlayerController::NeedSubjectNotify_Validate(ULostAgeSubject* subjectToNotify, EObserverEvent::Type evnt)
+{
+	return true;
+}
+
+void ALostAgePlayerController::ActivateSubject_Implementation(ULostAgeSubject* subjectToActivate)
+{
+	if (HasAuthority())
+		subjectToActivate->SubjectActivate();
+}
+
+bool ALostAgePlayerController::ActivateSubject_Validate(ULostAgeSubject* subjectToActivate)
+{
+	return true;
+}
+
+void ALostAgePlayerController::DesactivateSubject_Implementation(ULostAgeSubject* subjectToDesactivate)
+{
+	if (HasAuthority())
+		subjectToDesactivate->SubjectDesactivate();
+}
+
+bool ALostAgePlayerController::DesactivateSubject_Validate(ULostAgeSubject* subjectToDesactivate)
+{
+	return true;
+}
+
+void ALostAgePlayerController::LoadSaveOnClient_Implementation(const FString& playerClass)
+{	
+	if (ULostAgeGameInstance* gameInstance = Cast<ULostAgeGameInstance>(GetGameInstance()))
+	{
+		if (ULostAgeSaveManager* saveManager = gameInstance->GetSaveManager())
+		{
+			bool isLoadSuccessfull = saveManager->Load();
+			if (isLoadSuccessfull)
+			{
+				if (playerClass.Equals(FString("Elf")))
+					SetControllerSavedInfo(saveManager->GetDataFromSave<FLostAgeElfSaveData>(GetName()));
+
+				if (playerClass.Equals(FString("Dwarf")))
+					SetControllerSavedInfo(saveManager->GetDataFromSave<FLostAgeDwarfSaveData>(GetName()));
+			}
+		}
+	}
+}
+
+bool ALostAgePlayerController::LoadSaveOnClient_Validate(const FString& playerClass)
+{
+	return true;
+}
+
+void ALostAgePlayerController::SetControllerSavedInfo(FLostAgeElfSaveData data)
+{
+	SetControlRotation(data._rotation);
+
+	if (ALostAgePlayerCameraManager* camera = Cast<ALostAgePlayerCameraManager>(PlayerCameraManager))
+		camera->SetRotation(data._cameraData._rotation);
+}
+
+void ALostAgePlayerController::SetControllerSavedInfo(FLostAgeDwarfSaveData data)
+{
+	SetControlRotation(data._rotation);
+
+	if (ALostAgePlayerCameraManager* camera = Cast<ALostAgePlayerCameraManager>(PlayerCameraManager))
+		camera->SetRotation(data._cameraData._rotation);
 }

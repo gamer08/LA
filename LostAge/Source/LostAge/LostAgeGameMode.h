@@ -15,6 +15,7 @@ public:
 	ALostAgeGameMode();
 
 	void BeginPlay() override;
+	void CreatePauseMenu();
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game Mode")
 	TArray<APlayerStart*> _playerStart;
@@ -28,11 +29,12 @@ public:
 
 	UClass* GetDefaultPawnClassForController_Implementation(AController* InController) override;
 
+	void PostLogin(APlayerController* playerController) override;
+
 private:
 	
 	UPROPERTY()
 	TMap <FString, TSubclassOf<class ALostAgeCharacter>> _playableClassesReferences;
-	
 };
 
 
