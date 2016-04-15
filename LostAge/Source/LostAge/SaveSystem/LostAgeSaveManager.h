@@ -60,10 +60,15 @@ public:
 		return _currentCachedData.GetDataFromSave<FLostAgeElfSaveData>(name);
 	}
 
-	template <> inline FLostAgeCameraSaveData GetDataFromSave<FLostAgeCameraSaveData>(FString name)
+	template <> inline FLostAgeCubeElfSaveData GetDataFromSave<FLostAgeCubeElfSaveData>(FString name)
 	{
-		return _currentCachedData.GetDataFromSave<FLostAgeCameraSaveData>(name);
+		return _currentCachedData.GetDataFromSave<FLostAgeCubeElfSaveData>(name);
 	}
+
+	//template <> inline FLostAgeCameraSaveData GetDataFromSave<FLostAgeCameraSaveData>(FString name)
+	//{
+	//	return _currentCachedData.GetDataFromSave<FLostAgeCameraSaveData>(name);
+	//}
 
 	template <> inline FLostAgeSaveVolumeData GetDataFromSave<FLostAgeSaveVolumeData>(FString name)
 	{

@@ -1,11 +1,11 @@
 #pragma once 
 
 #include "LostAge.h"
-#include "LostAgeCharacterSaveData.h"
 #include "LostAgeDwarfSaveData.h"
 #include "LostAgeElfSaveData.h"
-#include "LostAgeCameraSaveData.h"
+//#include "LostAgeCameraSaveData.h"
 #include "LostAgeSaveVolumeData.h"
+#include "LostAgeCubeElfSaveData.h"
 
 #include "LostAgeSaveData.generated.h"
 
@@ -18,9 +18,6 @@ public:
 	
 	UPROPERTY()
 	FString _levelName;
-	
-	//UPROPERTY()
-	//FLostAgeCharacterSaveData _characterData;
 
 	UPROPERTY()
 	FLostAgeDwarfSaveData _dwarfData;
@@ -28,27 +25,25 @@ public:
 	UPROPERTY()
 	FLostAgeElfSaveData _elfData;
 
-	UPROPERTY()
-	TMap<FString,FLostAgeCameraSaveData> _camerasData;
+	/*UPROPERTY()
+	TMap<FString,FLostAgeCameraSaveData> _camerasData;*/
 
 	UPROPERTY()
 	TMap<FString,FLostAgeSaveVolumeData> _saveVolumesData;
 
+	UPROPERTY()
+	FLostAgeCubeElfSaveData _cubeElfData;
+
 	FLostAgeSaveData()
 	{
 		_levelName = FString();
-		//_characterData = FLostAgeCharacterSaveData();
 		_dwarfData = FLostAgeDwarfSaveData();
 		_elfData = FLostAgeElfSaveData();
-		_camerasData.Reset();
+	/*	_camerasData.Reset();*/
 		_saveVolumesData.Reset();
+		_cubeElfData = FLostAgeCubeElfSaveData();
 	}
 	
-	/*void AddDataToSave(FLostAgeCharacterSaveData data)
-	{
-		_characterData = data;
-	}*/
-
 	void AddDataToSave(FLostAgeDwarfSaveData data)
 	{
 		_dwarfData = data;
@@ -59,23 +54,23 @@ public:
 		_elfData = data;
 	}
 
-	void AddDataToSave(FString name, FLostAgeCameraSaveData data)
-	{
-		_camerasData.Emplace(name, data);
-	}
+	//void AddDataToSave(FString name, FLostAgeCameraSaveData data)
+	//{
+	//	_camerasData.Emplace(name, data);
+	//}
 
 	void AddDataToSave(FString name, FLostAgeSaveVolumeData data)
 	{
 		_saveVolumesData.Emplace(name, data);
 	}
 
+	void AddDataToSave(FLostAgeCubeElfSaveData data)
+	{
+		_cubeElfData = data;
+	}
+
 	template <typename T>
 	T GetDataFromSave(FString name);
-
-	//template <> inline FLostAgeCharacterSaveData GetDataFromSave<FLostAgeCharacterSaveData>(FString name)
-	//{
-	//	return _characterData;
-	//}
 
 	template <> inline FLostAgeDwarfSaveData GetDataFromSave<FLostAgeDwarfSaveData>(FString name)
 	{
@@ -86,17 +81,22 @@ public:
 	{
 		return _elfData;
 	}
-
-	template <> inline FLostAgeCameraSaveData GetDataFromSave<FLostAgeCameraSaveData>(FString name)
+	
+	template <> inline FLostAgeCubeElfSaveData GetDataFromSave<FLostAgeCubeElfSaveData>(FString name)
 	{
-		FLostAgeCameraSaveData data = FLostAgeCameraSaveData();
-		FLostAgeCameraSaveData* lData = _camerasData.Find(name);
-		
-		if (lData)
-			data = *lData;
-		
-		return data;
+		return _cubeElfData;
 	}
+
+	//template <> inline FLostAgeCameraSaveData GetDataFromSave<FLostAgeCameraSaveData>(FString name)
+	//{
+	//	FLostAgeCameraSaveData data = FLostAgeCameraSaveData();
+	//	FLostAgeCameraSaveData* lData = _camerasData.Find(name);
+	//	
+	//	if (lData)
+	//		data = *lData;
+	//	
+	//	return data;
+	//}
 
 	template <> inline FLostAgeSaveVolumeData GetDataFromSave<FLostAgeSaveVolumeData>(FString name)
 	{
@@ -113,11 +113,11 @@ public:
 FORCEINLINE FArchive &operator << (FArchive &archive, FLostAgeSaveData& data)
 {
 	archive << data._levelName;
-	//archive << data._characterData;
 	archive << data._dwarfData;
 	archive << data._elfData;
-	archive << data._camerasData;
+	/*archive << data._camerasData;*/
 	archive << data._saveVolumesData;
+	archive << data._cubeElfData;
 
 	return archive;
 }
