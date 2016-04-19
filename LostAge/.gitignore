@@ -68,5 +68,5 @@ DerivedDataCache/*
 
 # Suppression des meshes - trop lourd pour Github
 Content/FirstPerson/Meshes/*
-LostAge/Content/FirstPersonCPP/Maps/Intro.umap
-LostAge/Content/Landscape/Textures/T_GDC_StonePath_Tile_N.uasset
+Content/FirstPersonCPP/Maps/Intro.umap
+Content/Landscape/Textures

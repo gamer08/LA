@@ -29,7 +29,7 @@ void ALostAgePlayerCameraManager::BeginPlay()
 void ALostAgePlayerCameraManager::UpdateViewTarget(FTViewTarget& outVT, float deltaTime)
 {
 	//Construit une matice de rotation a partir de Yaw et Pitch pur calculer la nouvelle position relative 
-	FRotationMatrix cameraRotation(FRotator(_rotation.Pitch, _rotation.Yaw, 0.0f));
+	FRotationMatrix cameraRotation(FRotator(0.0f, _rotation.Yaw, 0.0f));
 	
 	outVT.POV.Location = outVT.Target->GetActorLocation() + cameraRotation.TransformPosition(_relativePosition);
 	outVT.POV.Rotation = _rotation;
