@@ -19,7 +19,7 @@ public:
 	ALostAgeCharacterElf();
 	void Save(FLostAgeSaveData& saveData);
 
-	UPROPERTY(Replicated, BlueprintReadwrite, Category = "Cube", meta = (DisplayName = CubeElfReference))
+	UPROPERTY(Replicated, BlueprintReadwrite, Category = "Cube", meta = (DisplayName = "CubeElfReference"))
 	ALostAgeCubeElf* _cubeElf;
 
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = "Owner")

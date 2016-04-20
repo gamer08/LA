@@ -2,6 +2,7 @@
 
 #include "LostAge.h"
 #include "LostAgeCameraSaveData.h"
+#include "LostAgeAxeDwarfSaveData.h"
 #include "LostAgeDwarfSaveData.generated.h"
 
 USTRUCT()
@@ -19,6 +20,9 @@ struct FLostAgeDwarfSaveData
 	FLostAgeCameraSaveData _cameraData;
 
 	UPROPERTY()
+	FLostAgeAxeDwarfSaveData _axeData;
+
+	UPROPERTY()
 	bool _loadFromfile;
 
 	FLostAgeDwarfSaveData()
@@ -26,6 +30,7 @@ struct FLostAgeDwarfSaveData
 		_location = FVector();
 		_rotation = FRotator();
 		_cameraData = FLostAgeCameraSaveData();
+		_axeData = FLostAgeAxeDwarfSaveData();
 
 		_loadFromfile = false;
 	}
@@ -36,6 +41,7 @@ FORCEINLINE FArchive &operator << (FArchive &archive, FLostAgeDwarfSaveData& dat
 	archive << data._location;
 	archive << data._rotation;
 	archive << data._cameraData;
+	archive << data._axeData;
 	archive << data._loadFromfile;
 
 	return archive;

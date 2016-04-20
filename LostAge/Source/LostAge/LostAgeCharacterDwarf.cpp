@@ -68,3 +68,11 @@ void ALostAgeCharacterDwarf::Load()
 		}
 	}
 }
+
+void ALostAgeCharacterDwarf::GetLifetimeReplicatedProps(TArray< FLifetimeProperty > & OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	// Replicate to everyone
+	DOREPLIFETIME(ALostAgeCharacterDwarf, _axeDwarf);
+}

@@ -55,7 +55,8 @@ public:
 		return _saveRotation;
 	}
 
-	FORCEINLINE FRotator GetSaveCameraRotation() const
+	UFUNCTION(BlueprintCallable, Category = "Camera")
+	FRotator GetSaveCameraRotation() const
 	{
 		return _saveCameraRotation;
 	}

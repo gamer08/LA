@@ -58,19 +58,10 @@ void ULostAgeSaveManager::SaveNLoadData(FArchive& archive, FLostAgeSaveData& dat
 	archive << data;
 }
 
-bool ULostAgeSaveManager::Save(/*FString saveName*/)
+bool ULostAgeSaveManager::Save()
 {
 	bool saveSuccessfull = false;
 
-	//FString saveFileName;
-
-	//if (saveName.IsEmpty())
-	//	saveFileName = GenerateSaveFileName();
-	//else
-	//	saveFileName = saveName;
-
-	//FString saveFilePath = _saveDirectory + "\\" + saveFileName;
-	
 	FLostAgeSaveData saveData = FLostAgeSaveData();
 
 	UWorld* world = GetOuter()->GetWorld();
@@ -111,11 +102,11 @@ bool ULostAgeSaveManager::Save(/*FString saveName*/)
 	return saveSuccessfull;
 }
 
-bool ULostAgeSaveManager::Load(/*FString SaveToLoad*/)
+bool ULostAgeSaveManager::Load()
 {
 	bool loadSuccessfull = false;
 
-	_isASaveLoaded = LoadInternal(/*SaveToLoad*/);
+	_isASaveLoaded = LoadInternal();
 
 	if (_isASaveLoaded)
 	{
@@ -124,22 +115,19 @@ bool ULostAgeSaveManager::Load(/*FString SaveToLoad*/)
 		{
 			_saveFileLevelName = FName(*_currentCachedData._levelName);
 			loadSuccessfull = true;
-			//UGameplayStatics::OpenLevel(world, FName(*_currentCachedData._levelName));
 		}
 	}
 
 	return loadSuccessfull;
 }
 
-bool ULostAgeSaveManager::LoadInternal(/*FString SaveToLoad*/)
+bool ULostAgeSaveManager::LoadInternal()
 {
 	bool loadSuccessfull = false;
 
 	TArray<uint8> binaryData;
 
 	_currentCachedData = FLostAgeSaveData();
-
-	/*FString saveFilePath = _saveDirectory + "\\" + SaveToLoad;*/
 
 	if ((FFileHelper::LoadFileToArray(binaryData, *_saveFilePath)) && (binaryData.Num() >0))
 	{
@@ -155,16 +143,6 @@ bool ULostAgeSaveManager::LoadInternal(/*FString SaveToLoad*/)
 
 	return loadSuccessfull;
 }
-
-//FString ULostAgeSaveManager::GenerateSaveFileName()
-//{
-//	time_t nowT = time(0);
-//	struct tm* now = localtime(&nowT);
-//	char buffer[100];
-//	strftime(buffer, sizeof(buffer), "%d-%m-%Y %Hh%Mm%S", now);
-//	
-//	return FString("BRN ").Append(buffer).Append(".save"); 
-//}
 
 void ULostAgeSaveManager::FlushCachedSaveData()
 {
