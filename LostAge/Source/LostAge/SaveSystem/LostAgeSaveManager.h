@@ -14,10 +14,10 @@ class LOSTAGE_API ULostAgeSaveManager : public UObject
 public:
 	ULostAgeSaveManager();
 	
-	bool Save(/*FString saveName*/);
+	bool Save();
 	
 	UFUNCTION(BlueprintCallable, Category = "Save System")
-	bool Load(/*FString SaveToLoad*/);
+	bool Load();
 	
 	inline bool IsASaveLoaded() const
 	{
@@ -45,11 +45,6 @@ public:
 		return _currentCachedData.GetDataFromSave(name);
 	}
 
-	/*template <> inline FLostAgeCharacterSaveData GetDataFromSave<FLostAgeCharacterSaveData>(FString name)
-	{
-		return _currentCachedData.GetDataFromSave<FLostAgeCharacterSaveData>(name);
-	}*/
-
 	template <> inline FLostAgeDwarfSaveData GetDataFromSave<FLostAgeDwarfSaveData>(FString name)
 	{
 		return _currentCachedData.GetDataFromSave<FLostAgeDwarfSaveData>(name);
@@ -59,16 +54,6 @@ public:
 	{
 		return _currentCachedData.GetDataFromSave<FLostAgeElfSaveData>(name);
 	}
-
-	template <> inline FLostAgeCubeElfSaveData GetDataFromSave<FLostAgeCubeElfSaveData>(FString name)
-	{
-		return _currentCachedData.GetDataFromSave<FLostAgeCubeElfSaveData>(name);
-	}
-
-	//template <> inline FLostAgeCameraSaveData GetDataFromSave<FLostAgeCameraSaveData>(FString name)
-	//{
-	//	return _currentCachedData.GetDataFromSave<FLostAgeCameraSaveData>(name);
-	//}
 
 	template <> inline FLostAgeSaveVolumeData GetDataFromSave<FLostAgeSaveVolumeData>(FString name)
 	{
@@ -89,9 +74,8 @@ private:
 	bool _isASaveWasFound;
 
 	void SaveNLoadData(FArchive& archive, FLostAgeSaveData& data);
-	/*FString GenerateSaveFileName();*/
 
-	bool LoadInternal(/*FString SaveToLoad*/);
+	bool LoadInternal();
 
 	UPROPERTY()
 	FString _saveFilePath;

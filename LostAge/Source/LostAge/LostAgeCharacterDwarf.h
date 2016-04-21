@@ -4,6 +4,7 @@
 
 #include "LostAgeCharacter.h"
 #include "SaveSystem/LostAgeSaveInterface.h"
+#include "LostAgeAxeDwarf.h"
 #include "LostAgeCharacterDwarf.generated.h"
 
 /**
@@ -18,6 +19,9 @@ public:
 	ALostAgeCharacterDwarf();
 
 	void Save(FLostAgeSaveData& saveData);
+
+	UPROPERTY(Replicated, BlueprintReadwrite, Category = "Axe", meta = (DisplayName = "axe"))
+	ALostAgeAxeDwarf* _axeDwarf;
 	
 private:
 	void BeginPlay() override;
