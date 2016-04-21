@@ -23,7 +23,7 @@ public:
 	UPROPERTY(Replicated, BlueprintReadwrite, Category = "Axe", meta = (DisplayName = "axe"))
 	ALostAgeAxeDwarf* _axeDwarf;
 
-	UPROPERTY(Replicated, BlueprintReadwrite, Category = "Axe", meta = (DisplayName = "axe"))
+	UPROPERTY(Replicated, BlueprintReadwrite, Category = "Axe", meta = (DisplayName = "isInHand"))
 	bool _isAxeInHand;
 
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = "Axe")
