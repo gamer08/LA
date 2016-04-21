@@ -9,7 +9,7 @@ ALostAgeAxeDwarf::ALostAgeAxeDwarf()
 	{
 		SetReplicates(true);
 		SetReplicateMovement(true);
-		bAlwaysRelevant = false;
+		bAlwaysRelevant = true;
 	}
 }
 

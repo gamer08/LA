@@ -38,6 +38,22 @@ void ALostAgeCharacterDwarf::Save(FLostAgeSaveData& saveData)
 	cameraData._rotation = _saveCameraRotation;
 	dataToSave._cameraData = cameraData;
 
+	if (!_isAxeInHand)
+	{
+		FVector l = _axeDwarf->GetActorLocation();
+		FRotator r = _axeDwarf->GetActorRotation();
+
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("axe location: x: %f, y: %f, z: %f"), l.X, l.Y, l.Z));
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("axe rotation: y: %f, p: %f, r: %f"), r.Yaw, r.Pitch, r.Roll));
+
+		FLostAgeAxeDwarfSaveData axeData;
+		axeData._loadFromfile = true;
+		axeData._location = _axeDwarf->GetActorLocation();
+		axeData._rotation = _axeDwarf->GetActorRotation();
+
+		dataToSave._axeData = axeData;
+	}
+
 	saveData.AddDataToSave(dataToSave);
 }
 
@@ -64,9 +80,22 @@ void ALostAgeCharacterDwarf::Load()
 						camera->SetRotation(savedData._cameraData._rotation);
 					}
 				}
+				
+				SpawnAxe(savedData._axeData._location, savedData._axeData._rotation, savedData._axeData._loadFromfile);
+
 			}
 		}
 	}
+}
+
+void ALostAgeCharacterDwarf::UpdateisInHand_Implementation(bool value)
+{
+	_isAxeInHand = value;
+}
+
+bool ALostAgeCharacterDwarf::UpdateisInHand_Validate(bool value)
+{
+	return true;
 }
 
 void ALostAgeCharacterDwarf::GetLifetimeReplicatedProps(TArray< FLifetimeProperty > & OutLifetimeProps) const
@@ -75,4 +104,5 @@ void ALostAgeCharacterDwarf::GetLifetimeReplicatedProps(TArray< FLifetimePropert
 
 	// Replicate to everyone
 	DOREPLIFETIME(ALostAgeCharacterDwarf, _axeDwarf);
+	DOREPLIFETIME(ALostAgeCharacterDwarf, _isAxeInHand);
 }
