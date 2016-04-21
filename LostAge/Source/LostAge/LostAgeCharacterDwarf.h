@@ -22,6 +22,15 @@ public:
 
 	UPROPERTY(Replicated, BlueprintReadwrite, Category = "Axe", meta = (DisplayName = "axe"))
 	ALostAgeAxeDwarf* _axeDwarf;
+
+	UPROPERTY(Replicated, BlueprintReadwrite, Category = "Axe", meta = (DisplayName = "axe"))
+	bool _isAxeInHand;
+
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable, Category = "Axe")
+	void SpawnAxe(FVector location, FRotator rotation, bool isSpawnFromSave);
+
+	UFUNCTION(BlueprintCallable, Server, Reliable, WithValidation, Category = "Axr")
+	void UpdateisInHand(bool value);
 	
 private:
 	void BeginPlay() override;
