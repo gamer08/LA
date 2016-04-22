@@ -19,7 +19,7 @@ ALostAgeGameMode::ALostAgeGameMode()
 
 
 	static ConstructorHelpers::FClassFinder<ALostAgeCharacter> elf(TEXT("/Game/FirstPersonCPP/Blueprints/elf"));
-	static ConstructorHelpers::FClassFinder<ALostAgeCharacter> dwarf(TEXT("/Game/FirstPersonCPP/Blueprints/Dwarf/Bob"));
+	static ConstructorHelpers::FClassFinder<ALostAgeCharacter> dwarf(TEXT("/Game/FirstPersonCPP/Blueprints/dwarf"));
 
 	_playableClassesReferences.Emplace(FString("Elf"), elf.Class);
 	_playableClassesReferences.Emplace(FString("Dwarf"), dwarf.Class);

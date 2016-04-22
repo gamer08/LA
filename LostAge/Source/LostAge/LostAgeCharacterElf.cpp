@@ -14,7 +14,7 @@ ALostAgeCharacterElf::ALostAgeCharacterElf()
 		_playableClassName = FString("Elf");
 		_cameraLocation = FVector(0.0f, 0.0f, 64.0f);
 		
-		static ConstructorHelpers::FClassFinder<ALostAgeCubeElf> cube(TEXT("/Game/FirstPersonCPP/Blueprints/Elf/CubeElf"));
+		static ConstructorHelpers::FClassFinder<ALostAgeCubeElf> cube(TEXT("/Game/FirstPersonCPP/Blueprints/Elf/Blocks/CubeElf"));
 		_cubeBlueprintClass = cube.Class;
 	}
 }
