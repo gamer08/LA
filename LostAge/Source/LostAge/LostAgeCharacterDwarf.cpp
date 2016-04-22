@@ -43,15 +43,19 @@ void ALostAgeCharacterDwarf::Save(FLostAgeSaveData& saveData)
 		FVector l = _axeDwarf->GetActorLocation();
 		FRotator r = _axeDwarf->GetActorRotation();
 
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("axe location: x: %f, y: %f, z: %f"), l.X, l.Y, l.Z));
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("axe rotation: y: %f, p: %f, r: %f"), r.Yaw, r.Pitch, r.Roll));
+		if (_axeDwarf)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("axe location: x: %f, y: %f, z: %f"), l.X, l.Y, l.Z));
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("axe rotation: y: %f, p: %f, r: %f"), r.Yaw, r.Pitch, r.Roll));
 
-		FLostAgeAxeDwarfSaveData axeData;
-		axeData._loadFromfile = true;
-		axeData._location = _axeDwarf->GetActorLocation();
-		axeData._rotation = _axeDwarf->GetActorRotation();
-
-		dataToSave._axeData = axeData;
+			FLostAgeAxeDwarfSaveData axeData;
+			axeData._loadFromfile = true;
+			axeData._location = _axeDwarf->GetActorLocation();
+			axeData._rotation = _axeDwarf->GetActorRotation();
+			dataToSave._axeData = axeData;
+		}
+		
+		
 	}
 
 	saveData.AddDataToSave(dataToSave);
@@ -80,6 +84,14 @@ void ALostAgeCharacterDwarf::Load()
 						camera->SetRotation(savedData._cameraData._rotation);
 					}
 				}
+				
+				/*else
+				{
+					ALostAgePlayerController* pc = Cast<ALostAgePlayerController>(GetController());
+					FRotator rot = pc->GetControlRotation();
+					ALostAgePlayerCameraManager* camera = Cast<ALostAgePlayerCameraManager>(pc->PlayerCameraManager);
+					camera->SetRotation(rot);
+				}*/
 				
 				SpawnAxe(savedData._axeData._location, savedData._axeData._rotation, savedData._axeData._loadFromfile);
 
