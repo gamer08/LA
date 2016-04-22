@@ -5170,4 +5170,1930 @@
 	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
 [2016.04.22-06.48.01:844][646]LogScript:Warning: Accessed None 'Elf_Ref'
 	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_9
-	Function /Game/FirstPersonCPP/Bluep
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.02:510][648]LogBlueprintUserMessages: [Anim_Bp_Elf_C_10] Cast Failed
+[2016.04.22-06.48.02:511][648]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_10
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.02:511][648]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_10
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.03:177][650]LogBlueprintUserMessages: [Anim_Bp_Elf_C_11] Cast Failed
+[2016.04.22-06.48.03:177][650]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_11
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.03:177][650]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_11
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.03:844][652]LogBlueprintUserMessages: [Anim_Bp_Elf_C_12] Cast Failed
+[2016.04.22-06.48.03:844][652]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_12
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.03:845][652]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_12
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.04:509][654]LogBlueprintUserMessages: [Anim_Bp_Elf_C_13] Cast Failed
+[2016.04.22-06.48.04:509][654]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_13
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.04:509][654]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_13
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.05:177][656]LogBlueprintUserMessages: [Anim_Bp_Elf_C_14] Cast Failed
+[2016.04.22-06.48.05:177][656]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_14
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.05:177][656]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_14
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.17:843][694]LogBlueprintUserMessages: [Anim_Bp_Elf_C_15] Cast Failed
+[2016.04.22-06.48.17:844][694]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_15
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.17:844][694]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_15
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.18:820][715]LogBlueprintUserMessages: [Anim_Bp_Elf_C_16] Cast Failed
+[2016.04.22-06.48.18:820][715]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_16
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.18:820][715]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_16
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.18:853][717]LogBlueprintUserMessages: [Anim_Bp_Elf_C_17] Cast Failed
+[2016.04.22-06.48.18:853][717]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_17
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.18:853][717]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_17
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.20:407][769]LogBlueprintUserMessages: [Anim_Bp_Elf_C_18] Cast Failed
+[2016.04.22-06.48.20:407][769]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_18
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.20:407][769]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_18
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.49:075][855]LogBlueprintUserMessages: [Anim_Bp_Elf_C_19] Cast Failed
+[2016.04.22-06.48.49:611][860]LogBlueprintUserMessages: [Anim_Bp_Elf_C_20] Cast Failed
+[2016.04.22-06.48.49:611][860]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_20
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.49:612][860]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_20
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.49:846][862]LogBlueprintUserMessages: [Anim_Bp_Elf_C_21] Cast Failed
+[2016.04.22-06.48.49:847][862]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_21
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.49:847][862]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_21
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.49:995][864]LogBlueprintUserMessages: [Anim_Bp_Elf_C_22] Cast Failed
+[2016.04.22-06.48.49:995][864]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_22
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.49:995][864]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_22
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:029][866]LogBlueprintUserMessages: [Anim_Bp_Elf_C_23] Cast Failed
+[2016.04.22-06.48.50:029][866]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_23
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:029][866]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_23
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:065][868]LogBlueprintUserMessages: [Anim_Bp_Elf_C_24] Cast Failed
+[2016.04.22-06.48.50:065][868]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_24
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:065][868]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_24
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:101][870]LogBlueprintUserMessages: [Anim_Bp_Elf_C_25] Cast Failed
+[2016.04.22-06.48.50:101][870]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_25
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:101][870]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_25
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:133][872]LogBlueprintUserMessages: [Anim_Bp_Elf_C_26] Cast Failed
+[2016.04.22-06.48.50:133][872]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_26
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:133][872]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_26
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:167][874]LogBlueprintUserMessages: [Anim_Bp_Elf_C_27] Cast Failed
+[2016.04.22-06.48.50:167][874]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_27
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:167][874]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_27
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:200][876]LogBlueprintUserMessages: [Anim_Bp_Elf_C_28] Cast Failed
+[2016.04.22-06.48.50:200][876]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_28
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:200][876]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_28
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:233][878]LogBlueprintUserMessages: [Anim_Bp_Elf_C_29] Cast Failed
+[2016.04.22-06.48.50:233][878]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_29
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:233][878]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_29
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:268][880]LogBlueprintUserMessages: [Anim_Bp_Elf_C_30] Cast Failed
+[2016.04.22-06.48.50:268][880]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_30
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:268][880]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_30
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:300][882]LogBlueprintUserMessages: [Anim_Bp_Elf_C_31] Cast Failed
+[2016.04.22-06.48.50:300][882]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_31
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:300][882]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_31
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:333][884]LogBlueprintUserMessages: [Anim_Bp_Elf_C_32] Cast Failed
+[2016.04.22-06.48.50:334][884]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_32
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:334][884]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_32
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:368][886]LogBlueprintUserMessages: [Anim_Bp_Elf_C_33] Cast Failed
+[2016.04.22-06.48.50:368][886]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_33
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:368][886]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_33
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:400][888]LogBlueprintUserMessages: [Anim_Bp_Elf_C_34] Cast Failed
+[2016.04.22-06.48.50:400][888]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_34
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:400][888]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_34
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:433][890]LogBlueprintUserMessages: [Anim_Bp_Elf_C_35] Cast Failed
+[2016.04.22-06.48.50:433][890]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_35
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:433][890]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_35
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:467][892]LogBlueprintUserMessages: [Anim_Bp_Elf_C_36] Cast Failed
+[2016.04.22-06.48.50:467][892]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_36
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:467][892]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_36
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:501][894]LogBlueprintUserMessages: [Anim_Bp_Elf_C_37] Cast Failed
+[2016.04.22-06.48.50:501][894]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_37
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.50:501][894]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_37
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.48.55:604][193]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.04.22-06.49.15:721][337]LogBlueprintUserMessages: [Anim_Bp_Elf_C_38] Cast Failed
+[2016.04.22-06.49.15:721][337]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_38
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.15:721][337]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_38
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.15:749][339]LogBlueprintUserMessages: [Anim_Bp_Elf_C_39] Cast Failed
+[2016.04.22-06.49.15:749][339]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_39
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.15:749][339]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_39
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.15:783][341]LogBlueprintUserMessages: [Anim_Bp_Elf_C_40] Cast Failed
+[2016.04.22-06.49.15:783][341]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_40
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.15:783][341]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_40
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.15:818][343]LogBlueprintUserMessages: [Anim_Bp_Elf_C_41] Cast Failed
+[2016.04.22-06.49.15:818][343]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_41
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.15:818][343]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_41
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.15:855][345]LogBlueprintUserMessages: [Anim_Bp_Elf_C_42] Cast Failed
+[2016.04.22-06.49.15:855][345]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_42
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.15:855][345]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_42
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.15:892][347]LogBlueprintUserMessages: [Anim_Bp_Elf_C_43] Cast Failed
+[2016.04.22-06.49.15:892][347]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_43
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.15:892][347]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_43
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.15:925][349]LogBlueprintUserMessages: [Anim_Bp_Elf_C_44] Cast Failed
+[2016.04.22-06.49.15:925][349]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_44
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.15:925][349]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_44
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.15:959][351]LogBlueprintUserMessages: [Anim_Bp_Elf_C_45] Cast Failed
+[2016.04.22-06.49.15:959][351]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_45
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.15:960][351]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_45
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.15:993][353]LogBlueprintUserMessages: [Anim_Bp_Elf_C_46] Cast Failed
+[2016.04.22-06.49.15:994][353]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_46
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.15:994][353]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_46
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.16:027][355]LogBlueprintUserMessages: [Anim_Bp_Elf_C_47] Cast Failed
+[2016.04.22-06.49.16:027][355]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_47
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.16:027][355]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_47
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.16:068][357]LogBlueprintUserMessages: [Anim_Bp_Elf_C_48] Cast Failed
+[2016.04.22-06.49.16:068][357]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_48
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.16:068][357]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_48
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.16:110][359]LogBlueprintUserMessages: [Anim_Bp_Elf_C_49] Cast Failed
+[2016.04.22-06.49.16:110][359]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_49
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.16:110][359]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_49
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.16:147][361]LogBlueprintUserMessages: [Anim_Bp_Elf_C_50] Cast Failed
+[2016.04.22-06.49.16:147][361]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_50
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.16:147][361]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_50
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.16:187][363]LogBlueprintUserMessages: [Anim_Bp_Elf_C_51] Cast Failed
+[2016.04.22-06.49.16:187][363]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_51
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.49.16:187][363]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_51
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.50.45:510][647]LogBlueprintUserMessages: [Anim_Bp_Elf_C_52] Cast Failed
+[2016.04.22-06.50.45:510][647]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_52
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.50.45:511][647]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_52
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.50.45:707][649]LogBlueprintUserMessages: [Anim_Bp_Elf_C_53] Cast Failed
+[2016.04.22-06.50.45:707][649]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_53
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.50.45:707][649]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_53
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:391][714]LogBlueprintUserMessages: [Anim_Bp_Elf_C_54] Cast Failed
+[2016.04.22-06.52.53:391][714]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_54
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:391][714]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_54
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:422][716]LogBlueprintUserMessages: [Anim_Bp_Elf_C_55] Cast Failed
+[2016.04.22-06.52.53:422][716]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_55
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:423][716]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_55
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:455][718]LogBlueprintUserMessages: [Anim_Bp_Elf_C_56] Cast Failed
+[2016.04.22-06.52.53:456][718]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_56
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:456][718]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_56
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:489][720]LogBlueprintUserMessages: [Anim_Bp_Elf_C_57] Cast Failed
+[2016.04.22-06.52.53:489][720]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_57
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:489][720]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_57
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:522][722]LogBlueprintUserMessages: [Anim_Bp_Elf_C_58] Cast Failed
+[2016.04.22-06.52.53:522][722]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_58
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:522][722]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_58
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:556][724]LogBlueprintUserMessages: [Anim_Bp_Elf_C_59] Cast Failed
+[2016.04.22-06.52.53:556][724]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_59
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:556][724]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_59
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:589][726]LogBlueprintUserMessages: [Anim_Bp_Elf_C_60] Cast Failed
+[2016.04.22-06.52.53:589][726]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_60
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:589][726]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_60
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:623][728]LogBlueprintUserMessages: [Anim_Bp_Elf_C_61] Cast Failed
+[2016.04.22-06.52.53:623][728]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_61
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:623][728]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_61
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:658][730]LogBlueprintUserMessages: [Anim_Bp_Elf_C_62] Cast Failed
+[2016.04.22-06.52.53:658][730]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_62
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:658][730]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_62
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:713][732]LogBlueprintUserMessages: [Anim_Bp_Elf_C_63] Cast Failed
+[2016.04.22-06.52.53:713][732]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_63
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:713][732]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_63
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:748][734]LogBlueprintUserMessages: [Anim_Bp_Elf_C_64] Cast Failed
+[2016.04.22-06.52.53:748][734]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_64
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:748][734]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_64
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:797][736]LogBlueprintUserMessages: [Anim_Bp_Elf_C_65] Cast Failed
+[2016.04.22-06.52.53:797][736]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_65
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:797][736]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_65
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:829][738]LogBlueprintUserMessages: [Anim_Bp_Elf_C_66] Cast Failed
+[2016.04.22-06.52.53:829][738]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_66
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:829][738]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_66
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:866][740]LogBlueprintUserMessages: [Anim_Bp_Elf_C_67] Cast Failed
+[2016.04.22-06.52.53:866][740]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_67
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:866][740]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_67
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:902][742]LogBlueprintUserMessages: [Anim_Bp_Elf_C_68] Cast Failed
+[2016.04.22-06.52.53:902][742]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_68
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:902][742]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_68
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:938][744]LogBlueprintUserMessages: [Anim_Bp_Elf_C_69] Cast Failed
+[2016.04.22-06.52.53:938][744]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_69
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.53:938][744]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_69
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:012][747]LogBlueprintUserMessages: [Anim_Bp_Elf_C_70] Cast Failed
+[2016.04.22-06.52.54:012][747]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_70
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:012][747]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_70
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:047][749]LogBlueprintUserMessages: [Anim_Bp_Elf_C_71] Cast Failed
+[2016.04.22-06.52.54:047][749]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_71
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:047][749]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_71
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:080][751]LogBlueprintUserMessages: [Anim_Bp_Elf_C_72] Cast Failed
+[2016.04.22-06.52.54:080][751]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_72
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:080][751]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_72
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:113][753]LogBlueprintUserMessages: [Anim_Bp_Elf_C_73] Cast Failed
+[2016.04.22-06.52.54:113][753]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_73
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:113][753]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_73
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:146][755]LogBlueprintUserMessages: [Anim_Bp_Elf_C_74] Cast Failed
+[2016.04.22-06.52.54:146][755]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_74
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:146][755]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_74
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:179][757]LogBlueprintUserMessages: [Anim_Bp_Elf_C_75] Cast Failed
+[2016.04.22-06.52.54:179][757]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_75
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:179][757]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_75
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:212][759]LogBlueprintUserMessages: [Anim_Bp_Elf_C_76] Cast Failed
+[2016.04.22-06.52.54:212][759]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_76
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:212][759]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_76
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:246][761]LogBlueprintUserMessages: [Anim_Bp_Elf_C_77] Cast Failed
+[2016.04.22-06.52.54:246][761]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_77
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:246][761]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_77
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:311][763]LogBlueprintUserMessages: [Anim_Bp_Elf_C_78] Cast Failed
+[2016.04.22-06.52.54:311][763]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_78
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:311][763]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_78
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:347][765]LogBlueprintUserMessages: [Anim_Bp_Elf_C_79] Cast Failed
+[2016.04.22-06.52.54:347][765]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_79
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:347][765]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_79
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:379][767]LogBlueprintUserMessages: [Anim_Bp_Elf_C_80] Cast Failed
+[2016.04.22-06.52.54:379][767]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_80
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:379][767]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_80
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:412][769]LogBlueprintUserMessages: [Anim_Bp_Elf_C_81] Cast Failed
+[2016.04.22-06.52.54:412][769]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_81
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:412][769]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_81
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:445][771]LogBlueprintUserMessages: [Anim_Bp_Elf_C_82] Cast Failed
+[2016.04.22-06.52.54:445][771]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_82
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:445][771]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_82
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:478][773]LogBlueprintUserMessages: [Anim_Bp_Elf_C_83] Cast Failed
+[2016.04.22-06.52.54:478][773]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_83
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:479][773]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_83
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:512][775]LogBlueprintUserMessages: [Anim_Bp_Elf_C_84] Cast Failed
+[2016.04.22-06.52.54:512][775]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_84
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:512][775]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_84
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:546][777]LogBlueprintUserMessages: [Anim_Bp_Elf_C_85] Cast Failed
+[2016.04.22-06.52.54:546][777]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_85
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:546][777]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_85
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:578][779]LogBlueprintUserMessages: [Anim_Bp_Elf_C_86] Cast Failed
+[2016.04.22-06.52.54:579][779]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_86
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:579][779]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_86
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:612][781]LogBlueprintUserMessages: [Anim_Bp_Elf_C_87] Cast Failed
+[2016.04.22-06.52.54:612][781]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_87
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:612][781]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_87
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:645][783]LogBlueprintUserMessages: [Anim_Bp_Elf_C_88] Cast Failed
+[2016.04.22-06.52.54:645][783]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_88
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:646][783]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_88
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:679][785]LogBlueprintUserMessages: [Anim_Bp_Elf_C_89] Cast Failed
+[2016.04.22-06.52.54:679][785]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_89
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:679][785]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_89
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:712][787]LogBlueprintUserMessages: [Anim_Bp_Elf_C_90] Cast Failed
+[2016.04.22-06.52.54:712][787]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_90
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:712][787]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_90
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:746][789]LogBlueprintUserMessages: [Anim_Bp_Elf_C_91] Cast Failed
+[2016.04.22-06.52.54:746][789]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_91
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:746][789]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_91
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:779][791]LogBlueprintUserMessages: [Anim_Bp_Elf_C_92] Cast Failed
+[2016.04.22-06.52.54:779][791]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_92
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:779][791]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_92
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:812][793]LogBlueprintUserMessages: [Anim_Bp_Elf_C_93] Cast Failed
+[2016.04.22-06.52.54:812][793]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_93
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:812][793]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_93
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:845][795]LogBlueprintUserMessages: [Anim_Bp_Elf_C_94] Cast Failed
+[2016.04.22-06.52.54:845][795]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_94
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:845][795]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_94
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:880][797]LogBlueprintUserMessages: [Anim_Bp_Elf_C_95] Cast Failed
+[2016.04.22-06.52.54:880][797]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_95
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:880][797]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_95
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:913][799]LogBlueprintUserMessages: [Anim_Bp_Elf_C_96] Cast Failed
+[2016.04.22-06.52.54:913][799]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_96
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:913][799]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_96
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:945][801]LogBlueprintUserMessages: [Anim_Bp_Elf_C_97] Cast Failed
+[2016.04.22-06.52.54:945][801]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_97
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:945][801]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_97
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:978][803]LogBlueprintUserMessages: [Anim_Bp_Elf_C_98] Cast Failed
+[2016.04.22-06.52.54:978][803]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_98
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.54:978][803]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_98
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.55:012][805]LogBlueprintUserMessages: [Anim_Bp_Elf_C_99] Cast Failed
+[2016.04.22-06.52.55:012][805]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_99
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.55:012][805]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_99
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.55:046][807]LogBlueprintUserMessages: [Anim_Bp_Elf_C_100] Cast Failed
+[2016.04.22-06.52.55:046][807]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_100
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.55:047][807]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_100
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.55:079][809]LogBlueprintUserMessages: [Anim_Bp_Elf_C_101] Cast Failed
+[2016.04.22-06.52.55:079][809]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_101
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.55:079][809]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_101
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.55:112][811]LogBlueprintUserMessages: [Anim_Bp_Elf_C_102] Cast Failed
+[2016.04.22-06.52.55:112][811]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_102
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.55:113][811]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_102
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.55:145][813]LogBlueprintUserMessages: [Anim_Bp_Elf_C_103] Cast Failed
+[2016.04.22-06.52.55:145][813]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_103
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.55:145][813]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_103
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.55:179][815]LogBlueprintUserMessages: [Anim_Bp_Elf_C_104] Cast Failed
+[2016.04.22-06.52.55:179][815]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_104
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.55:179][815]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_104
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.55:212][817]LogBlueprintUserMessages: [Anim_Bp_Elf_C_105] Cast Failed
+[2016.04.22-06.52.55:212][817]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_105
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.55:213][817]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_105
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.55:245][819]LogBlueprintUserMessages: [Anim_Bp_Elf_C_106] Cast Failed
+[2016.04.22-06.52.55:245][819]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_106
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.52.55:246][819]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_106
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.53.02:569][ 24]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 D:/Downloads/12038.wav)
+[2016.04.22-06.53.02:625][ 24]LogAudioDerivedData:Display: Building compressed audio format OGG wave 12038...
+[2016.04.22-06.53.02:711][ 24]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Sounds/12038.12038.
+[2016.04.22-06.53.08:743][376]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/magie" FILE="D:/UQAC/Seminaire/LA/LostAge/Content/Sounds/magie.uasset" SILENT=true
+[2016.04.22-06.53.08:768][376]LogSavePackage: Save=22.703217ms
+[2016.04.22-06.53.08:768][376]LogSavePackage: Moving 'D:/UQAC/Seminaire/LA/LostAge/Saved/magie498777D14331DB2E058334AF9D3F6975.tmp' to 'D:/UQAC/Seminaire/LA/LostAge/Content/Sounds/magie.uasset'
+[2016.04.22-06.53.08:770][376]LogSavePackage: Total save time: 25.659483ms
+[2016.04.22-06.53.08:770][376]LogSavePackage:Warning: Finished SavePackage D:/UQAC/Seminaire/LA/LostAge/Content/Sounds/magie.uasset
+[2016.04.22-06.53.08:996][376]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDF54F5BC0
+[2016.04.22-06.53.30:333][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/magieCue" FILE="D:/UQAC/Seminaire/LA/LostAge/Content/Sounds/magieCue.uasset" SILENT=true
+[2016.04.22-06.53.30:344][548]LogSavePackage: Save=9.402482ms
+[2016.04.22-06.53.30:344][548]LogSavePackage: Moving 'D:/UQAC/Seminaire/LA/LostAge/Saved/magieCue20E27D5A4F2B41086784B2A04576873C.tmp' to 'D:/UQAC/Seminaire/LA/LostAge/Content/Sounds/magieCue.uasset'
+[2016.04.22-06.53.30:347][548]LogSavePackage: Total save time: 13.177127ms
+[2016.04.22-06.53.30:347][548]LogSavePackage:Warning: Finished SavePackage D:/UQAC/Seminaire/LA/LostAge/Content/Sounds/magieCue.uasset
+[2016.04.22-06.53.59:926][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCPP/Blueprints/Elf/Animation/walk_elf" FILE="D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/Elf/Animation/walk_elf.uasset" SILENT=true
+[2016.04.22-06.53.59:985][251]LogSavePackage: Save=7.103513ms
+[2016.04.22-06.53.59:985][251]LogSavePackage: Moving 'D:/UQAC/Seminaire/LA/LostAge/Saved/walk_elf5A8D00AF4055B38C7E9E208EB097FCF8.tmp' to 'D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/Elf/Animation/walk_elf.uasset'
+[2016.04.22-06.53.59:986][251]LogSavePackage: Total save time: 37.997700ms
+[2016.04.22-06.53.59:986][251]LogSavePackage:Warning: Finished SavePackage D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/Elf/Animation/walk_elf.uasset
+[2016.04.22-06.54.00:048][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCPP/Blueprints/Elf/Animation/spell_elf" FILE="D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/Elf/Animation/spell_elf.uasset" SILENT=true
+[2016.04.22-06.54.00:129][251]LogSavePackage: Save=41.025806ms
+[2016.04.22-06.54.00:129][251]LogSavePackage: Moving 'D:/UQAC/Seminaire/LA/LostAge/Saved/spell_elfAB698987461D4E62789478BEFFE0A6F3.tmp' to 'D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/Elf/Animation/spell_elf.uasset'
+[2016.04.22-06.54.00:132][251]LogSavePackage: Total save time: 81.999410ms
+[2016.04.22-06.54.00:132][251]LogSavePackage:Warning: Finished SavePackage D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/Elf/Animation/spell_elf.uasset
+[2016.04.22-06.54.02:411][357]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.04.22-06.54.03:187][402]BlueprintLog: New page: Compile Anim_Bp_Elf
+[2016.04.22-06.54.03:266][402]LogBlueprintUserMessages: [Anim_Bp_Elf_C_0] Cast Failed
+[2016.04.22-06.54.03:266][402]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_16:Anim_Bp_Elf_C_0
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.54.03:266][402]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_16:Anim_Bp_Elf_C_0
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.54.03:479][402]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDA615ACA0
+[2016.04.22-06.54.03:481][402]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDF5EEE3E0
+[2016.04.22-06.54.03:491][402]LogBlueprintUserMessages: [Anim_Bp_Elf_C_2] Cast Failed
+[2016.04.22-06.54.03:491][402]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_16:Anim_Bp_Elf_C_2
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.54.03:491][402]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_16:Anim_Bp_Elf_C_2
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.54.03:534][402]LogBlueprintUserMessages: [Anim_Bp_Elf_C_3] Cast Failed
+[2016.04.22-06.54.03:535][402]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_3
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.54.03:535][402]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_3
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.54.03:558][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf" FILE="D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.uasset" SILENT=true
+[2016.04.22-06.54.03:657][402]LogSavePackage: Save=87.747726ms
+[2016.04.22-06.54.03:657][402]LogSavePackage: Moving 'D:/UQAC/Seminaire/LA/LostAge/Saved/Anim_Bp_Elf460DCFA141EE49971784C79FF25B1529.tmp' to 'D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.uasset'
+[2016.04.22-06.54.03:659][402]LogSavePackage: Total save time: 99.451408ms
+[2016.04.22-06.54.03:659][402]LogSavePackage:Warning: Finished SavePackage D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.uasset
+[2016.04.22-06.54.03:664][402]BlueprintEditorCompileResults: Info [0485.16] Compile of Anim_Bp_Elf successful! [in 476 ms]
+[2016.04.22-06.54.03:715][403]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_16:Anim_Bp_Elf_C_2
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.54.03:745][404]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_16:Anim_Bp_Elf_C_2
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.54.03:761][405]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_16:Anim_Bp_Elf_C_2
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.54.03:782][406]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_16:Anim_Bp_Elf_C_2
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.54.03:802][407]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_16:Anim_Bp_Elf_C_2
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.54.03:819][408]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_16:Anim_Bp_Elf_C_2
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.54.03:837][409]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_16:Anim_Bp_Elf_C_2
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.54.45:132][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/magieCue" FILE="D:/UQAC/Seminaire/LA/LostAge/Content/Sounds/magieCue.uasset" SILENT=true
+[2016.04.22-06.54.45:156][111]LogSavePackage: Save=6.326629ms
+[2016.04.22-06.54.45:156][111]LogSavePackage: Moving 'D:/UQAC/Seminaire/LA/LostAge/Saved/magieCueFAE6ECB548885268870D8EB52A0DD67A.tmp' to 'D:/UQAC/Seminaire/LA/LostAge/Content/Sounds/magieCue.uasset'
+[2016.04.22-06.54.45:161][111]LogSavePackage: Total save time: 26.728645ms
+[2016.04.22-06.54.45:161][111]LogSavePackage:Warning: Finished SavePackage D:/UQAC/Seminaire/LA/LostAge/Content/Sounds/magieCue.uasset
+[2016.04.22-06.55.05:115][214]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_7] Cast Failed
+[2016.04.22-06.55.05:247][219]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_8] Cast Failed
+[2016.04.22-06.55.05:351][222]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_9] Cast Failed
+[2016.04.22-06.55.05:421][225]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_10] Cast Failed
+[2016.04.22-06.55.05:481][228]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_11] Cast Failed
+[2016.04.22-06.55.05:535][231]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_12] Cast Failed
+[2016.04.22-06.55.05:590][234]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_13] Cast Failed
+[2016.04.22-06.55.05:792][245]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_14] Cast Failed
+[2016.04.22-06.55.06:272][246]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_15] Cast Failed
+[2016.04.22-06.55.06:396][246]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_25) - call TermArticulated first.
+[2016.04.22-06.55.06:485][246]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2016.04.22-06.55.06:725][246]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.04.22-06.55.06:780][248]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_16] Cast Failed
+[2016.04.22-06.55.09:142][360]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.04.22-06.55.28:299][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCPP/Blueprints/Dwarf/Animation/walk" FILE="D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/Dwarf/Animation/walk.uasset" SILENT=true
+[2016.04.22-06.55.28:346][113]LogSavePackage: Save=31.460899ms
+[2016.04.22-06.55.28:346][113]LogSavePackage: Moving 'D:/UQAC/Seminaire/LA/LostAge/Saved/walkB3C559DB49C2230C7C7C1C87A92D2300.tmp' to 'D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/Dwarf/Animation/walk.uasset'
+[2016.04.22-06.55.28:348][113]LogSavePackage: Total save time: 46.903528ms
+[2016.04.22-06.55.28:348][113]LogSavePackage:Warning: Finished SavePackage D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/Dwarf/Animation/walk.uasset
+[2016.04.22-06.55.31:698][263]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_17] Cast Failed
+[2016.04.22-06.55.31:792][266]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_18] Cast Failed
+[2016.04.22-06.55.31:869][269]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_19] Cast Failed
+[2016.04.22-06.55.34:235][293]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_20] Cast Failed
+[2016.04.22-06.55.35:235][296]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_21] Cast Failed
+[2016.04.22-06.55.35:235][296]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_21
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.54:651][356]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_22] Cast Failed
+[2016.04.22-06.55.54:651][356]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_22
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:002][359]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_23] Cast Failed
+[2016.04.22-06.55.55:002][359]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_23
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:358][363]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_24] Cast Failed
+[2016.04.22-06.55.55:358][363]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_24
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:475][370]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_25] Cast Failed
+[2016.04.22-06.55.55:525][373]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_26] Cast Failed
+[2016.04.22-06.55.55:525][373]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_26
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:525][373]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_26
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:575][376]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_27] Cast Failed
+[2016.04.22-06.55.55:575][376]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_27
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:575][376]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_27
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:625][379]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_28] Cast Failed
+[2016.04.22-06.55.55:625][379]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_28
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:625][379]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_28
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:674][382]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_29] Cast Failed
+[2016.04.22-06.55.55:725][385]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_30] Cast Failed
+[2016.04.22-06.55.55:725][385]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_30
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:725][385]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_30
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:775][388]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_31] Cast Failed
+[2016.04.22-06.55.55:775][388]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_31
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:775][388]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_31
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:825][391]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_32] Cast Failed
+[2016.04.22-06.55.55:825][391]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_32
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:825][391]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_32
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:875][394]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_33] Cast Failed
+[2016.04.22-06.55.55:875][394]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_33
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:875][394]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_33
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:925][397]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_34] Cast Failed
+[2016.04.22-06.55.55:925][397]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_34
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:925][397]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_34
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:975][400]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_35] Cast Failed
+[2016.04.22-06.55.55:975][400]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_35
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.55:975][400]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_dwarf_C_35
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.58:566][520]LogBlueprintUserMessages: [Anim_Bp_Elf_C_4] Cast Failed
+[2016.04.22-06.55.58:566][520]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.SkeletalMeshComponent_14:Anim_Bp_Elf_C_4
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.55.58:567][520]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.SkeletalMeshComponent_14:Anim_Bp_Elf_C_4
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.55.58:567][520]LogBlueprintUserMessages: [Anim_Bp_Elf_C_4] Cast Failed
+[2016.04.22-06.55.58:567][520]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.SkeletalMeshComponent_14:Anim_Bp_Elf_C_4
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.55.58:567][520]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.SkeletalMeshComponent_14:Anim_Bp_Elf_C_4
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.55.58:567][520]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_36] Cast Failed
+[2016.04.22-06.55.58:567][520]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.SkeletalMeshComponent_15:Anim_Bp_dwarf_C_36
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.58:567][520]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.SkeletalMeshComponent_15:Anim_Bp_dwarf_C_36
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.58:568][520]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_36] Cast Failed
+[2016.04.22-06.55.58:568][520]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.SkeletalMeshComponent_15:Anim_Bp_dwarf_C_36
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.55.58:568][520]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.SkeletalMeshComponent_15:Anim_Bp_dwarf_C_36
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-06.56.00:365][625]LogBlueprintUserMessages: [Anim_Bp_Elf_C_5] Cast Failed
+[2016.04.22-06.56.00:365][625]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_5
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:365][625]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_5
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:402][627]LogBlueprintUserMessages: [Anim_Bp_Elf_C_6] Cast Failed
+[2016.04.22-06.56.00:402][627]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_6
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:402][627]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_6
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:439][629]LogBlueprintUserMessages: [Anim_Bp_Elf_C_7] Cast Failed
+[2016.04.22-06.56.00:439][629]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_7
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:439][629]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_7
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:472][631]LogBlueprintUserMessages: [Anim_Bp_Elf_C_8] Cast Failed
+[2016.04.22-06.56.00:472][631]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_8
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:473][631]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_8
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:509][633]LogBlueprintUserMessages: [Anim_Bp_Elf_C_9] Cast Failed
+[2016.04.22-06.56.00:509][633]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_9
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:509][633]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_9
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:542][635]LogBlueprintUserMessages: [Anim_Bp_Elf_C_10] Cast Failed
+[2016.04.22-06.56.00:542][635]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_10
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:542][635]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_10
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:598][637]LogBlueprintUserMessages: [Anim_Bp_Elf_C_11] Cast Failed
+[2016.04.22-06.56.00:598][637]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_11
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:598][637]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_11
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:630][639]LogBlueprintUserMessages: [Anim_Bp_Elf_C_12] Cast Failed
+[2016.04.22-06.56.00:630][639]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_12
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:630][639]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_12
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:663][641]LogBlueprintUserMessages: [Anim_Bp_Elf_C_13] Cast Failed
+[2016.04.22-06.56.00:663][641]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_13
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:663][641]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_13
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:699][643]LogBlueprintUserMessages: [Anim_Bp_Elf_C_14] Cast Failed
+[2016.04.22-06.56.00:699][643]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_14
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:699][643]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_14
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:765][645]LogBlueprintUserMessages: [Anim_Bp_Elf_C_15] Cast Failed
+[2016.04.22-06.56.00:765][645]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_15
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:765][645]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_15
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:802][647]LogBlueprintUserMessages: [Anim_Bp_Elf_C_16] Cast Failed
+[2016.04.22-06.56.00:803][647]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_16
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:803][647]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_16
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:841][649]LogBlueprintUserMessages: [Anim_Bp_Elf_C_17] Cast Failed
+[2016.04.22-06.56.00:842][649]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_17
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:842][649]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_17
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:880][651]LogBlueprintUserMessages: [Anim_Bp_Elf_C_18] Cast Failed
+[2016.04.22-06.56.00:880][651]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_18
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:881][651]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_18
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:921][653]LogBlueprintUserMessages: [Anim_Bp_Elf_C_19] Cast Failed
+[2016.04.22-06.56.00:971][655]LogBlueprintUserMessages: [Anim_Bp_Elf_C_20] Cast Failed
+[2016.04.22-06.56.00:972][655]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_20
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.00:972][655]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_20
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:006][657]LogBlueprintUserMessages: [Anim_Bp_Elf_C_21] Cast Failed
+[2016.04.22-06.56.01:006][657]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_21
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:006][657]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_21
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:040][659]LogBlueprintUserMessages: [Anim_Bp_Elf_C_22] Cast Failed
+[2016.04.22-06.56.01:040][659]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_22
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:040][659]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_22
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:076][661]LogBlueprintUserMessages: [Anim_Bp_Elf_C_23] Cast Failed
+[2016.04.22-06.56.01:076][661]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_23
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:076][661]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_23
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:112][663]LogBlueprintUserMessages: [Anim_Bp_Elf_C_24] Cast Failed
+[2016.04.22-06.56.01:112][663]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_24
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:112][663]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_24
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:147][665]LogBlueprintUserMessages: [Anim_Bp_Elf_C_25] Cast Failed
+[2016.04.22-06.56.01:147][665]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_25
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:147][665]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_25
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:289][673]LogBlueprintUserMessages: [Anim_Bp_Elf_C_26] Cast Failed
+[2016.04.22-06.56.01:289][673]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_26
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:289][673]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_26
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:321][675]LogBlueprintUserMessages: [Anim_Bp_Elf_C_27] Cast Failed
+[2016.04.22-06.56.01:321][675]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_27
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:321][675]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_27
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:683][676]LogBlueprintUserMessages: [Anim_Bp_Elf_C_28] Cast Failed
+[2016.04.22-06.56.01:683][676]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_30:Anim_Bp_Elf_C_28
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:683][676]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_30:Anim_Bp_Elf_C_28
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:709][676]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_30) - call TermArticulated first.
+[2016.04.22-06.56.01:748][676]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_30:Anim_Bp_Elf_C_28
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:754][676]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2016.04.22-06.56.01:813][676]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.04.22-06.56.01:824][677]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_30:Anim_Bp_Elf_C_28
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:841][678]LogBlueprintUserMessages: [Anim_Bp_Elf_C_29] Cast Failed
+[2016.04.22-06.56.01:841][678]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_29
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:841][678]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_29
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:842][678]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_30:Anim_Bp_Elf_C_28
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:856][679]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_30:Anim_Bp_Elf_C_28
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:873][680]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_30:Anim_Bp_Elf_C_28
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:889][681]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_30:Anim_Bp_Elf_C_28
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:906][682]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_30:Anim_Bp_Elf_C_28
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:923][683]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_30:Anim_Bp_Elf_C_28
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:939][684]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_30:Anim_Bp_Elf_C_28
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:956][685]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_30:Anim_Bp_Elf_C_28
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:973][686]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_30:Anim_Bp_Elf_C_28
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.01:989][687]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_30:Anim_Bp_Elf_C_28
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.02:006][688]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_30:Anim_Bp_Elf_C_28
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.03:460][760]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.04.22-06.56.22:986][833]LogMaterial: Missing cached shader map for material Mat_Portal, compiling. 
+[2016.04.22-06.56.23:209][833]LogTexture:Display: Building textures: T_sunflare (AutoDXT)
+[2016.04.22-06.56.23:507][833]LogMaterial: Missing cached shader map for material m_flare_03, compiling. 
+[2016.04.22-06.56.23:585][833]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2016.04.22-06.56.23:941][833]LogBlueprintUserMessages: [Anim_Bp_Elf_C_30] Cast Failed
+[2016.04.22-06.56.23:941][833]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_30
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.23:941][833]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_30
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.40:700][450]LogBlueprintUserMessages: [Anim_Bp_Elf_C_31] Cast Failed
+[2016.04.22-06.56.40:700][450]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_31
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.40:701][450]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_31
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.58:242][  1]LogBlueprintUserMessages: [Anim_Bp_Elf_C_32] Cast Failed
+[2016.04.22-06.56.58:242][  1]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_32
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.56.58:242][  1]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_32
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.09:321][439]LogBlueprintUserMessages: [Anim_Bp_Elf_C_33] Cast Failed
+[2016.04.22-06.57.09:321][439]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_33
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.09:321][439]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_33
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.22:657][497]LogBlueprintUserMessages: [Anim_Bp_Elf_C_34] Cast Failed
+[2016.04.22-06.57.22:657][497]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_34
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.22:657][497]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_34
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:286][824]LogBlueprintUserMessages: [Anim_Bp_Elf_C_35] Cast Failed
+[2016.04.22-06.57.29:286][824]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_35
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:286][824]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_35
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:326][826]LogBlueprintUserMessages: [Anim_Bp_Elf_C_36] Cast Failed
+[2016.04.22-06.57.29:326][826]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_36
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:326][826]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_36
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:365][828]LogBlueprintUserMessages: [Anim_Bp_Elf_C_37] Cast Failed
+[2016.04.22-06.57.29:366][828]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_37
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:366][828]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_37
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:402][830]LogBlueprintUserMessages: [Anim_Bp_Elf_C_38] Cast Failed
+[2016.04.22-06.57.29:402][830]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_38
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:402][830]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_38
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:463][832]LogBlueprintUserMessages: [Anim_Bp_Elf_C_39] Cast Failed
+[2016.04.22-06.57.29:463][832]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_39
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:463][832]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_39
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:492][834]LogBlueprintUserMessages: [Anim_Bp_Elf_C_40] Cast Failed
+[2016.04.22-06.57.29:492][834]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_40
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:492][834]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_40
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:528][836]LogBlueprintUserMessages: [Anim_Bp_Elf_C_41] Cast Failed
+[2016.04.22-06.57.29:528][836]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_41
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:528][836]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_41
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:569][838]LogBlueprintUserMessages: [Anim_Bp_Elf_C_42] Cast Failed
+[2016.04.22-06.57.29:569][838]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_42
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:569][838]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_42
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:610][840]LogBlueprintUserMessages: [Anim_Bp_Elf_C_43] Cast Failed
+[2016.04.22-06.57.29:610][840]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_43
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:610][840]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_43
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:646][842]LogBlueprintUserMessages: [Anim_Bp_Elf_C_44] Cast Failed
+[2016.04.22-06.57.29:646][842]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_44
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:646][842]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_44
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:751][845]LogBlueprintUserMessages: [Anim_Bp_Elf_C_45] Cast Failed
+[2016.04.22-06.57.29:752][845]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_45
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:752][845]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_45
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:801][847]LogBlueprintUserMessages: [Anim_Bp_Elf_C_46] Cast Failed
+[2016.04.22-06.57.29:801][847]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_46
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:801][847]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_46
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:835][849]LogBlueprintUserMessages: [Anim_Bp_Elf_C_47] Cast Failed
+[2016.04.22-06.57.29:835][849]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_47
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:835][849]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_47
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:869][851]LogBlueprintUserMessages: [Anim_Bp_Elf_C_48] Cast Failed
+[2016.04.22-06.57.29:869][851]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_48
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:869][851]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_48
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:908][853]LogBlueprintUserMessages: [Anim_Bp_Elf_C_49] Cast Failed
+[2016.04.22-06.57.29:908][853]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_49
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:908][853]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_49
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:956][855]LogBlueprintUserMessages: [Anim_Bp_Elf_C_50] Cast Failed
+[2016.04.22-06.57.29:956][855]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_50
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.29:956][855]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_50
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:005][857]LogBlueprintUserMessages: [Anim_Bp_Elf_C_51] Cast Failed
+[2016.04.22-06.57.30:005][857]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_51
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:005][857]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_51
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:045][859]LogBlueprintUserMessages: [Anim_Bp_Elf_C_52] Cast Failed
+[2016.04.22-06.57.30:045][859]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_52
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:045][859]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_52
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:150][862]LogBlueprintUserMessages: [Anim_Bp_Elf_C_53] Cast Failed
+[2016.04.22-06.57.30:150][862]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_53
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:151][862]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_53
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:195][864]LogBlueprintUserMessages: [Anim_Bp_Elf_C_54] Cast Failed
+[2016.04.22-06.57.30:195][864]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_54
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:196][864]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_54
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:233][866]LogBlueprintUserMessages: [Anim_Bp_Elf_C_55] Cast Failed
+[2016.04.22-06.57.30:233][866]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_55
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:233][866]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_55
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:270][868]LogBlueprintUserMessages: [Anim_Bp_Elf_C_56] Cast Failed
+[2016.04.22-06.57.30:270][868]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_56
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:271][868]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_56
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:319][870]LogBlueprintUserMessages: [Anim_Bp_Elf_C_57] Cast Failed
+[2016.04.22-06.57.30:320][870]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_57
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:320][870]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_57
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:369][872]LogBlueprintUserMessages: [Anim_Bp_Elf_C_58] Cast Failed
+[2016.04.22-06.57.30:369][872]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_58
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:369][872]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_58
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:418][874]LogBlueprintUserMessages: [Anim_Bp_Elf_C_59] Cast Failed
+[2016.04.22-06.57.30:418][874]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_59
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:418][874]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_59
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:472][876]LogBlueprintUserMessages: [Anim_Bp_Elf_C_60] Cast Failed
+[2016.04.22-06.57.30:472][876]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_60
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:472][876]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_60
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:521][878]LogBlueprintUserMessages: [Anim_Bp_Elf_C_61] Cast Failed
+[2016.04.22-06.57.30:521][878]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_61
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:522][878]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_61
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:572][880]LogBlueprintUserMessages: [Anim_Bp_Elf_C_62] Cast Failed
+[2016.04.22-06.57.30:572][880]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_62
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:572][880]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_62
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:610][882]LogBlueprintUserMessages: [Anim_Bp_Elf_C_63] Cast Failed
+[2016.04.22-06.57.30:610][882]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_63
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:610][882]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_63
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:650][884]LogBlueprintUserMessages: [Anim_Bp_Elf_C_64] Cast Failed
+[2016.04.22-06.57.30:650][884]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_64
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:650][884]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_64
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:685][886]LogBlueprintUserMessages: [Anim_Bp_Elf_C_65] Cast Failed
+[2016.04.22-06.57.30:685][886]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_65
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:685][886]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_65
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:730][888]LogBlueprintUserMessages: [Anim_Bp_Elf_C_66] Cast Failed
+[2016.04.22-06.57.30:730][888]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_66
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:730][888]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_66
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:778][890]LogBlueprintUserMessages: [Anim_Bp_Elf_C_67] Cast Failed
+[2016.04.22-06.57.30:778][890]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_67
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:778][890]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_67
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:826][892]LogBlueprintUserMessages: [Anim_Bp_Elf_C_68] Cast Failed
+[2016.04.22-06.57.30:826][892]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_68
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:826][892]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_68
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:882][894]LogBlueprintUserMessages: [Anim_Bp_Elf_C_69] Cast Failed
+[2016.04.22-06.57.30:882][894]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_69
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:883][894]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_69
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:937][896]LogBlueprintUserMessages: [Anim_Bp_Elf_C_70] Cast Failed
+[2016.04.22-06.57.30:937][896]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_70
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:938][896]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_70
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:990][898]LogBlueprintUserMessages: [Anim_Bp_Elf_C_71] Cast Failed
+[2016.04.22-06.57.30:990][898]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_71
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.30:990][898]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_71
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.31:034][900]LogBlueprintUserMessages: [Anim_Bp_Elf_C_72] Cast Failed
+[2016.04.22-06.57.31:034][900]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_72
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.31:034][900]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_72
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.31:070][902]LogBlueprintUserMessages: [Anim_Bp_Elf_C_73] Cast Failed
+[2016.04.22-06.57.31:070][902]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_73
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.31:070][902]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_73
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.31:108][904]LogBlueprintUserMessages: [Anim_Bp_Elf_C_74] Cast Failed
+[2016.04.22-06.57.31:108][904]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_74
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.31:108][904]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_74
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.57.32:682][955]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0210 seconds. Added 2 classes and 2 folders.
+[2016.04.22-06.57.37:449][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/MagicParticles" FILE="D:/UQAC/Seminaire/LA/LostAge/Content/Sounds/MagicParticles.uasset" SILENT=true
+[2016.04.22-06.57.37:473][118]LogSavePackage: Save=21.156143ms
+[2016.04.22-06.57.37:473][118]LogSavePackage: Moving 'D:/UQAC/Seminaire/LA/LostAge/Saved/MagicParticlesDFB8E0E1479706A9622F2AA57CD30A81.tmp' to 'D:/UQAC/Seminaire/LA/LostAge/Content/Sounds/MagicParticles.uasset'
+[2016.04.22-06.57.37:476][118]LogSavePackage: Total save time: 25.565773ms
+[2016.04.22-06.57.37:476][118]LogSavePackage:Warning: Finished SavePackage D:/UQAC/Seminaire/LA/LostAge/Content/Sounds/MagicParticles.uasset
+[2016.04.22-06.58.07:731][143]LogMaterial:Warning: Material /Game/FirstPerson/Meshes/BaseMaterial.BaseMaterial needed to have new flag set bUsedWithParticleSprites !
+[2016.04.22-06.58.07:804][143]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2016.04.22-06.58.07:933][143]LogMaterial: 0.001395 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.22-06.58.15:747][352]LogMaterial:Warning: Material /Game/FirstPersonCPP/Blueprints/Dwarf/Weapon/Material_001.Material_001 needed to have new flag set bUsedWithParticleSprites !
+[2016.04.22-06.58.15:801][352]LogMaterial: Missing cached shader map for material Material_001, compiling. 
+[2016.04.22-06.58.15:898][352]LogMaterial: 0.001539 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.22-06.58.21:063][431]LogTexture:Display: Building textures: T_ScotsPine_Bark_01_Tex (AutoDXT)
+[2016.04.22-06.59.19:720][431]LogTexture:Display: Building textures: T_ScotsPine_Bark_03_D_Tex (AutoDXT)
+[2016.04.22-06.59.31:748][431]LogTexture:Display: Building textures: T_ScotsPine_Bark_03_N (BC5)
+[2016.04.22-06.59.33:615][431]LogTexture:Display: Building textures: T_ScotsPine_Bark_01_N_Tex (BC5)
+[2016.04.22-06.59.36:765][431]LogMaterial: Missing cached shader map for material ScotsPine_01_Branches_Mat, compiling. 
+[2016.04.22-06.59.38:812][441]LogMaterial:Warning: Material /Game/FirstPerson/Meshes/Trees/ScotsPine_01/ScotsPine_01_Branches_Mat.ScotsPine_01_Branches_Mat needed to have new flag set bUsedWithParticleSprites !
+[2016.04.22-06.59.38:914][441]LogMaterial: Missing cached shader map for material ScotsPine_01_Branches_Mat, compiling. 
+[2016.04.22-06.59.39:065][441]LogMaterial: 0.000188 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.22-06.59.40:774][505]LogCascade: Quitting Cascade. FXSystem=0x000001FDF41BAC00
+[2016.04.22-06.59.44:506][685]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.22-06.59.44:506][685]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2016.04.22-06.59.44:506][685]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2016.04.22-06.59.44:506][685]LogActorComponent: UnregisterComponent: (/Engine/Transient.GameplayTasks_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.22-06.59.44:682][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDDA20A3E0
+[2016.04.22-06.59.44:691][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDF41BAC00
+[2016.04.22-06.59.44:699][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDF9ECB560
+[2016.04.22-06.59.44:709][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDF9EC87C0
+[2016.04.22-06.59.44:712][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDF62AA160
+[2016.04.22-06.59.44:714][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDA8755300
+[2016.04.22-06.59.44:717][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDFC95DBC0
+[2016.04.22-06.59.44:719][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDF6426660
+[2016.04.22-06.59.44:721][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDA9FFC220
+[2016.04.22-06.59.44:739][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDAA1F6340
+[2016.04.22-06.59.44:741][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDFC4D0C20
+[2016.04.22-06.59.44:743][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDFC4D1120
+[2016.04.22-06.59.44:777][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDAF1445E0
+[2016.04.22-06.59.47:443][685]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CascadeParticleSystemComponent_0' or package '/Engine/Transient'.
+[2016.04.22-06.59.48:045][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDAC329760
+[2016.04.22-06.59.48:047][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDAE26CFE0
+[2016.04.22-06.59.48:050][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDFC4B00E0
+[2016.04.22-06.59.48:052][685]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDA5D15DA0
+[2016.04.22-06.59.56:004][ 96]LogBlueprintUserMessages: [Anim_Bp_Elf_C_75] Cast Failed
+[2016.04.22-06.59.56:004][ 96]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_75
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:004][ 96]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_75
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:055][ 98]LogBlueprintUserMessages: [Anim_Bp_Elf_C_76] Cast Failed
+[2016.04.22-06.59.56:055][ 98]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_76
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:055][ 98]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_76
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:099][100]LogBlueprintUserMessages: [Anim_Bp_Elf_C_77] Cast Failed
+[2016.04.22-06.59.56:099][100]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_77
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:099][100]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_77
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:142][102]LogBlueprintUserMessages: [Anim_Bp_Elf_C_78] Cast Failed
+[2016.04.22-06.59.56:142][102]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_78
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:142][102]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_78
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:185][104]LogBlueprintUserMessages: [Anim_Bp_Elf_C_79] Cast Failed
+[2016.04.22-06.59.56:185][104]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_79
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:185][104]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_79
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:255][106]LogBlueprintUserMessages: [Anim_Bp_Elf_C_80] Cast Failed
+[2016.04.22-06.59.56:255][106]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_80
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:255][106]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_80
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:293][108]LogBlueprintUserMessages: [Anim_Bp_Elf_C_81] Cast Failed
+[2016.04.22-06.59.56:293][108]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_81
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:293][108]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_81
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:336][110]LogBlueprintUserMessages: [Anim_Bp_Elf_C_82] Cast Failed
+[2016.04.22-06.59.56:336][110]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_82
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:336][110]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_82
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:382][112]LogBlueprintUserMessages: [Anim_Bp_Elf_C_83] Cast Failed
+[2016.04.22-06.59.56:382][112]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_83
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:382][112]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_83
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:428][114]LogBlueprintUserMessages: [Anim_Bp_Elf_C_84] Cast Failed
+[2016.04.22-06.59.56:428][114]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_84
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:428][114]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_84
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:475][116]LogBlueprintUserMessages: [Anim_Bp_Elf_C_85] Cast Failed
+[2016.04.22-06.59.56:475][116]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_85
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:475][116]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_85
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:523][118]LogBlueprintUserMessages: [Anim_Bp_Elf_C_86] Cast Failed
+[2016.04.22-06.59.56:523][118]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_86
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:523][118]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_86
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:568][120]LogBlueprintUserMessages: [Anim_Bp_Elf_C_87] Cast Failed
+[2016.04.22-06.59.56:568][120]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_87
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:568][120]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_87
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:618][122]LogBlueprintUserMessages: [Anim_Bp_Elf_C_88] Cast Failed
+[2016.04.22-06.59.56:618][122]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_88
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:618][122]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_88
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:791][131]LogBlueprintUserMessages: [Anim_Bp_Elf_C_89] Cast Failed
+[2016.04.22-06.59.56:791][131]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_89
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:792][131]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_89
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:836][133]LogBlueprintUserMessages: [Anim_Bp_Elf_C_90] Cast Failed
+[2016.04.22-06.59.56:836][133]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_90
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.56:836][133]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_90
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.57:359][134]LogBlueprintUserMessages: [Anim_Bp_Elf_C_91] Cast Failed
+[2016.04.22-06.59.57:359][134]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_36:Anim_Bp_Elf_C_91
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.57:359][134]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_36:Anim_Bp_Elf_C_91
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.57:407][134]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_36) - call TermArticulated first.
+[2016.04.22-06.59.57:478][134]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_36:Anim_Bp_Elf_C_91
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.57:496][134]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2016.04.22-06.59.57:610][134]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.04.22-06.59.57:633][135]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_36:Anim_Bp_Elf_C_91
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.57:658][136]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_36:Anim_Bp_Elf_C_91
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.57:681][137]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_36:Anim_Bp_Elf_C_91
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.57:703][138]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_36:Anim_Bp_Elf_C_91
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.57:722][139]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_36:Anim_Bp_Elf_C_91
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.57:742][140]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_36:Anim_Bp_Elf_C_91
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.57:762][141]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_36:Anim_Bp_Elf_C_91
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.57:784][142]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_36:Anim_Bp_Elf_C_91
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.57:804][143]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_36:Anim_Bp_Elf_C_91
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.57:824][144]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_36:Anim_Bp_Elf_C_91
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.57:844][145]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_36:Anim_Bp_Elf_C_91
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-06.59.57:865][146]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_36:Anim_Bp_Elf_C_91
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.00.02:689][295]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.04.22-07.00.15:110][806]LogBlueprintUserMessages: [Anim_Bp_Elf_C_92] Cast Failed
+[2016.04.22-07.00.15:111][806]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_92
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.00.15:111][806]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_92
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.00.22:405][105]LogBlueprintUserMessages: [Anim_Bp_Elf_C_93] Cast Failed
+[2016.04.22-07.00.22:405][105]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_93
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.00.22:406][105]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_93
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.00.25:936][251]LogBlueprintUserMessages: [Anim_Bp_Elf_C_94] Cast Failed
+[2016.04.22-07.00.25:936][251]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_94
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.00.25:937][251]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_94
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.00.30:944][452]LogBlueprintUserMessages: [Anim_Bp_Elf_C_95] Cast Failed
+[2016.04.22-07.00.30:944][452]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_95
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.00.30:944][452]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_95
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.00.51:254][322]LogBlueprintUserMessages: [Anim_Bp_Elf_C_96] Cast Failed
+[2016.04.22-07.00.51:254][322]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_96
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.00.51:254][322]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_96
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.00.57:781][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCPP/Blueprints/Elf/Animation/spell_elf" FILE="D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/Elf/Animation/spell_elf.uasset" SILENT=true
+[2016.04.22-07.00.57:890][577]LogSavePackage: Save=14.248971ms
+[2016.04.22-07.00.57:890][577]LogSavePackage: Moving 'D:/UQAC/Seminaire/LA/LostAge/Saved/spell_elf21FA474944F91E6606426C88ACFCC2FA.tmp' to 'D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/Elf/Animation/spell_elf.uasset'
+[2016.04.22-07.00.57:894][577]LogSavePackage: Total save time: 111.019436ms
+[2016.04.22-07.00.57:894][577]LogSavePackage:Warning: Finished SavePackage D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/Elf/Animation/spell_elf.uasset
+[2016.04.22-07.01.00:821][698]LogBlueprintUserMessages: [Anim_Bp_Elf_C_97] Cast Failed
+[2016.04.22-07.01.00:821][698]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_97
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.00:821][698]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_97
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.00:868][700]LogBlueprintUserMessages: [Anim_Bp_Elf_C_98] Cast Failed
+[2016.04.22-07.01.00:868][700]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_98
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.00:869][700]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_98
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.00:919][702]LogBlueprintUserMessages: [Anim_Bp_Elf_C_99] Cast Failed
+[2016.04.22-07.01.00:919][702]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_99
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.00:919][702]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_99
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.00:966][704]LogBlueprintUserMessages: [Anim_Bp_Elf_C_100] Cast Failed
+[2016.04.22-07.01.00:966][704]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_100
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.00:966][704]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_100
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:008][706]LogBlueprintUserMessages: [Anim_Bp_Elf_C_101] Cast Failed
+[2016.04.22-07.01.01:009][706]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_101
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:009][706]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_101
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:053][708]LogBlueprintUserMessages: [Anim_Bp_Elf_C_102] Cast Failed
+[2016.04.22-07.01.01:053][708]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_102
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:053][708]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_102
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:098][710]LogBlueprintUserMessages: [Anim_Bp_Elf_C_103] Cast Failed
+[2016.04.22-07.01.01:098][710]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_103
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:098][710]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_103
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:169][713]LogBlueprintUserMessages: [Anim_Bp_Elf_C_104] Cast Failed
+[2016.04.22-07.01.01:169][713]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_104
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:169][713]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_104
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:241][715]LogBlueprintUserMessages: [Anim_Bp_Elf_C_105] Cast Failed
+[2016.04.22-07.01.01:241][715]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_105
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:242][715]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_105
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:281][717]LogBlueprintUserMessages: [Anim_Bp_Elf_C_106] Cast Failed
+[2016.04.22-07.01.01:281][717]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_106
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:282][717]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_106
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:339][719]LogBlueprintUserMessages: [Anim_Bp_Elf_C_107] Cast Failed
+[2016.04.22-07.01.01:339][719]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_107
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:339][719]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_107
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:388][721]LogBlueprintUserMessages: [Anim_Bp_Elf_C_108] Cast Failed
+[2016.04.22-07.01.01:388][721]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_108
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:388][721]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_108
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:433][723]LogBlueprintUserMessages: [Anim_Bp_Elf_C_109] Cast Failed
+[2016.04.22-07.01.01:433][723]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_109
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:433][723]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_109
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:502][725]LogBlueprintUserMessages: [Anim_Bp_Elf_C_110] Cast Failed
+[2016.04.22-07.01.01:502][725]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_110
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:502][725]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_110
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:544][727]LogBlueprintUserMessages: [Anim_Bp_Elf_C_111] Cast Failed
+[2016.04.22-07.01.01:544][727]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_111
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:544][727]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_111
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:610][730]LogBlueprintUserMessages: [Anim_Bp_Elf_C_112] Cast Failed
+[2016.04.22-07.01.01:610][730]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_112
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:610][730]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_112
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:650][732]LogBlueprintUserMessages: [Anim_Bp_Elf_C_113] Cast Failed
+[2016.04.22-07.01.01:651][732]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_113
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:651][732]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_113
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:690][734]LogBlueprintUserMessages: [Anim_Bp_Elf_C_114] Cast Failed
+[2016.04.22-07.01.01:690][734]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_114
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:690][734]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_114
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:733][736]LogBlueprintUserMessages: [Anim_Bp_Elf_C_115] Cast Failed
+[2016.04.22-07.01.01:734][736]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_115
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:734][736]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_115
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:777][738]LogBlueprintUserMessages: [Anim_Bp_Elf_C_116] Cast Failed
+[2016.04.22-07.01.01:778][738]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_116
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:778][738]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_116
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:821][740]LogBlueprintUserMessages: [Anim_Bp_Elf_C_117] Cast Failed
+[2016.04.22-07.01.01:821][740]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_117
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:821][740]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_117
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:873][742]LogBlueprintUserMessages: [Anim_Bp_Elf_C_118] Cast Failed
+[2016.04.22-07.01.01:873][742]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_118
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:874][742]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_118
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:916][744]LogBlueprintUserMessages: [Anim_Bp_Elf_C_119] Cast Failed
+[2016.04.22-07.01.01:916][744]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_119
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:916][744]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_119
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:959][746]LogBlueprintUserMessages: [Anim_Bp_Elf_C_120] Cast Failed
+[2016.04.22-07.01.01:960][746]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_120
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.01:960][746]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_120
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:001][748]LogBlueprintUserMessages: [Anim_Bp_Elf_C_121] Cast Failed
+[2016.04.22-07.01.02:001][748]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_121
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:001][748]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_121
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:046][750]LogBlueprintUserMessages: [Anim_Bp_Elf_C_122] Cast Failed
+[2016.04.22-07.01.02:046][750]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_122
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:046][750]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_122
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:091][752]LogBlueprintUserMessages: [Anim_Bp_Elf_C_123] Cast Failed
+[2016.04.22-07.01.02:091][752]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_123
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:092][752]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_123
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:186][755]LogBlueprintUserMessages: [Anim_Bp_Elf_C_124] Cast Failed
+[2016.04.22-07.01.02:186][755]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_124
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:186][755]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_124
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:228][757]LogBlueprintUserMessages: [Anim_Bp_Elf_C_125] Cast Failed
+[2016.04.22-07.01.02:228][757]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_125
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:229][757]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_125
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:283][759]LogBlueprintUserMessages: [Anim_Bp_Elf_C_126] Cast Failed
+[2016.04.22-07.01.02:283][759]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_126
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:283][759]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_126
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:321][761]LogBlueprintUserMessages: [Anim_Bp_Elf_C_127] Cast Failed
+[2016.04.22-07.01.02:322][761]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_127
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:322][761]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_127
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:362][763]LogBlueprintUserMessages: [Anim_Bp_Elf_C_128] Cast Failed
+[2016.04.22-07.01.02:362][763]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_128
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:362][763]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_128
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:408][765]LogBlueprintUserMessages: [Anim_Bp_Elf_C_129] Cast Failed
+[2016.04.22-07.01.02:408][765]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_129
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:409][765]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_129
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:765][772]LogBlueprintUserMessages: [Anim_Bp_Elf_C_130] Cast Failed
+[2016.04.22-07.01.02:765][772]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_130
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.02:765][772]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_2.SkeletalMeshComponent0.Anim_Bp_Elf_C_130
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.17:367][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/magieCue" FILE="D:/UQAC/Seminaire/LA/LostAge/Content/Sounds/magieCue.uasset" SILENT=true
+[2016.04.22-07.01.17:422][284]LogSavePackage: Save=31.430555ms
+[2016.04.22-07.01.17:422][284]LogSavePackage: Moving 'D:/UQAC/Seminaire/LA/LostAge/Saved/magieCueA37B61DE47ED6B70300905B6DFBFBC93.tmp' to 'D:/UQAC/Seminaire/LA/LostAge/Content/Sounds/magieCue.uasset'
+[2016.04.22-07.01.17:427][284]LogSavePackage: Total save time: 56.267194ms
+[2016.04.22-07.01.17:427][284]LogSavePackage:Warning: Finished SavePackage D:/UQAC/Seminaire/LA/LostAge/Content/Sounds/magieCue.uasset
+[2016.04.22-07.01.40:598][ 80]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCPP/Blueprints/Elf/Animation/spell_elf" FILE="D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/Elf/Animation/spell_elf.uasset" SILENT=true
+[2016.04.22-07.01.40:633][ 80]LogSavePackage: Save=14.772397ms
+[2016.04.22-07.01.40:633][ 80]LogSavePackage: Moving 'D:/UQAC/Seminaire/LA/LostAge/Saved/spell_elf71378FA344F1BDEA337BC0B74CC12F67.tmp' to 'D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/Elf/Animation/spell_elf.uasset'
+[2016.04.22-07.01.40:638][ 80]LogSavePackage: Total save time: 37.550580ms
+[2016.04.22-07.01.40:638][ 80]LogSavePackage:Warning: Finished SavePackage D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/Elf/Animation/spell_elf.uasset
+[2016.04.22-07.01.42:983][146]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.04.22-07.01.44:184][189]BlueprintLog: New page: Compile Anim_Bp_Elf
+[2016.04.22-07.01.44:327][189]LogBlueprintUserMessages: [Anim_Bp_Elf_C_0] Cast Failed
+[2016.04.22-07.01.44:327][189]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_36:Anim_Bp_Elf_C_0
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.44:328][189]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.DebugSkelMeshComponent_36:Anim_Bp_Elf_C_0
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:005D
+[2016.04.22-07.01.45:237][189]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDDA2E18A0
+[2016.04.22-07.01.45:240][189]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FD8E793F60
+[2016.04.22-07.01.45:243][189]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FDAEEE84A0
+[2016.04.22-07.01.45:266][189]LogBlueprintUserMessages: [Anim_Bp_Elf_C_1] Cast Failed
+[2016.04.22-07.01.45:326][189]LogBlueprintUserMessages: [Anim_Bp_Elf_C_2] Cast Failed
+[2016.04.22-07.01.45:366][189]Cmd: OBJ SAVEPACKAGE PACKA
