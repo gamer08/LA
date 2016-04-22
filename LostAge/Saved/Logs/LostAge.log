@@ -10462,4 +10462,184 @@ Make sure 'Axe_C' has been compiled for  Set Modify_Throw
 [2016.04.22-22.30.04:361][965]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
 [2016.04.22-22.30.04:370][965]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
 [2016.04.22-22.30.04:379][965]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
-[2016.04.22-22.3
+[2016.04.22-22.30.04:387][965]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2016.04.22-22.30.04:397][965]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2016.04.22-22.30.04:406][965]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2016.04.22-22.30.04:415][965]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2016.04.22-22.30.04:423][965]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2016.04.22-22.30.04:431][965]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2016.04.22-22.30.04:438][965]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2016.04.22-22.30.04:447][965]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2016.04.22-22.30.04:455][965]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2016.04.22-22.30.04:460][965]LogSavePackage: Save=174.500351ms
+[2016.04.22-22.30.04:465][965]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2016.04.22-22.30.04:466][965]LogSavePackage: Moving 'D:/UQAC/Seminaire/LA/LostAge/Saved/SettingUpAndroidTutorial4104A84B4592D0419448AAAB04ACD51A.tmp' to '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset'
+[2016.04.22-22.30.04:475][965]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2016.04.22-22.30.04:480][965]LogSavePackage: Total save time: 210.908592ms
+[2016.04.22-22.30.04:481][965]LogSavePackage:Warning: Finished SavePackage ../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset
+[2016.04.22-22.30.04:515][966]LogSlate:Warning: Slate: Had to block on waiting for a draw buffer
+[2016.04.22-22.30.38:242][806]BlueprintLog: New page: Compile elf
+[2016.04.22-22.30.38:890][806]LogBlueprintUserMessages: [Anim_Bp_Elf_C_0] Cast Failed
+[2016.04.22-22.30.38:891][806]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.CharacterMesh0:Anim_Bp_Elf_C_0
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:0103
+[2016.04.22-22.30.38:892][806]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.CharacterMesh0:Anim_Bp_Elf_C_0
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:0103
+[2016.04.22-22.30.38:892][806]LogBlueprintUserMessages: [Anim_Bp_Elf_C_0] Cast Failed
+[2016.04.22-22.30.38:894][806]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.CharacterMesh0:Anim_Bp_Elf_C_0
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:0103
+[2016.04.22-22.30.38:894][806]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.CharacterMesh0:Anim_Bp_Elf_C_0
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:0103
+[2016.04.22-22.30.38:921][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCPP/Blueprints/elf" FILE="D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/elf.uasset" SILENT=true
+[2016.04.22-22.30.39:735][806]LogSavePackage: Save=784.913391ms
+[2016.04.22-22.30.39:736][806]LogSavePackage: Moving 'D:/UQAC/Seminaire/LA/LostAge/Saved/elf49DD24CC4A2F7B05BB18D5B9A3AB5DCF.tmp' to 'D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/elf.uasset'
+[2016.04.22-22.30.39:748][806]LogSavePackage: Total save time: 823.994961ms
+[2016.04.22-22.30.39:749][806]LogSavePackage:Warning: Finished SavePackage D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/elf.uasset
+[2016.04.22-22.30.39:764][806]BlueprintEditorCompileResults: Info [3626.48] Compile of elf successful! [in 1,519 ms]
+[2016.04.22-22.31.01:762][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.22-22.32.34:501][630]LogEditorViewport: Clicking Background
+[2016.04.22-22.39.06:159][998]LogEditorViewport: Clicking Background
+[2016.04.22-22.46.22:301][431]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.22-22.46.22:302][431]LogActorComponent: UnregisterComponent: (/Engine/Transient.GameplayTasks_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.22-22.46.22:426][431]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002BFAF18CD60
+[2016.04.22-22.46.22:437][431]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/MainMenu' took 0.136
+[2016.04.22-22.50.00:089][910]LogBlueprintUserMessages: [Anim_Bp_Elf_C_1] Cast Failed
+[2016.04.22-22.50.00:090][910]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.SkeletalMeshComponent_4:Anim_Bp_Elf_C_1
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:0103
+[2016.04.22-22.50.00:090][910]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.SkeletalMeshComponent_4:Anim_Bp_Elf_C_1
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:0103
+[2016.04.22-22.50.00:091][910]LogBlueprintUserMessages: [Anim_Bp_Elf_C_1] Cast Failed
+[2016.04.22-22.50.00:092][910]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.SkeletalMeshComponent_4:Anim_Bp_Elf_C_1
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:0103
+[2016.04.22-22.50.00:092][910]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.SkeletalMeshComponent_4:Anim_Bp_Elf_C_1
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:0103
+[2016.04.22-22.50.00:110][911]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_0] Cast Failed
+[2016.04.22-22.50.00:111][911]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.SkeletalMeshComponent_5:Anim_Bp_dwarf_C_0
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-22.50.00:112][911]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_0] Cast Failed
+[2016.04.22-22.50.32:560][600]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.22-22.50.32:561][600]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.04.22-22.50.32:562][600]LogActorComponent: UnregisterComponent: (/Engine/Transient.GameplayTasks_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.22-22.50.32:563][600]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.04.22-22.50.32:564][600]LogActorComponent: UnregisterComponent: (/Engine/Transient.GameplayTasksComponent_2) Not registered. Aborting.
+[2016.04.22-22.50.32:683][600]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_2] Cast Failed
+[2016.04.22-22.50.32:684][600]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.SkeletalMeshComponent_6:Anim_Bp_dwarf_C_2
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-22.50.32:685][600]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.SkeletalMeshComponent_6:Anim_Bp_dwarf_C_2
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-22.50.32:686][600]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_2] Cast Failed
+[2016.04.22-22.50.32:687][600]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.SkeletalMeshComponent_6:Anim_Bp_dwarf_C_2
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-22.50.32:688][600]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.SkeletalMeshComponent_6:Anim_Bp_dwarf_C_2
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-22.50.38:787][945]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2016.04.22-22.50.38:788][945]LogActorComponent: UnregisterComponent: (/Engine/Transient.GameplayTasksComponent_3) Not registered. Aborting.
+[2016.04.22-22.50.38:840][945]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_3] Cast Failed
+[2016.04.22-22.50.38:841][945]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.SkeletalMeshComponent_7:Anim_Bp_dwarf_C_3
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-22.50.38:842][945]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.SkeletalMeshComponent_7:Anim_Bp_dwarf_C_3
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-22.50.38:843][945]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_3] Cast Failed
+[2016.04.22-22.50.38:844][945]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.SkeletalMeshComponent_7:Anim_Bp_dwarf_C_3
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-22.50.38:844][945]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.SkeletalMeshComponent_7:Anim_Bp_dwarf_C_3
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-22.51.01:420][136]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/FirstPersonCPP/Blueprints/dwarf.dwarf:EventGraph.K2Node_IfThenElse_396 or K2Node_IfThenElse /Game/FirstPersonCPP/Blueprints/elf.elf:ExecuteUbergraph_elf.K2Node_IfThenElse_396
+[2016.04.22-22.51.01:422][136]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/FirstPersonCPP/Blueprints/dwarf.dwarf:EventGraph.K2Node_VariableSet_189 or K2Node_VariableSet /Game/FirstPersonCPP/Blueprints/dwarf.dwarf:getNewAxe.K2Node_VariableSet_189
+[2016.04.22-22.51.01:422][136]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonCPP/Blueprints/dwarf.dwarf:EventGraph.K2Node_VariableGet_735 or K2Node_VariableGet /Game/FirstPersonCPP/Blueprints/dwarf.dwarf:getNewAxe.K2Node_VariableGet_735
+[2016.04.22-22.51.01:424][136]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/FirstPersonCPP/Blueprints/dwarf.dwarf:EventGraph.K2Node_VariableGet_3046 or K2Node_VariableGet /Game/FirstPersonCPP/Blueprints/dwarf.dwarf:getNewAxe.K2Node_VariableGet_3046
+[2016.04.22-22.51.10:023][624]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'dwarf', cached variable property's owner is '/Script/Engine.Character'
+[2016.04.22-22.51.11:309][694]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'dwarf', cached variable property's owner is '/Script/LostAge.LostAgeCharacterDwarf'
+[2016.04.22-22.51.14:314][863]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'dwarf', cached variable property's owner is '/Script/Engine.Character'
+[2016.04.22-22.51.15:945][955]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'dwarf', cached variable property's owner is '/Script/LostAge.LostAgeCharacterDwarf'
+[2016.04.22-22.51.20:664][226]BlueprintLog: New page: Compile dwarf
+[2016.04.22-22.51.21:075][226]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2016.04.22-22.51.21:076][226]LogActorComponent: UnregisterComponent: (/Engine/Transient.GameplayTasksComponent_4) Not registered. Aborting.
+[2016.04.22-22.51.21:181][226]LogBlueprintUserMessages: PostEditorRefresh for Blueprint 'dwarf', cached variable property's owner is '/Script/LostAge.LostAgeCharacterDwarf'
+[2016.04.22-22.51.21:236][226]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_0] Cast Failed
+[2016.04.22-22.51.21:237][226]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_0] Cast Failed
+[2016.04.22-22.51.21:262][226]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCPP/Blueprints/dwarf" FILE="D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/dwarf.uasset" SILENT=true
+[2016.04.22-22.51.21:638][226]LogSavePackage: Save=341.114075ms
+[2016.04.22-22.51.21:639][226]LogSavePackage: Moving 'D:/UQAC/Seminaire/LA/LostAge/Saved/dwarf454E9C7B429991B62900E983CB91593C.tmp' to 'D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/dwarf.uasset'
+[2016.04.22-22.51.21:643][226]LogSavePackage: Total save time: 378.102407ms
+[2016.04.22-22.51.21:644][226]LogSavePackage:Warning: Finished SavePackage D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/dwarf.uasset
+[2016.04.22-22.51.21:649][226]BlueprintEditorCompileResults: Info [4868.37] Compile of dwarf successful! [in 983 ms]
+[2016.04.22-22.51.21:688][226]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'dwarf', cached variable property's owner is '/Script/LostAge.LostAgeCharacterDwarf'
+[2016.04.22-22.51.26:809][507]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'dwarf', cached variable property's owner is '/Script/LostAge.LostAgeCharacterDwarf'
+[2016.04.22-22.51.31:092][731]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.22-22.51.31:093][731]LogActorComponent: UnregisterComponent: (/Engine/Transient.GameplayTasks_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.22-22.51.31:123][731]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_1] Cast Failed
+[2016.04.22-22.51.31:124][731]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.SkeletalMeshComponent_8:Anim_Bp_dwarf_C_1
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-22.51.31:125][731]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.SkeletalMeshComponent_8:Anim_Bp_dwarf_C_1
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-22.51.31:126][731]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_1] Cast Failed
+[2016.04.22-22.51.31:127][731]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.SkeletalMeshComponent_8:Anim_Bp_dwarf_C_1
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-22.51.31:127][731]LogScript:Warning: Accessed None 'Dwarf_Ref'
+	Anim_Bp_dwarf_C /Engine/Transient.SkeletalMeshComponent_8:Anim_Bp_dwarf_C_1
+	Function /Game/FirstPersonCPP/Blueprints/Dwarf/Animation/Anim_Bp_dwarf.Anim_Bp_dwarf_C:ExecuteUbergraph_Anim_Bp_dwarf:0307
+[2016.04.22-22.51.35:563][984]BlueprintLog: New page: Compile dwarf
+[2016.04.22-22.51.36:014][984]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2016.04.22-22.51.36:014][984]LogActorComponent: UnregisterComponent: (/Engine/Transient.GameplayTasksComponent_5) Not registered. Aborting.
+[2016.04.22-22.51.36:179][984]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_0] Cast Failed
+[2016.04.22-22.51.36:181][984]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_0] Cast Failed
+[2016.04.22-22.51.36:220][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCPP/Blueprints/dwarf" FILE="D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/dwarf.uasset" SILENT=true
+[2016.04.22-22.51.36:602][984]LogSavePackage: Save=359.168915ms
+[2016.04.22-22.51.36:604][984]LogSavePackage: Moving 'D:/UQAC/Seminaire/LA/LostAge/Saved/dwarfB8B08D794A94AA274CC0C89583A0641A.tmp' to 'D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/dwarf.uasset'
+[2016.04.22-22.51.36:608][984]LogSavePackage: Total save time: 385.138981ms
+[2016.04.22-22.51.36:609][984]LogSavePackage:Warning: Finished SavePackage D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/dwarf.uasset
+[2016.04.22-22.51.36:615][984]BlueprintEditorCompileResults: Info [4883.34] Compile of dwarf successful! [in 1,050 ms]
+[2016.04.22-22.51.47:252][571]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'dwarf', cached variable property's owner is '/Script/Engine.Character'
+[2016.04.22-22.51.48:717][649]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'dwarf', cached variable property's owner is '/Script/LostAge.LostAgeCharacterDwarf'
+[2016.04.22-22.52.18:953][311]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'dwarf', cached variable property's owner is '/Script/LostAge.LostAgeCharacterDwarf'
+[2016.04.22-22.52.24:931][649]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'dwarf', cached variable property's owner is '/Script/LostAge.LostAgeCharacterDwarf'
+[2016.04.22-22.52.26:671][751]BlueprintLog: New page: Compile dwarf
+[2016.04.22-22.52.27:065][751]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.04.22-22.52.27:066][751]LogActorComponent: UnregisterComponent: (/Engine/Transient.GameplayTasks_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.22-22.52.27:232][751]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_0] Cast Failed
+[2016.04.22-22.52.27:234][751]LogBlueprintUserMessages: [Anim_Bp_dwarf_C_0] Cast Failed
+[2016.04.22-22.52.27:258][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCPP/Blueprints/dwarf" FILE="D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/dwarf.uasset" SILENT=true
+[2016.04.22-22.52.27:574][751]LogSavePackage: Save=297.777679ms
+[2016.04.22-22.52.27:575][751]LogSavePackage: Moving 'D:/UQAC/Seminaire/LA/LostAge/Saved/dwarfC4750FB14D6D893230AD0F8FD3E9F787.tmp' to 'D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/dwarf.uasset'
+[2016.04.22-22.52.27:579][751]LogSavePackage: Total save time: 318.353739ms
+[2016.04.22-22.52.27:580][751]LogSavePackage:Warning: Finished SavePackage D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/dwarf.uasset
+[2016.04.22-22.52.27:584][751]BlueprintEditorCompileResults: Info [4934.30] Compile of dwarf successful! [in 912 ms]
+[2016.04.22-22.52.32:911][ 50]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'dwarf', cached variable property's owner is '/Script/LostAge.LostAgeCharacterDwarf'
+[2016.04.22-22.52.50:011][  7]LogBlueprintUserMessages: CustomizeDetails for Blueprint 'dwarf', cached variable property's owner is '/Script/LostAge.LostAgeCharacterDwarf'
+[2016.04.22-22.52.57:493][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FirstPersonCPP/Blueprints/dwarf" FILE="D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/dwarf.uasset" SILENT=true
+[2016.04.22-22.52.57:866][430]LogSavePackage: Save=350.710205ms
+[2016.04.22-22.52.57:868][430]LogSavePackage: Moving 'D:/UQAC/Seminaire/LA/LostAge/Saved/dwarfD40B96BD471A27F07F2BB38E2EEB5D33.tmp' to 'D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/dwarf.uasset'
+[2016.04.22-22.52.57:872][430]LogSavePackage: Total save time: 377.547294ms
+[2016.04.22-22.52.57:874][430]LogSavePackage:Warning: Finished SavePackage D:/UQAC/Seminaire/LA/LostAge/Content/FirstPersonCPP/Blueprints/dwarf.uasset
+[2016.04.22-22.53.01:868][656]LogBlueprintUserMessages: [Anim_Bp_Elf_C_2] Cast Failed
+[2016.04.22-22.53.01:869][656]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.SkeletalMeshComponent_10:Anim_Bp_Elf_C_2
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:0103
+[2016.04.22-22.53.01:870][656]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.SkeletalMeshComponent_10:Anim_Bp_Elf_C_2
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:0103
+[2016.04.22-22.53.01:871][656]LogBlueprintUserMessages: [Anim_Bp_Elf_C_2] Cast Failed
+[2016.04.22-22.53.01:872][656]LogScript:Warning: Accessed None 'Elf_Ref'
+	Anim_Bp_Elf_C /Engine/Transient.SkeletalMeshComponent_10:Anim_Bp_Elf_C_2
+	Function /Game/FirstPersonCPP/Blueprints/Elf/Animation/Anim_Bp_Elf.Anim_Bp_Elf_C:ExecuteUbergraph_Anim_Bp_Elf:0103
+[2016.04.22-22.53.01:872][65
