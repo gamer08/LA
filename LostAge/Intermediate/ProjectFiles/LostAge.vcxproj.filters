@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\LostAge.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{0DDDBC20-0C06-4BE3-A859-CC4D187BDAFF}</UniqueIdentifier>
+			<UniqueIdentifier>{0031D82C-31C1-4CF4-880D-5D4DB437E1D2}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\LostAge.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{9F735313-C99A-4A7A-A682-ED1D97B94D0B}</UniqueIdentifier>
+			<UniqueIdentifier>{D244129D-A1C0-4791-B281-A3DE0D2BE7CA}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\LostAge">
-			<UniqueIdentifier>{5218F7EB-4BE5-45A0-9408-C0CBF026E21B}</UniqueIdentifier>
+			<UniqueIdentifier>{57FED50B-88D8-41E7-9A8F-6779C9A02475}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\LostAge\LostAge.Build.cs">
 			<Filter>Source\LostAge</Filter>
@@ -148,7 +148,7 @@
 			<Filter>Source\LostAge</Filter>
 		</ClInclude >
 		<Filter Include="Source\LostAge\SaveSystem">
-			<UniqueIdentifier>{FFD1B4FE-ECBA-4F41-AF72-026CAEB9C2B8}</UniqueIdentifier>
+			<UniqueIdentifier>{030FDA96-305C-4304-997F-A0D9DF6EE225}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Source\LostAge\SaveSystem\LostAgeAxeDwarfSaveData.h">
 			<Filter>Source\LostAge\SaveSystem</Filter>

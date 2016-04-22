@@ -125,6 +125,6 @@ UClass* ALostAgeGameMode::GetDefaultPawnClassForController_Implementation(AContr
 				return _playableClassesReferences[cl];
 		}
 	}
-	
+
 	return Super::GetDefaultPawnClassForController_Implementation(InController);
 }
