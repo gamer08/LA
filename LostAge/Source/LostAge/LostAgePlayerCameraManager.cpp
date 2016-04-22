@@ -20,15 +20,13 @@ void ALostAgePlayerCameraManager::BeginPlay()
 {
 	Super::BeginPlay();
 
-	if (ALostAgePlayerController* pc = Cast<ALostAgePlayerController>(GetOwningPlayerController())){
+	if (ALostAgePlayerController* pc = Cast<ALostAgePlayerController>(GetOwningPlayerController()))
 		_relativePosition = pc->GetTargetCameraLocation();
-
-		FRotator rot = pc->GetControlRotation();
-		this->SetRotation(rot);
-	}
 		
 	else
-		_relativePosition = FVector(0.0f, 0.0f, 64.0f);
+		_relativePosition = FVector(32.0f, 9.0f, 60.0f);
+	// 25 9 60 : Elfe
+	// 32 5 52 : Nain
 }
 
 void ALostAgePlayerCameraManager::UpdateViewTarget(FTViewTarget& outVT, float deltaTime)

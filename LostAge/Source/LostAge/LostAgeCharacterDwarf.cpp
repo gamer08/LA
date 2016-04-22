@@ -12,9 +12,10 @@ ALostAgeCharacterDwarf::ALostAgeCharacterDwarf()
 	if (!HasAnyFlags(RF_ClassDefaultObject | RF_ArchetypeObject))
 	{
 		_playableClassName = FString("Dwarf");
-		_cameraLocation = FVector(0.0f, 0.0f, 64.0f);
+		_cameraLocation = FVector(32.0f, 5.0f, 52.0f);
 	}
 }
+
 
 void ALostAgeCharacterDwarf::BeginPlay()
 {
@@ -33,36 +34,35 @@ void ALostAgeCharacterDwarf::Save(FLostAgeSaveData& saveData)
 	dataToSave._rotation = _saveRotation;
 
 	FLostAgeCameraSaveData cameraData;
-	
+
 	cameraData._loadFromfile = true;
 	cameraData._rotation = _saveCameraRotation;
 	dataToSave._cameraData = cameraData;
 
 	if (!_isAxeInHand)
 	{
-		FVector l = _axeDwarf->GetActorLocation();
-		FRotator r = _axeDwarf->GetActorRotation();
-
 		if (_axeDwarf)
 		{
+			/*FVector l = _axeDwarf->GetActorLocation();
+			FRotator r = _axeDwarf->GetActorRotation();
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("axe location: x: %f, y: %f, z: %f"), l.X, l.Y, l.Z));
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("axe rotation: y: %f, p: %f, r: %f"), r.Yaw, r.Pitch, r.Roll));
-
+			*/
 			FLostAgeAxeDwarfSaveData axeData;
 			axeData._loadFromfile = true;
 			axeData._location = _axeDwarf->GetActorLocation();
 			axeData._rotation = _axeDwarf->GetActorRotation();
 			dataToSave._axeData = axeData;
 		}
-		
-		
+
+
 	}
 
 	saveData.AddDataToSave(dataToSave);
 }
 
 void ALostAgeCharacterDwarf::Load()
-{	
+{
 	if (!GetName().IsEmpty())
 	{
 		if (ULostAgeGameInstance* gameInstance = Cast<ULostAgeGameInstance>(GetGameInstance()))
@@ -84,15 +84,6 @@ void ALostAgeCharacterDwarf::Load()
 						camera->SetRotation(savedData._cameraData._rotation);
 					}
 				}
-				
-				/*else
-				{
-					ALostAgePlayerController* pc = Cast<ALostAgePlayerController>(GetController());
-					FRotator rot = pc->GetControlRotation();
-					ALostAgePlayerCameraManager* camera = Cast<ALostAgePlayerCameraManager>(pc->PlayerCameraManager);
-					camera->SetRotation(rot);
-				}*/
-				
 				SpawnAxe(savedData._axeData._location, savedData._axeData._rotation, savedData._axeData._loadFromfile);
 
 			}

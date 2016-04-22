@@ -12,7 +12,7 @@ ALostAgeCharacterElf::ALostAgeCharacterElf()
 	if (!HasAnyFlags(RF_ClassDefaultObject | RF_ArchetypeObject))
 	{
 		_playableClassName = FString("Elf");
-		_cameraLocation = FVector(0.0f, 0.0f, 64.0f);
+		_cameraLocation = FVector(25.0f, 9.0f, 60.0f);
 		
 		static ConstructorHelpers::FClassFinder<ALostAgeCubeElf> cube(TEXT("/Game/FirstPersonCPP/Blueprints/Elf/Blocks/CubeElf"));
 		_cubeBlueprintClass = cube.Class;
@@ -36,7 +36,7 @@ void ALostAgeCharacterElf::Save(FLostAgeSaveData& saveData)
 	dataToSave._rotation = _saveRotation;
 
 	FLostAgeCameraSaveData cameraData;
-	
+
 	cameraData._loadFromfile = true;
 	cameraData._rotation = _saveCameraRotation;
 	dataToSave._cameraData = cameraData;
@@ -45,19 +45,18 @@ void ALostAgeCharacterElf::Save(FLostAgeSaveData& saveData)
 	{
 		/*FVector l = _cubeElf->GetActorLocation();
 		FRotator r = _cubeElf->GetActorRotation();
-
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("cube location: x: %f, y: %f, z: %f"), l.X, l.Y, l.Z));
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("cube rotation: y: %f, p: %f, r: %f"), r.Yaw, r.Pitch, r.Roll));*/
-		
+
 		FLostAgeCubeElfSaveData cubeData;
-	
+
 		cubeData._loadFromfile = true;
 		cubeData._location = _cubeElf->GetActorLocation();
 		cubeData._rotation = _cubeElf->GetActorRotation();
 		cubeData._scale = _cubeElf->GetActorScale3D();
 		dataToSave._cubeData = cubeData;
 	}
-	
+
 	saveData.AddDataToSave(dataToSave);
 }
 
@@ -90,13 +89,6 @@ void ALostAgeCharacterElf::Load()
 							RequestSpawnCubeOnLoadServer(savedData._cubeData);
 					}
 				}
-				/* else
-				{
-					ALostAgePlayerController* pc = Cast<ALostAgePlayerController>(GetController());
-					FRotator rot = pc->GetControlRotation();
-					ALostAgePlayerCameraManager* camera = Cast<ALostAgePlayerCameraManager>(pc->PlayerCameraManager);
-					camera->SetRotation(rot);
-				}*/
 			}
 		}
 	}
